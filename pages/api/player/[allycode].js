@@ -25,10 +25,12 @@ export default async function handler(req, res) {
         if (err.errno === -2 || err.errno === 1) { //no such file or directory, or data is out of date
             //get data and write to file
             fetchPlayer = await swapi.fetchPlayer({ allycodes: allycode, language: 'eng_us'})
-            data = JSON.stringify(fetchPlayer.result[0], null, 2)
-            await fs.promises.writeFile(filename, data)
-            res.status(200).json(data)
-            return
+            if (fetchPlayer.error === null) {
+                data = JSON.stringify(fetchPlayer.result[0], null, 2)
+                await fs.promises.writeFile(filename, data)
+                res.status(200).json(data)
+                return
+            }
         }
         res.status(404).json({"message": err.message})
         return
