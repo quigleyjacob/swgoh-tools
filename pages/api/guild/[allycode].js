@@ -5,9 +5,6 @@ export default async function handler(req, res) {
     const {
       query: { allycode },
     } = req
-    //naive, just pull from API everytime
-    // let fetchGuild = await swapi.fetchGuild({ allycodes: allycode, language: 'eng_us'})
-    // res.status(200).json(fetchGuild)
 
     //first check for player whose allycode is provided
     //if it exists, get guild id from file
@@ -42,13 +39,36 @@ export default async function handler(req, res) {
                 let guildID = fetchPlayer.result[0].id
                 data = JSON.stringify(fetchPlayer.result[0], null, 2)
                 await fs.promises.writeFile(`./data/guild/${guildID}.json`, data)
-                res.status(200).json(data)
-                return
             }
+        } else {
+            res.status(404).json({message: '404 was thrown'})
+            return
         }
-        res.status(404).json({message: '404 was thrown'})
-        return
+    } finally {
+        //TODO, get guild roster details and append data to include all of it
+        let guildAllycodes = data.roster.map(player => player.allyCode)
+        let cachedAllycodes = (await fs.promises.readdir('./data/player')).map(file => Number(file.replace(/\.json/, '')))
+        let cachedGuildAllycodes = guildAllycodes.filter(allycode => cachedAllycodes.includes(allycode))
+        let uncachedGuildAllycodes = guildAllycodes.filter(allycode => !cachedAllycodes.includes(allycode))
+
+        let cachedGuildMembers = await Promise.all(cachedGuildAllycodes.map(async allycode => {
+            return JSON.parse(await fs.promises.readFile(`./data/player/${allycode}.json`))
+        }))
+        let fetchUncachedGuildMembers = Array.isArray(uncachedGuildAllycodes) && uncachedGuildAllycodes.length ? await swapi.fetchPlayer({allycodes: uncachedGuildAllycodes, language: 'eng_us'}) : {error: null, warning: null, result: []}
+        if (fetchUncachedGuildMembers.error) {
+            throw fetchUncachedGuildMembers.error
+        }
+        let uncachedGuildMembers = fetchUncachedGuildMembers.result
+
+        let promisesArray = uncachedGuildMembers.map(async member => {
+            let allycode = member.allyCode
+            return await fs.promises.writeFile(`./data/player/${allycode}.json`, JSON.stringify(member, null, 2))
+        })
+        await Promise.all(promisesArray)
+        data.roster = [...uncachedGuildMembers, ...cachedGuildMembers]
+
+        res.status(200).json(data)
     }
 
-    res.status(200).json(data)
+
   }
