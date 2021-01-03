@@ -45,7 +45,7 @@ export default async function handler(req, res) {
             return
         }
     } finally {
-        //TODO, get guild roster details and append data to include all of it
+        //TODO, update guild members if data is too old
         let guildAllycodes = data.roster.map(player => player.allyCode)
         let cachedAllycodes = (await fs.promises.readdir('./data/player')).map(file => Number(file.replace(/\.json/, '')))
         let cachedGuildAllycodes = guildAllycodes.filter(allycode => cachedAllycodes.includes(allycode))

@@ -1,0 +1,8103 @@
+{
+  "allyCode": 323442214,
+  "id": "P3982311381",
+  "name": "Amor da sua vida",
+  "level": 83,
+  "titles": {
+    "selected": "PLAYERTITLE_MANDO",
+    "unlocked": [
+      "PLAYERTITLE_MANDO",
+      "PLAYERTITLE_GENERAL"
+    ]
+  },
+  "guildRefId": "G661621552",
+  "guildName": "revenge of the elite",
+  "guildBannerColor": "cyan_purple",
+  "guildBannerLogo": "guild_icon_wolffe",
+  "guildTypeId": "NORMAL",
+  "stats": [
+    {
+      "nameKey": "Galactic Power:",
+      "value": 448111,
+      "index": 1
+    },
+    {
+      "nameKey": "Galactic Power (Characters):",
+      "value": 334049,
+      "index": 2
+    },
+    {
+      "nameKey": "Galactic Power (Ships):",
+      "value": 114062,
+      "index": 3
+    },
+    {
+      "nameKey": "Lifetime Championship Score:",
+      "value": 0,
+      "index": 4
+    },
+    {
+      "nameKey": "Fleet Arena Battles Won:",
+      "value": 64,
+      "index": 5
+    },
+    {
+      "nameKey": "Squad Arena Battles Won:",
+      "value": 174,
+      "index": 6
+    },
+    {
+      "nameKey": "Total Battles Won:",
+      "value": 15553,
+      "index": 7
+    },
+    {
+      "nameKey": "Hard Battles Won:",
+      "value": 3150,
+      "index": 8
+    },
+    {
+      "nameKey": "Galactic War Battles Won:",
+      "value": 1040,
+      "index": 9
+    },
+    {
+      "nameKey": "Guild Raids Won:",
+      "value": 50,
+      "index": 10
+    },
+    {
+      "nameKey": "Guild Tokens Earned:",
+      "value": 74734,
+      "index": 11
+    },
+    {
+      "nameKey": "Gear Donated in Guild Exchange:",
+      "value": 223,
+      "index": 12
+    },
+    {
+      "nameKey": "Championship Promotions Earned:",
+      "value": 0,
+      "index": 13
+    },
+    {
+      "nameKey": "Championship Offensive Battles Won:",
+      "value": 0,
+      "index": 14
+    },
+    {
+      "nameKey": "Championship Successful Battle Defends:",
+      "value": 0,
+      "index": 15
+    },
+    {
+      "nameKey": "Championship Banners Earned:",
+      "value": 0,
+      "index": 16
+    },
+    {
+      "nameKey": "Championship Full Rounds Cleared:",
+      "value": 0,
+      "index": 17
+    },
+    {
+      "nameKey": "Championship Undersized Squad Battles Won:",
+      "value": 0,
+      "index": 18
+    },
+    {
+      "nameKey": "Championship Territories Defeated:",
+      "value": 0,
+      "index": 19
+    },
+    {
+      "nameKey": "Championship Best Score Earned:",
+      "value": 0,
+      "index": 20
+    },
+    {
+      "nameKey": "Championship Best Rank Achieved:",
+      "value": 0,
+      "index": 21
+    }
+  ],
+  "roster": [
+    {
+      "id": "EaMGgn6pSxSwrBOOD-4Jtw",
+      "defId": "MAGMATROOPER",
+      "nameKey": "Magmatrooper",
+      "rarity": 1,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 301,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "PDkvuErGR_qgIPKks2IrBg",
+      "defId": "JANGOFETT",
+      "nameKey": "Jango Fett",
+      "rarity": 5,
+      "level": 80,
+      "xp": 653025,
+      "gear": 9,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_JANGOFETT",
+          "tier": 8,
+          "nameKey": "Unscrupulous Gunfire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JANGOFETT01",
+          "tier": 7,
+          "nameKey": "Shrapnel Blast",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JANGOFETT02",
+          "tier": 6,
+          "nameKey": "Conflagration",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_JANGOFETT",
+          "tier": 7,
+          "nameKey": "Anything to Get Ahead",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_JANGOFETT01",
+          "tier": 7,
+          "nameKey": "Notorious Reputation",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "contractskill_JANGOFETT01",
+          "tier": 2,
+          "nameKey": "Jango Fett's Payout",
+          "isZeta": false,
+          "tiers": 3
+        }
+      ],
+      "mods": [
+        {
+          "id": "D44Ag7XfTWi6g9VIYK9pwg",
+          "level": 15,
+          "tier": 1,
+          "slot": 1,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.695,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 650,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.76,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 2.233,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "0FMeQIFVSa66rmntZKUJSA",
+          "level": 15,
+          "tier": 4,
+          "slot": 2,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 695,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 3.128,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 3.67,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 2.115,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "lgWOx3ACQC-QU9pER26Dgg",
+          "level": 15,
+          "tier": 5,
+          "slot": 3,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 3.965,
+              "roll": 4
+            },
+            {
+              "unitStat": 42,
+              "value": 12,
+              "roll": 2
+            },
+            {
+              "unitStat": 48,
+              "value": 0.543,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "dXaotOo6T4GGmFMVZQFdZg",
+          "level": 15,
+          "tier": 4,
+          "slot": 4,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 53,
+            "value": 12
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 6.254,
+              "roll": 3
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 3.512,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 37,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "__S8OY14QM6FwDWWQSG_xg",
+          "level": 15,
+          "tier": 5,
+          "slot": 5,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 45,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 6.152,
+              "roll": 4
+            },
+            {
+              "unitStat": 17,
+              "value": 3.483,
+              "roll": 2
+            },
+            {
+              "unitStat": 1,
+              "value": 390,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "td-oZa7ZTCuApt7r6iwYsw",
+          "level": 15,
+          "tier": 5,
+          "slot": 6,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 18,
+            "value": 24
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 1019,
+              "roll": 3
+            },
+            {
+              "unitStat": 17,
+              "value": 2.582,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 1.208,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11172,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "OIg3IbE8RKObiPWLhGbCDg",
+      "defId": "ZEBS3",
+      "nameKey": "Garazeb \"Zeb\" Orrelios",
+      "rarity": 7,
+      "level": 70,
+      "xp": 340045,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "055",
+          "slot": 5,
+          "nameKey": "Mk 4 Fabritech Data Pad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "uniqueskill_ZEBS301",
+          "tier": 7,
+          "nameKey": "Shrug Off",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_ZEBS3",
+          "tier": 6,
+          "nameKey": "Bash",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ZEBS302",
+          "tier": 6,
+          "nameKey": "Honor Guard",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ZEBS301",
+          "tier": 6,
+          "nameKey": "Staggering Sweep",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "JAHbrLZyRJ--3q4o43IZiA",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 4.059,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 48,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 2.78,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "WjCpA9UORHuojN5G56RM5Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 2,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 2.167,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.705,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 14,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.718,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "alIj3gTvQsuy7wtdiSY4lg",
+          "level": 15,
+          "tier": 3,
+          "slot": 3,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 10,
+              "roll": 2
+            },
+            {
+              "unitStat": 48,
+              "value": 0.373,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 3.322,
+              "roll": 2
+            },
+            {
+              "unitStat": 1,
+              "value": 271,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "KPzxQ9_3S7GTGizH94lr1Q",
+          "level": 15,
+          "tier": 1,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 18,
+            "value": 21
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.343,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.784,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.529,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 10681,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "QvvKJBiTQTuyE1FTmRpL-g",
+      "defId": "CHOPPERS3",
+      "nameKey": "Chopper",
+      "rarity": 7,
+      "level": 75,
+      "xp": 473025,
+      "gear": 9,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_CHOPPERS3",
+          "tier": 6,
+          "nameKey": "Reckless Fling",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_CHOPPERS301",
+          "tier": 7,
+          "nameKey": "Maintenance Protocols",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CHOPPERS301",
+          "tier": 7,
+          "nameKey": "Cantankerous Clanker",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CHOPPERS302",
+          "tier": 7,
+          "nameKey": "Metal Menace",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "JjUglAY0TuaRkklEeX00Ig",
+          "level": 15,
+          "tier": 1,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.576,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.283,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 701,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "ScApPCvNQZOf3QHjLbC3qw",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 3,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 53,
+            "value": 12
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.182,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 1196,
+              "roll": 2
+            },
+            {
+              "unitStat": 48,
+              "value": 0.651,
+              "roll": 2
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "oRqXKNAtT72A3qDhOGu-3Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 5,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 220,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.492,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 1,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "DOem7CkNQpinp2oOrAg2fg",
+          "level": 15,
+          "tier": 1,
+          "slot": 6,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 2.061,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 2.202,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.605,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11731,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "wwH00lXIQB-9ER2rM5kr_g",
+      "defId": "BOBAFETT",
+      "nameKey": "Boba Fett",
+      "rarity": 7,
+      "level": 80,
+      "xp": 653025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "086",
+          "slot": 4,
+          "nameKey": "Mk 6 Neuro-Saav Electrobinoculars"
+        },
+        {
+          "equipmentId": "065",
+          "slot": 5,
+          "nameKey": "Mk 6 Loronar Power Cell"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_BOBAFETT01",
+          "tier": 7,
+          "nameKey": "Death From Above",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_BOBAFETT",
+          "tier": 8,
+          "nameKey": "Dead or Alive",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_BOBAFETT",
+          "tier": 7,
+          "nameKey": "EE-3 Carbine",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_BOBAFETT01",
+          "tier": 6,
+          "nameKey": "Bounty Hunter's Resolve",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_BOBAFETT02",
+          "tier": 7,
+          "nameKey": "Execute",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "contractskill_BOBAFETT01",
+          "tier": 3,
+          "nameKey": "Boba Fett's Payout",
+          "isZeta": false,
+          "tiers": 3
+        }
+      ],
+      "mods": [
+        {
+          "id": "2AZn9C3RQ-eFtTWEImM1ng",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 1480,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 0.649,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 3.589,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 10,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "RgFoJTiLRLqditGEUX3e0g",
+          "level": 15,
+          "tier": 5,
+          "slot": 2,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 8,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 3.177,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.513,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 5.351,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "pH1IqE3vQu-EdhlmdUmE-Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 3,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 44,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 636,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 302,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 6,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "4E_zGTDuQvCFj-FgKnebtg",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 826,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 90,
+              "roll": 3
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 343,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "eE8bLPdYRVCYzjg_dLZNgg",
+          "level": 15,
+          "tier": 5,
+          "slot": 5,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.506,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 0.942,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 1027,
+              "roll": 3
+            },
+            {
+              "unitStat": 18,
+              "value": 4.167,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "U7T9QYnpThO5C2rGW48Pzw",
+          "level": 15,
+          "tier": 2,
+          "slot": 6,
+          "set": 6,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 2
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 13,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 284,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 1.182,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 3,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 13698,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "5UxkPyJGSgSwn5V3ecieXg",
+      "defId": "R2D2_LEGENDARY",
+      "nameKey": "R2-D2",
+      "rarity": 5,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1521,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "YKITpMBKRPCBoAll1OMrcg",
+      "defId": "CT210408",
+      "nameKey": "CT-21-0408 \"Echo\"",
+      "rarity": 7,
+      "level": 82,
+      "xp": 739050,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "088",
+          "slot": 1,
+          "nameKey": "Mk 7 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "110",
+          "slot": 2,
+          "nameKey": "Mk 8 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "105",
+          "slot": 3,
+          "nameKey": "Mk 3 Athakam Medpac"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_CT210408",
+          "tier": 4,
+          "nameKey": "Supporting Fire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CT210408",
+          "tier": 4,
+          "nameKey": "EMP Grenade",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_ct21040801",
+          "tier": 3,
+          "nameKey": "Copy That",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_ct21040802",
+          "tier": 7,
+          "nameKey": "Domino Squad",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "wLvXUmMmR8S4iN40ntc36g",
+          "level": 15,
+          "tier": 3,
+          "slot": 1,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 3.476,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 430,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 4.349,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "9PCfo5vqQbuD72JvcO2gIA",
+          "level": 15,
+          "tier": 4,
+          "slot": 2,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 534,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 76,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 2.765,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 2.232,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "3eSYffnqRCO7MBRNPJJDnw",
+          "level": 15,
+          "tier": 2,
+          "slot": 3,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.841,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.56,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.138,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 682,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "EKcDCQjzTTi4m_piCpbeLA",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 4.859,
+              "roll": 3
+            },
+            {
+              "unitStat": 28,
+              "value": 480,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 1.082,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "NqrWtQcFT9y4dny-u5Gz8g",
+          "level": 9,
+          "tier": 2,
+          "slot": 5,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 3.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.479,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 786,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 8,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 2.148,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "jqHLxe5DSnmC6ALUHpCIWA",
+          "level": 1,
+          "tier": 3,
+          "slot": 6,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.943,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.495,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11112,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "CAQg61jYR5WeN6RF-TumLA",
+      "defId": "COLONELSTARCK",
+      "nameKey": "Colonel Starck",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "UbqxnKLdRSufLY5DEIYwSA",
+      "defId": "ARCTROOPER501ST",
+      "nameKey": "ARC Trooper",
+      "rarity": 6,
+      "level": 77,
+      "xp": 539040,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "108",
+          "slot": 0,
+          "nameKey": "Mk 3 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "101",
+          "slot": 1,
+          "nameKey": "Mk 5 SoroSuub Keypad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_ARCTROOPER501ST",
+          "tier": 4,
+          "nameKey": "Crossfire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ARCTROOPER501ST01",
+          "tier": 3,
+          "nameKey": "Assign Command",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_ARCTROOPER501ST01",
+          "tier": 7,
+          "nameKey": "ARC Arsenal",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "lqXZNOPNSD-dtXZxM0uDEg",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.143,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.444,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 66,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 2.878,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "8XWqcG3tQN22VhA5tlAxqQ",
+          "level": 15,
+          "tier": 5,
+          "slot": 2,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.238,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 2.53,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 86,
+              "roll": 2
+            },
+            {
+              "unitStat": 42,
+              "value": 20,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "E6ZBI6UjSPaZJFrYoii91g",
+          "level": 1,
+          "tier": 2,
+          "slot": 3,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1.25
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 26,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "SggUviOfRdi8-RCPfC4aww",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 2.046,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 4.034,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.915,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.383,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "OCtuDjLGT0CadzbeG4yBjg",
+          "level": 15,
+          "tier": 3,
+          "slot": 5,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.094,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.538,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 1430,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "Dg1Uwp8XTTWDYDa8nDCBdA",
+          "level": 1,
+          "tier": 3,
+          "slot": 6,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 28,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 8451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "xknWys4pSZml9tDivJHj2Q",
+      "defId": "GEONOSIANSTARFIGHTER2",
+      "nameKey": "Geonosian Soldier's Starfighter",
+      "rarity": 3,
+      "level": 80,
+      "xp": 614000,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "uniqueskill_GEONOSIANSTARFIGHTER201",
+          "tier": 5,
+          "nameKey": "Swarm Aggression",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_GEONOSIANSTARFIGHTER2",
+          "tier": 5,
+          "nameKey": "Front Line",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GEONOSIANSTARFIGHTER201",
+          "tier": 4,
+          "nameKey": "Separatist Assault",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "GEONOSIANSOLDIER",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_GEONOSIANSTARFIGHTER201",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 6373,
+          "cp": 7010.3
+        }
+      ],
+      "gp": 12763,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "T_ycTDGNTdmvo_s12t3b4Q",
+      "defId": "GEONOSIANSTARFIGHTER1",
+      "nameKey": "Sun Fac's Geonosian Starfighter",
+      "rarity": 4,
+      "level": 76,
+      "xp": 448700,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "basicskill_GEONOSIANSTARFIGHTER1",
+          "tier": 5,
+          "nameKey": "Air Superiority",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_GEONOSIANSTARFIGHTER101",
+          "tier": 5,
+          "nameKey": "Grudge",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GEONOSIANSTARFIGHTER101",
+          "tier": 2,
+          "nameKey": "Prime Target",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "SUNFAC",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_GEONOSIANSTARFIGHTER101",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 5778,
+          "cp": 6644.7
+        }
+      ],
+      "gp": 11816,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "8q1_RGxxTQ6jlqacOHS22Q",
+      "defId": "GEONOSIANSTARFIGHTER3",
+      "nameKey": "Geonosian Spy's Starfighter",
+      "rarity": 4,
+      "level": 77,
+      "xp": 487040,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "basicskill_GEONOSIANSTARFIGHTER3",
+          "tier": 5,
+          "nameKey": "Undermine",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_GEONOSIANSTARFIGHTER301",
+          "tier": 5,
+          "nameKey": "Clandestine Operations",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GEONOSIANSTARFIGHTER301",
+          "tier": 3,
+          "nameKey": "Surprise Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "hardwareskill_GEONOSIANSTARFIGHTER301",
+          "tier": 2,
+          "nameKey": "Repulsor Array - Ruse",
+          "isZeta": false,
+          "tiers": 3
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "GEONOSIANSPY",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_GEONOSIANSTARFIGHTER301",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 6775,
+          "cp": 7791.249999999999
+        }
+      ],
+      "gp": 14550,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "Nf0aqRbiRKm_xZb95UVkXQ",
+      "defId": "POGGLETHELESSER",
+      "nameKey": "Poggle the Lesser",
+      "rarity": 7,
+      "level": 62,
+      "xp": 184025,
+      "gear": 7,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_POGGLETHELESSER",
+          "tier": 3,
+          "nameKey": "Martial Doom",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_POGGLETHELESSER01",
+          "tier": 3,
+          "nameKey": "Warlord's Resolve",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_POGGLETHELESSER",
+          "tier": 4,
+          "nameKey": "Archduke",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_POGGLETHELESSER01",
+          "tier": 5,
+          "nameKey": "Hive Tactics",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "hL2Edb2mS1m_T_hNiTX6Lw",
+          "level": 10,
+          "tier": 2,
+          "slot": 1,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 1.38
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.33,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 13,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 211,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 3,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "HpjI10fyT6qGrpRBYes_Ew",
+          "level": 10,
+          "tier": 2,
+          "slot": 2,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 2.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 1,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.149,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.037,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.388,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "DyucLb_vT9aL98dDWyY1_A",
+          "level": 10,
+          "tier": 2,
+          "slot": 3,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 2.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 0.81,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 12,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 0.67,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 160,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "7K4nDm8wTV-zj1z8631VeQ",
+          "level": 10,
+          "tier": 2,
+          "slot": 4,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 1.38
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 0.78,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.076,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.467,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 1,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "sNsKFePnRuOXsULZFbpURQ",
+          "level": 10,
+          "tier": 1,
+          "slot": 6,
+          "set": 3,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 2.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.36,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 186,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.16,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 7735,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "0AVaJpvXSDy-Nw_OPYwvVg",
+      "defId": "MACEWINDU",
+      "nameKey": "Mace Windu",
+      "rarity": 5,
+      "level": 60,
+      "xp": 155035,
+      "gear": 6,
+      "equipped": [
+        {
+          "equipmentId": "036",
+          "slot": 0,
+          "nameKey": "Mk 3 BioTech Implant"
+        },
+        {
+          "equipmentId": "040",
+          "slot": 1,
+          "nameKey": "Mk 4 Loronar Power Cell"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_MACEWINDU",
+          "tier": 3,
+          "nameKey": "Invincible Assault",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_MACEWINDU01",
+          "tier": 3,
+          "nameKey": "Smite",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_MACEWINDU",
+          "tier": 3,
+          "nameKey": "Vaapad",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_MACEWINDU01",
+          "tier": 3,
+          "nameKey": "Shatterpoint",
+          "isZeta": false,
+          "tiers": 7
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 3876,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "jnPBTQHSSuCx1r3WAerW_w",
+      "defId": "BIGGSDARKLIGHTER",
+      "nameKey": "Biggs Darklighter",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "aryxD7-vTd6r42YDaKanMA",
+      "defId": "CC2224",
+      "nameKey": "CC-2224 \"Cody\"",
+      "rarity": 5,
+      "level": 82,
+      "xp": 739050,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "098",
+          "slot": 0,
+          "nameKey": "Mk 7 Neuro-Saav Electrobinoculars"
+        },
+        {
+          "equipmentId": "110",
+          "slot": 1,
+          "nameKey": "Mk 8 Fabritech Data Pad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "leaderskill_CC2224",
+          "tier": 7,
+          "nameKey": "Ghost Company Commander",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_CC2224",
+          "tier": 3,
+          "nameKey": "Alpha Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CC222401",
+          "tier": 3,
+          "nameKey": "AT-TE Mass-Driver Cannon",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CC222402",
+          "tier": 3,
+          "nameKey": "The 212th Attack",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "PO7UOdFxQ-WC2MAgptyYnQ",
+          "level": 15,
+          "tier": 3,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 4.833,
+              "roll": 3
+            },
+            {
+              "unitStat": 56,
+              "value": 2.056,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 26,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "gCvagBWOTwyZaCFPl5iXrw",
+          "level": 15,
+          "tier": 2,
+          "slot": 2,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 507,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 410,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.901,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 3.941,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "3wAgkOUcTpW7xb-xTa7q1Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 3,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 236,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.555,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 2.095,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 4.038,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "ts-_K6Z8R8e7KScrDUwOgw",
+          "level": 15,
+          "tier": 4,
+          "slot": 4,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 1912,
+              "roll": 3
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 4.419,
+              "roll": 2
+            },
+            {
+              "unitStat": 1,
+              "value": 232,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "fYIWv821QzO_47vI4x-skg",
+          "level": 15,
+          "tier": 3,
+          "slot": 5,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 717,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 16,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.218,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "1whvNpM8Q4aIx5LW0CGirg",
+          "level": 15,
+          "tier": 5,
+          "slot": 6,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 106,
+              "roll": 3
+            },
+            {
+              "unitStat": 42,
+              "value": 14,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 2.026,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 3.047,
+              "roll": 2
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 8121,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "evBgst51QWS0FQ5peB_m8g",
+      "defId": "EWOKSCOUT",
+      "nameKey": "Ewok Scout",
+      "rarity": 2,
+      "level": 44,
+      "xp": 31225,
+      "gear": 2,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 751,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "V11WXg9xTPqgzqcmioyeLA",
+      "defId": "DATHCHA",
+      "nameKey": "Dathcha",
+      "rarity": 6,
+      "level": 50,
+      "xp": 63540,
+      "gear": 4,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_DATHCHA",
+          "tier": 3,
+          "nameKey": "Hit and Run",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_DATHCHA01",
+          "tier": 3,
+          "nameKey": "Scout Instincts",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_DATHCHA",
+          "tier": 3,
+          "nameKey": "Decommission",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_DATHCHA01",
+          "tier": 3,
+          "nameKey": "Droid Hunter",
+          "isZeta": false,
+          "tiers": 7
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 3891,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "qKr90JHGTL-VMWfq-5Z_Uw",
+      "defId": "IG88",
+      "nameKey": "IG-88",
+      "rarity": 4,
+      "level": 70,
+      "xp": 340050,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "110",
+          "slot": 0,
+          "nameKey": "Mk 8 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "064",
+          "slot": 1,
+          "nameKey": "Mk 4 Nubian Security Scanner"
+        },
+        {
+          "equipmentId": "102",
+          "slot": 2,
+          "nameKey": "Mk 3 Sienar Holo Projector"
+        },
+        {
+          "equipmentId": "101",
+          "slot": 5,
+          "nameKey": "Mk 5 SoroSuub Keypad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_IG88",
+          "tier": 3,
+          "nameKey": "Mortal Wound",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_IG8801",
+          "tier": 3,
+          "nameKey": "Rapid Fire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_IG8801",
+          "tier": 3,
+          "nameKey": "Adaptive Aim Algorithm",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_IG88",
+          "tier": 3,
+          "nameKey": "Resourceful Pursuer",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "VoyS0FIwSzKyDsWwai9MWA",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 32,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.184,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 799,
+              "roll": 3
+            },
+            {
+              "unitStat": 55,
+              "value": 1.765,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "tl2c1bYnSpy4mOmevMgaVA",
+          "level": 15,
+          "tier": 5,
+          "slot": 2,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.49,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 5.299,
+              "roll": 3
+            },
+            {
+              "unitStat": 48,
+              "value": 0.984,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.789,
+              "roll": 2
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 5046,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "glReKz-0SX665Q2Bz2ol-w",
+      "defId": "TEEBO",
+      "nameKey": "Teebo",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "T208dWV1QG6F8QVBrXdvAg",
+      "defId": "CT7567",
+      "nameKey": "CT-7567 \"Rex\"",
+      "rarity": 7,
+      "level": 82,
+      "xp": 739050,
+      "gear": 9,
+      "equipped": [
+        {
+          "equipmentId": "077",
+          "slot": 1,
+          "nameKey": "Mk 4 Nubian Design Tech"
+        },
+        {
+          "equipmentId": "101",
+          "slot": 3,
+          "nameKey": "Mk 5 SoroSuub Keypad"
+        },
+        {
+          "equipmentId": "094",
+          "slot": 4,
+          "nameKey": "Mk 6 BioTech Implant"
+        },
+        {
+          "equipmentId": "086",
+          "slot": 5,
+          "nameKey": "Mk 6 Neuro-Saav Electrobinoculars"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_REX",
+          "tier": 8,
+          "nameKey": "Impeding Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_REX01",
+          "tier": 7,
+          "nameKey": "Form Up",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_REX02",
+          "tier": 8,
+          "nameKey": "Aerial Advantage",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_REX",
+          "tier": 8,
+          "nameKey": "Brothers in Arms",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_REX01",
+          "tier": 7,
+          "nameKey": "Captain of the 501st",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "FvKW-FpsShiDGL35g0H58A",
+          "level": 15,
+          "tier": 5,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 4.167,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 3.164,
+              "roll": 2
+            },
+            {
+              "unitStat": 1,
+              "value": 563,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "FQYXcdQYSMyrGWr43mhZnA",
+          "level": 15,
+          "tier": 1,
+          "slot": 2,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 30
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.2,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.191,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.617,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 9,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "TmUo_ojsRa2K1VKjTLplPQ",
+          "level": 15,
+          "tier": 1,
+          "slot": 3,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.724,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 585,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "V6UlhJmyQ0O2UM08fheSIQ",
+          "level": 15,
+          "tier": 5,
+          "slot": 4,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.809,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 3.12,
+              "roll": 3
+            },
+            {
+              "unitStat": 48,
+              "value": 0.871,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "C0ovgcwnTnC6EqF8IndNYw",
+          "level": 15,
+          "tier": 3,
+          "slot": 5,
+          "set": 1,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 12,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 48,
+              "value": 0.334,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.338,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "WAO_Xxc9QzK67aDdmb_qyA",
+          "level": 1,
+          "tier": 5,
+          "slot": 6,
+          "set": 1,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.404,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.523,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 313,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 14703,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "ZnMbTH0WRgSjdgO5sEL4iQ",
+      "defId": "MOFFGIDEONS1",
+      "nameKey": "Moff Gideon",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "CsBLQCkDT0WG00h6ZjO-xg",
+      "defId": "IG86SENTINELDROID",
+      "nameKey": "IG-86 Sentinel Droid",
+      "rarity": 1,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 301,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "hu0DicGRR5S2d-wQKGKLbg",
+      "defId": "EMPERORPALPATINE",
+      "nameKey": "Emperor Palpatine",
+      "rarity": 7,
+      "level": 75,
+      "xp": 473040,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "088",
+          "slot": 1,
+          "nameKey": "Mk 7 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "098",
+          "slot": 2,
+          "nameKey": "Mk 7 Neuro-Saav Electrobinoculars"
+        },
+        {
+          "equipmentId": "109",
+          "slot": 3,
+          "nameKey": "Mk 8 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "105",
+          "slot": 4,
+          "nameKey": "Mk 3 Athakam Medpac"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_EMPERORPALPATINE",
+          "tier": 6,
+          "nameKey": "Lightning Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_EMPERORPALPATINE01",
+          "tier": 7,
+          "nameKey": "Power of the Dark Side",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_EMPERORPALPATINE02",
+          "tier": 3,
+          "nameKey": "Let the Hate Flow",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_EMPERORPALPATINE",
+          "tier": 4,
+          "nameKey": "Emperor of the Galactic Empire",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_EMPERORPALPATINE01",
+          "tier": 3,
+          "nameKey": "Crackling Doom",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 10086,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "LMBd1TDoQWCnr5a7YL1HeQ",
+      "defId": "DAKA",
+      "nameKey": "Old Daka",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "jlduNoOCTA64F0i45eWlag",
+      "defId": "GRANDMOFFTARKIN",
+      "nameKey": "Grand Moff Tarkin",
+      "rarity": 7,
+      "level": 71,
+      "xp": 378945,
+      "gear": 8,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "uniqueskill_GRANDMOFFTARKIN01",
+          "tier": 6,
+          "nameKey": "Callous Conviction",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_GRANDMOFFTARKIN",
+          "tier": 4,
+          "nameKey": "Grand Moff's Attack",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDMOFFTARKIN01",
+          "tier": 4,
+          "nameKey": "Ultimate Firepower",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDMOFFTARKIN02",
+          "tier": 4,
+          "nameKey": "Intimidation Tactics",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_GRANDMOFFTARKIN",
+          "tier": 4,
+          "nameKey": "Tighten the Grip",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "0ov5iBP5SOmTensdoXgEJQ",
+          "level": 6,
+          "tier": 3,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 2.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.999,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.415,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 2.013,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.57,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "6VP0OuUXTLC7z_GqeqMCWw",
+          "level": 1,
+          "tier": 4,
+          "slot": 3,
+          "set": 7,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1.25
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 29,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.795,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 2.184,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 9139,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "6rMGV29SRA6pfHrr2w-uRg",
+      "defId": "CAPITALMONCALAMARICRUISER",
+      "nameKey": "Home One",
+      "rarity": 4,
+      "level": 76,
+      "xp": 897300,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "uniqueskill_CAPITALMONCALAMARICRUISER01",
+          "tier": 2,
+          "nameKey": "Band Together",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_CAPITALMONCALAMARICRUISER",
+          "tier": 2,
+          "nameKey": "Mon Cal Cannons",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CAPITALMONCALAMARICRUISER01",
+          "tier": 2,
+          "nameKey": "Seize the Advantage",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "ADMIRALACKBAR",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "uniqueskill_CAPITALMONCALAMARICRUISER01",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 3621,
+          "cp": 4164.15
+        }
+      ],
+      "gp": 7627,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "uA0vEvZpQDO2DX_y2an4XA",
+      "defId": "SUNFAC",
+      "nameKey": "Sun Fac",
+      "rarity": 5,
+      "level": 68,
+      "xp": 295050,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "088",
+          "slot": 1,
+          "nameKey": "Mk 7 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "109",
+          "slot": 2,
+          "nameKey": "Mk 8 TaggeCo Holo Lens"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "uniqueskill_SUNFAC01",
+          "tier": 5,
+          "nameKey": "Hive Tactics",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_SUNFAC",
+          "tier": 3,
+          "nameKey": "Browbeat",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_SUNFAC01",
+          "tier": 4,
+          "nameKey": "Subjugate",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_SUNFAC02",
+          "tier": 3,
+          "nameKey": "Spiteful Strike",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "jwYU5GUZRkujuekZ4IoUYA",
+          "level": 15,
+          "tier": 2,
+          "slot": 1,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.823,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.906,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 473,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "3oRMWF6jRYqK6-JbhuSCsw",
+          "level": 15,
+          "tier": 4,
+          "slot": 2,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 54,
+            "value": 21
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 56,
+              "value": 1.517,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 3.083,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.315,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.018,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "SVpISs-kRgSX3x2f6Aq6kQ",
+          "level": 15,
+          "tier": 3,
+          "slot": 3,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 2.926,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 1.762,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.596,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "i8lt0MgaSfyCqUJwWksiQA",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 3.187,
+              "roll": 3
+            },
+            {
+              "unitStat": 18,
+              "value": 1.021,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.402,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "2r-FeSTmTvW5T5Q91vHWrg",
+          "level": 15,
+          "tier": 1,
+          "slot": 5,
+          "set": 5,
+          "pips": 3,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 3.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.371,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.25,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.15,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "oheZOo7VQKCLHdlw5Idw4Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 6,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 1.038,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 564,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 3.471,
+              "roll": 2
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 5778,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "y78osMkoQuebTulMmh8E7g",
+      "defId": "KYLOREN",
+      "nameKey": "Kylo Ren",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "LrKRJhfKT5OKc6-QK2jDMA",
+      "defId": "GEONOSIANSOLDIER",
+      "nameKey": "Geonosian Soldier",
+      "rarity": 5,
+      "level": 68,
+      "xp": 295025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "048",
+          "slot": 0,
+          "nameKey": "Mk 1 Merr-Sonn Thermal Detonator"
+        },
+        {
+          "equipmentId": "065",
+          "slot": 1,
+          "nameKey": "Mk 6 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "071",
+          "slot": 2,
+          "nameKey": "Mk 1 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "097",
+          "slot": 3,
+          "nameKey": "Mk 8 BlasTech Weapon Mod"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_GEONOSIANSOLDIER01",
+          "tier": 4,
+          "nameKey": "Swarm",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_GEONOSIANSOLDIER01",
+          "tier": 5,
+          "nameKey": "Hive Tactics",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_GEONOSIANSOLDIER",
+          "tier": 3,
+          "nameKey": "Aggressive Advance",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "TX0UKMdFTumxxM4MZy-ZqA",
+          "level": 15,
+          "tier": 1,
+          "slot": 1,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 22,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 0.792,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.852,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "vUeD0N8lQ0aC6rzP8C8KlA",
+          "level": 15,
+          "tier": 1,
+          "slot": 2,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 312,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 0.757,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.783,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "Zwc1iDR8T9Gw_nsz2YaUAw",
+          "level": 15,
+          "tier": 1,
+          "slot": 3,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.84,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 576,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 21,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "908UZqCLRoaSOR-7cWN8mw",
+          "level": 15,
+          "tier": 3,
+          "slot": 5,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.618,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 11,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 422,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 3.372,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "jhLkJ2X5SryOOKbxA4Pm5Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 237,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 3.045,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 1.654,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 28,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 6373,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "V3p_07m_Tc65Gm4069xowg",
+      "defId": "EMBO",
+      "nameKey": "Embo",
+      "rarity": 2,
+      "level": 72,
+      "xp": 389040,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "109",
+          "slot": 4,
+          "nameKey": "Mk 8 TaggeCo Holo Lens"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "leaderskill_EMBO",
+          "tier": 6,
+          "nameKey": "The Quiet Assassin",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_EMBO",
+          "tier": 3,
+          "nameKey": "Dismantling Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_EMBO01",
+          "tier": 3,
+          "nameKey": "Kyuzo War Helmet",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_EMBO01",
+          "tier": 4,
+          "nameKey": "Way of the Kyuzo",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 4092,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "bnl9-_9MTkWwAqHsAF1GiQ",
+      "defId": "MAGNAGUARD",
+      "nameKey": "IG-100 MagnaGuard",
+      "rarity": 3,
+      "level": 60,
+      "xp": 155025,
+      "gear": 6,
+      "equipped": [
+        {
+          "equipmentId": "077",
+          "slot": 0,
+          "nameKey": "Mk 4 Nubian Design Tech"
+        },
+        {
+          "equipmentId": "083",
+          "slot": 1,
+          "nameKey": "Mk 2 Carbanti Sensor Array"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_MAGNAGUARD",
+          "tier": 3,
+          "nameKey": "Electrostaff Assault",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_MAGNAGUARD01",
+          "tier": 3,
+          "nameKey": "Relentless Assault",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_MAGNAGUARD01",
+          "tier": 3,
+          "nameKey": "Disruption",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_MAGNAGUARD02",
+          "tier": 3,
+          "nameKey": "Stunning Strike",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "vW8u7K1IRaWYaw5Uz1_g-A",
+          "level": 15,
+          "tier": 1,
+          "slot": 1,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.02,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.512,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 32,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "wnxwYnuFQTGGhoAeIl3O1Q",
+          "level": 15,
+          "tier": 3,
+          "slot": 3,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.315,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.241,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.287,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 2.482,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "6Jcdo9kqTAmfhyqcGzBe9g",
+          "level": 15,
+          "tier": 3,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 8,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.297,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 1.398,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 19,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "EVlN5v9tSXycPql5UuQCzQ",
+          "level": 1,
+          "tier": 3,
+          "slot": 5,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.013,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "NW4VqWmkRUizn1qaBCE7Pw",
+          "level": 1,
+          "tier": 2,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 1.046,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 3376,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "-7xzpAumRbmze3bbR4dl-Q",
+      "defId": "SNOWTROOPER",
+      "nameKey": "Snowtrooper",
+      "rarity": 3,
+      "level": 50,
+      "xp": 63540,
+      "gear": 2,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1066,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "PEpCzyyqRVu63A_lk9srLQ",
+      "defId": "CAPITALSTARDESTROYER",
+      "nameKey": "Executrix",
+      "rarity": 4,
+      "level": 70,
+      "xp": 521200,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "GRANDMOFFTARKIN",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "uniqueskill_CAPITALSTARDESTROYER01",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 9139,
+          "cp": 10509.849999999999
+        }
+      ],
+      "gp": 16693,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "cz6411mqS8SbXkImjDFA_g",
+      "defId": "PRINCESSLEIA",
+      "nameKey": "Princess Leia",
+      "rarity": 6,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 2661,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "pestQdTVRj6bGCPoeERSgg",
+      "defId": "ROYALGUARD",
+      "nameKey": "Royal Guard",
+      "rarity": 5,
+      "level": 53,
+      "xp": 84525,
+      "gear": 5,
+      "equipped": [
+        {
+          "equipmentId": "075",
+          "slot": 0,
+          "nameKey": "Mk 6 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "089",
+          "slot": 1,
+          "nameKey": "Mk 7 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "048",
+          "slot": 3,
+          "nameKey": "Mk 1 Merr-Sonn Thermal Detonator"
+        },
+        {
+          "equipmentId": "055",
+          "slot": 4,
+          "nameKey": "Mk 4 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "040",
+          "slot": 5,
+          "nameKey": "Mk 4 Loronar Power Cell"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_ROYALGUARD",
+          "tier": 3,
+          "nameKey": "Force Pike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ROYALGUARD01",
+          "tier": 3,
+          "nameKey": "Imperial Phalanx",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_ROYALGUARD01",
+          "tier": 3,
+          "nameKey": "Unyielding Defender",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 3373,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "Vx7vx6JLQRScCxQuPIa9_Q",
+      "defId": "GEONOSIANSPY",
+      "nameKey": "Geonosian Spy",
+      "rarity": 5,
+      "level": 74,
+      "xp": 443040,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "079",
+          "slot": 0,
+          "nameKey": "Mk 2 Czerka Stun Cuffs"
+        },
+        {
+          "equipmentId": "110",
+          "slot": 3,
+          "nameKey": "Mk 8 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "099",
+          "slot": 4,
+          "nameKey": "Mk 7 TaggeCo Holo Lens"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_GEONOSIANSPY",
+          "tier": 5,
+          "nameKey": "Feint",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GEONOSIANSPY01",
+          "tier": 7,
+          "nameKey": "Silent Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_GEONOSIANSPY01",
+          "tier": 3,
+          "nameKey": "Hive Tactics",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GEONOSIANSPY02",
+          "tier": 3,
+          "nameKey": "Illicit Intel",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "S_4jT-CgT1yiz1d5rUuFDg",
+          "level": 15,
+          "tier": 3,
+          "slot": 2,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.904,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 1.685,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 406,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "TozAXQIQQN667a6Ja8PWHA",
+          "level": 15,
+          "tier": 5,
+          "slot": 3,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 247,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 4.332,
+              "roll": 3
+            },
+            {
+              "unitStat": 18,
+              "value": 3.34,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.143,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "oeALil7dRhyP6sIBSntz_Q",
+          "level": 15,
+          "tier": 4,
+          "slot": 5,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 591,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 2.972,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 799,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "JU_9HSgYS4mLp_Fdmta8iA",
+          "level": 15,
+          "tier": 4,
+          "slot": 6,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 2.633,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.919,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 1.308,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 6775,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "-X86ZJ53QhWu4YgtauBUKA",
+      "defId": "BASTILASHAN",
+      "nameKey": "Bastila Shan",
+      "rarity": 7,
+      "level": 78,
+      "xp": 575040,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "077",
+          "slot": 0,
+          "nameKey": "Mk 4 Nubian Design Tech"
+        },
+        {
+          "equipmentId": "043",
+          "slot": 3,
+          "nameKey": "Mk 3 SoroSuub Keypad"
+        },
+        {
+          "equipmentId": "061",
+          "slot": 4,
+          "nameKey": "Mk 6 BlasTech Weapon Mod"
+        },
+        {
+          "equipmentId": "094",
+          "slot": 5,
+          "nameKey": "Mk 6 BioTech Implant"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_BASTILASHAN",
+          "tier": 7,
+          "nameKey": "Jedi Assault",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_BASTILASHAN01",
+          "tier": 8,
+          "nameKey": "Rally",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_BASTILASHAN02",
+          "tier": 7,
+          "nameKey": "Subvert Defenses",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_BASTILASHAN",
+          "tier": 7,
+          "nameKey": "Initiative",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_BASTILASHAN01",
+          "tier": 7,
+          "nameKey": "Legendary Battle Meditation",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "uZqEBtBYQ0-KfeYuIDYbIA",
+          "level": 6,
+          "tier": 3,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 1.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.055,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.341,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.055,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 12055,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "4V5C9ulIQ-uRPSH3Eoallg",
+      "defId": "JEDISTARFIGHTERAHSOKATANO",
+      "nameKey": "Ahsoka Tano's Jedi Starfighter",
+      "rarity": 2,
+      "level": 71,
+      "xp": 287000,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "specialskill_JEDISTARFIGHTERAHSOKATANO02",
+          "tier": 4,
+          "nameKey": "Turnabout",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_JEDISTARFIGHTERAHSOKATANO",
+          "tier": 4,
+          "nameKey": "Reflexive Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JEDISTARFIGHTERAHSOKATANO01",
+          "tier": 4,
+          "nameKey": "Shut Down",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "AHSOKATANO",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_JEDISTARFIGHTERAHSOKATANO02",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 8623,
+          "cp": 9054.15
+        }
+      ],
+      "gp": 15048,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "H124wbGbTtWbcuuZSI56DA",
+      "defId": "JAWA",
+      "nameKey": "Jawa",
+      "rarity": 3,
+      "level": 45,
+      "xp": 35340,
+      "gear": 3,
+      "equipped": [
+        {
+          "equipmentId": "044",
+          "slot": 1,
+          "nameKey": "Mk 4 BioTech Implant"
+        },
+        {
+          "equipmentId": "039",
+          "slot": 2,
+          "nameKey": "Mk 3 Nubian Security Scanner"
+        },
+        {
+          "equipmentId": "041",
+          "slot": 3,
+          "nameKey": "Mk 3 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "051",
+          "slot": 4,
+          "nameKey": "Mk 5 Neuro-Saav Electrobinoculars"
+        },
+        {
+          "equipmentId": "035",
+          "slot": 5,
+          "nameKey": "Mk 2 Chiewab Hypo Syringe"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_JAWA",
+          "tier": 3,
+          "nameKey": "Exploit Weakness",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JAWA01",
+          "tier": 3,
+          "nameKey": "Stun Surprise",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_JAWA01",
+          "tier": 3,
+          "nameKey": "Ambush Tactics",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 1690,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "3uSNkZAQSBm0DNs3XmKQig",
+      "defId": "XWINGRESISTANCE",
+      "nameKey": "Resistance X-wing",
+      "rarity": 1,
+      "level": 51,
+      "xp": 47800,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "RESISTANCEPILOT",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_XWINGRESISTANCE01",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 949,
+          "cp": 949
+        }
+      ],
+      "gp": 1770,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "h2KSBC_YQcqmaBd4DoUiVg",
+      "defId": "QIRA",
+      "nameKey": "Qi'ra",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "GWrfTrOmRvKq9S5NiPoUaw",
+      "defId": "PHASMA",
+      "nameKey": "Captain Phasma",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "tUpd8f11RIa-omDBLOxGDA",
+      "defId": "TALIA",
+      "nameKey": "Talia",
+      "rarity": 3,
+      "level": 60,
+      "xp": 155035,
+      "gear": 5,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_TALIA01",
+          "tier": 3,
+          "nameKey": "Water of Life",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "SjrJx6vyTdCr9jH_9-Y1nw",
+          "level": 15,
+          "tier": 2,
+          "slot": 1,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 56,
+              "value": 2.622,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.3,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 34,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 303,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "0tDwLT22T2-feEGpO9j8sA",
+          "level": 15,
+          "tier": 2,
+          "slot": 2,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.462,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 27,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.679,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "UoKVjEYwRw-kxI5gxEbRTw",
+          "level": 15,
+          "tier": 2,
+          "slot": 3,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.643,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.945,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 14,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "uBCK4PhQS4WcTGc47QJwdw",
+          "level": 15,
+          "tier": 2,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.055,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.989,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.191,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.578,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "v3RuJDpzSAWNrMUUgSv--g",
+          "level": 15,
+          "tier": 4,
+          "slot": 5,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 25,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 1.193,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 2.652,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 2.28,
+              "roll": 2
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 2745,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "TJCZrW8JRkCGkZWatRPjjw",
+      "defId": "TUSKENRAIDER",
+      "nameKey": "Tusken Raider",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "Jhtvuf-eTs-F3_6h9FczUA",
+      "defId": "KANANJARRUSS3",
+      "nameKey": "Kanan Jarrus",
+      "rarity": 7,
+      "level": 74,
+      "xp": 443025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "117",
+          "slot": 1,
+          "nameKey": "Mk 5 A/KT Stun Gun"
+        },
+        {
+          "equipmentId": "108",
+          "slot": 3,
+          "nameKey": "Mk 3 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "113",
+          "slot": 4,
+          "nameKey": "Mk 6 Chiewab Hypo Syringe"
+        },
+        {
+          "equipmentId": "055",
+          "slot": 5,
+          "nameKey": "Mk 4 Fabritech Data Pad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "uniqueskill_KANANJARRUSS301",
+          "tier": 7,
+          "nameKey": "Clear Mind",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_KANANJARRUSS302",
+          "tier": 6,
+          "nameKey": "Total Defense",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_KANANJARRUSS3",
+          "tier": 6,
+          "nameKey": "Disarming Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_KANANJARRUSS301",
+          "tier": 6,
+          "nameKey": "Intervene",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "Ra_KAby8QUerpfW0CHcniw",
+          "level": 15,
+          "tier": 3,
+          "slot": 1,
+          "set": 1,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 2.178,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 1.017,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 2.565,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.66,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "-HKAiA8IQLqFeFE0HLwM8Q",
+          "level": 15,
+          "tier": 2,
+          "slot": 2,
+          "set": 8,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 54,
+            "value": 24
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.26,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.82,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 45,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 6,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "P2y7oCa9TROEvoNiIMtxtQ",
+          "level": 15,
+          "tier": 5,
+          "slot": 3,
+          "set": 1,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 370,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 10,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.368,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 5.931,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "iyWitCV6RRK3lm66Y10dpw",
+          "level": 15,
+          "tier": 4,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 50,
+              "roll": 2
+            },
+            {
+              "unitStat": 42,
+              "value": 14,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 1178,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 0.753,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "uR9j918lT-at0nk--muXaw",
+          "level": 15,
+          "tier": 2,
+          "slot": 5,
+          "set": 8,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 45,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.442,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 13,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.941,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "v49hxYY6TXmPKox5bGDeZA",
+          "level": 15,
+          "tier": 1,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 18,
+            "value": 21
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.487,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.27,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 462,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.393,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11593,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "VzBlMywESd66XuU4k6rLgw",
+      "defId": "GRANDADMIRALTHRAWN",
+      "nameKey": "Grand Admiral Thrawn",
+      "rarity": 6,
+      "level": 65,
+      "xp": 235050,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "107",
+          "slot": 0,
+          "nameKey": "Mk 6 Merr-Sonn Shield Generator"
+        },
+        {
+          "equipmentId": "108",
+          "slot": 1,
+          "nameKey": "Mk 3 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "095",
+          "slot": 3,
+          "nameKey": "Mk 4 A/KT Stun Gun"
+        },
+        {
+          "equipmentId": "088",
+          "slot": 4,
+          "nameKey": "Mk 7 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "102",
+          "slot": 5,
+          "nameKey": "Mk 3 Sienar Holo Projector"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_GRANDADMIRALTHRAWN",
+          "tier": 3,
+          "nameKey": "Manipulate",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDADMIRALTHRAWN01",
+          "tier": 4,
+          "nameKey": "Fracture",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDADMIRALTHRAWN02",
+          "tier": 4,
+          "nameKey": "Grand Admiral's Command",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_GRANDADMIRALTHRAWN01",
+          "tier": 3,
+          "nameKey": "Ebb and Flow",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_GRANDADMIRALTHRAWN",
+          "tier": 3,
+          "nameKey": "Legendary Strategist",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "Vqt70eUTSNG50LtwTpjeiw",
+          "level": 15,
+          "tier": 1,
+          "slot": 4,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.567,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.316,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 2.212,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "sZX_vFxiQuyg1fkTSr43WA",
+          "level": 15,
+          "tier": 2,
+          "slot": 5,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 254,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.878,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 1582,
+              "roll": 2
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 6691,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "Uyad60S3RcSl0JoHeGb5Mg",
+      "defId": "EZRABRIDGERS3",
+      "nameKey": "Ezra Bridger",
+      "rarity": 7,
+      "level": 74,
+      "xp": 443025,
+      "gear": 9,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_EZRABRIDGERS302",
+          "tier": 7,
+          "nameKey": "Watch and Learn",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_EZRABRIDGERS301",
+          "tier": 7,
+          "nameKey": "Push Through",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_EZRABRIDGERS3",
+          "tier": 7,
+          "nameKey": "Rushing Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_EZRABRIDGERS301",
+          "tier": 6,
+          "nameKey": "Flourish",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "IPUhBdaKTEa0SxWnKtFZ_Q",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 1355,
+              "roll": 4
+            },
+            {
+              "unitStat": 41,
+              "value": 27,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.992,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "eedeK6y_T1u_6mP7UlJrdg",
+          "level": 15,
+          "tier": 1,
+          "slot": 5,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 23.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.683,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 25,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.128,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11488,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "VsJBB1R9S9-RxDbqX11Xvg",
+      "defId": "JEDIKNIGHTCONSULAR",
+      "nameKey": "Jedi Consular",
+      "rarity": 4,
+      "level": 60,
+      "xp": 155025,
+      "gear": 5,
+      "equipped": [
+        {
+          "equipmentId": "072",
+          "slot": 0,
+          "nameKey": "Mk 3 Merr-Sonn Thermal Detonator"
+        },
+        {
+          "equipmentId": "069",
+          "slot": 1,
+          "nameKey": "Mk 2 Chedak Comlink"
+        },
+        {
+          "equipmentId": "052",
+          "slot": 2,
+          "nameKey": "Mk 4 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "085",
+          "slot": 3,
+          "nameKey": "Mk 7 BAW Armor Mod"
+        },
+        {
+          "equipmentId": "047",
+          "slot": 5,
+          "nameKey": "Mk 3 Merr-Sonn Shield Generator"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_JEDIKNIGHTCONSULAR01",
+          "tier": 3,
+          "nameKey": "Jedi Healing",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_JEDIKNIGHTCONSULAR",
+          "tier": 3,
+          "nameKey": "Saber Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JEDIKNIGHTCONSULAR02",
+          "tier": 3,
+          "nameKey": "Attack as Defense",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "u0-fdUZuQSm1tTXtpmNFDQ",
+          "level": 1,
+          "tier": 1,
+          "slot": 1,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.5
+          },
+          "secondaryStat": []
+        },
+        {
+          "id": "XHCZ-rtyR5K6EBcdOILHEQ",
+          "level": 15,
+          "tier": 1,
+          "slot": 3,
+          "set": 1,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.061,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 0.879,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.242,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.061,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "D5EPSo_uT2ikIR9phtUVoQ",
+          "level": 1,
+          "tier": 3,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 53,
+            "value": 1.4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.411,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.106,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "DS2w3UnwR_SMk02nStLCPQ",
+          "level": 1,
+          "tier": 3,
+          "slot": 5,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.8,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.568,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 3069,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "nkFXg6u0RSyF1bLtg3Dglw",
+      "defId": "SABINEWRENS3",
+      "nameKey": "Sabine Wren",
+      "rarity": 4,
+      "level": 58,
+      "xp": 136135,
+      "gear": 6,
+      "equipped": [
+        {
+          "equipmentId": "087",
+          "slot": 1,
+          "nameKey": "Mk 5 Nubian Security Scanner"
+        },
+        {
+          "equipmentId": "024",
+          "slot": 4,
+          "nameKey": "Mk 2 Merr-Sonn Shield Generator"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_SABINEWRENS3",
+          "tier": 3,
+          "nameKey": "Blasters Akimbo",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_SABINEWRENS302",
+          "tier": 3,
+          "nameKey": "Demolish",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_SABINEWRENS301",
+          "tier": 4,
+          "nameKey": "Take It Back",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_SABINEWRENS301",
+          "tier": 3,
+          "nameKey": "Darksaber Strike",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "gAc5yKxRScmobENGz3AK5w",
+          "level": 15,
+          "tier": 2,
+          "slot": 2,
+          "set": 1,
+          "pips": 2,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 348,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 0.773,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 14,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 2,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "RhKhVC1sTMeJhWSvOqtQzg",
+          "level": 15,
+          "tier": 1,
+          "slot": 3,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 596,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.823,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.287,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "oZSCtxYTTJut1uTDcwPbQg",
+          "level": 15,
+          "tier": 1,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 16,
+            "value": 31.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.981,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.597,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 209,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 3634,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "uHpsXqlCQUydSnbnx4dC6A",
+      "defId": "AHSOKATANO",
+      "nameKey": "Ahsoka Tano",
+      "rarity": 7,
+      "level": 65,
+      "xp": 235045,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "022",
+          "slot": 0,
+          "nameKey": "Mk 2 BioTech Implant"
+        },
+        {
+          "equipmentId": "022",
+          "slot": 1,
+          "nameKey": "Mk 2 BioTech Implant"
+        },
+        {
+          "equipmentId": "049",
+          "slot": 2,
+          "nameKey": "Mk 5 BlasTech Weapon Mod"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_AHSOKATANO",
+          "tier": 3,
+          "nameKey": "Focused Slash",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_AHSOKATANO01",
+          "tier": 3,
+          "nameKey": "Protective Maneuver",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_AHSOKATANO",
+          "tier": 4,
+          "nameKey": "Quick Steps",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_AHSOKATANO01",
+          "tier": 3,
+          "nameKey": "Daring Padawan",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "hDb39sDzSWyPUTT3ZDrqJA",
+          "level": 1,
+          "tier": 3,
+          "slot": 1,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 34,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 1.972,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "1XBiRx6lTySjbf_1gEv4Jw",
+          "level": 1,
+          "tier": 4,
+          "slot": 3,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1.25
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.512,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.903,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 713,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "-jNfztXMSNOH_h_1VgEz7A",
+          "level": 1,
+          "tier": 3,
+          "slot": 4,
+          "set": 1,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 56,
+              "value": 1.706,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "YQ-qajn9Tn-hKwrhYIsQAQ",
+          "level": 1,
+          "tier": 3,
+          "slot": 6,
+          "set": 2,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 49,
+              "value": 1.361,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 8623,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "4lq3NH42QY6_nOWycznjhA",
+      "defId": "TIEFIGHTERIMPERIAL",
+      "nameKey": "Imperial TIE Fighter",
+      "rarity": 3,
+      "level": 72,
+      "xp": 315300,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "basicskill_TIEFIGHTERIMPERIAL",
+          "tier": 4,
+          "nameKey": "L-s1 Laser Cannon",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_TIEFIGHTERIMPERIAL01",
+          "tier": 4,
+          "nameKey": "T-s8 Targeting Computer",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_TIEFIGHTERIMPERIAL02",
+          "tier": 3,
+          "nameKey": "Control Thrusters",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "TIEFIGHTERPILOT",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "uniqueskill_TIEFIGHTERIMPERIAL02",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 8196,
+          "cp": 9015.6
+        }
+      ],
+      "gp": 14975,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "ZfoWLrWeT7a1cjiP198p5A",
+      "defId": "YOUNGHAN",
+      "nameKey": "Young Han Solo",
+      "rarity": 4,
+      "level": 60,
+      "xp": 155025,
+      "gear": 6,
+      "equipped": [
+        {
+          "equipmentId": "092",
+          "slot": 1,
+          "nameKey": "Mk 4 Arakyd Droid Caller"
+        },
+        {
+          "equipmentId": "055",
+          "slot": 2,
+          "nameKey": "Mk 4 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "075",
+          "slot": 3,
+          "nameKey": "Mk 6 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "056",
+          "slot": 4,
+          "nameKey": "Mk 5 BioTech Implant"
+        },
+        {
+          "equipmentId": "055",
+          "slot": 5,
+          "nameKey": "Mk 4 Fabritech Data Pad"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_YOUNGHAN",
+          "tier": 4,
+          "nameKey": "Trick Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_YOUNGHAN01",
+          "tier": 4,
+          "nameKey": "Upper Hand",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_YOUNGHAN02",
+          "tier": 4,
+          "nameKey": "Just In Time",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_YOUNGHAN01",
+          "tier": 3,
+          "nameKey": "Ready For Anything",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 3819,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "8N8FFOqqSg2bUCUTMJz2AA",
+      "defId": "ZAALBAR",
+      "nameKey": "Zaalbar",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "PXPFKGRyQQqmYVycwliFsg",
+      "defId": "STORMTROOPERHAN",
+      "nameKey": "Stormtrooper Han",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "D2xJUSNHRnKVHc0PIFVfpA",
+      "defId": "CLONEWARSCHEWBACCA",
+      "nameKey": "Clone Wars Chewbacca",
+      "rarity": 3,
+      "level": 53,
+      "xp": 84525,
+      "gear": 3,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_CLONEWARSCHEWBACCA02",
+          "tier": 3,
+          "nameKey": "Wookiee Rage",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 1419,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "4l_veY0RSXmFqC41crAApg",
+      "defId": "EWOKELDER",
+      "nameKey": "Ewok Elder",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "VUQCNIZTQs-duEc3EV5ukg",
+      "defId": "HERASYNDULLAS3",
+      "nameKey": "Hera Syndulla",
+      "rarity": 7,
+      "level": 73,
+      "xp": 415025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "109",
+          "slot": 2,
+          "nameKey": "Mk 8 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "103",
+          "slot": 3,
+          "nameKey": "Mk 2 Zaltin Bacta Gel"
+        },
+        {
+          "equipmentId": "095",
+          "slot": 4,
+          "nameKey": "Mk 4 A/KT Stun Gun"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "leaderskill_HERASYNDULLAS3",
+          "tier": 7,
+          "nameKey": "Rise Together",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_HERASYNDULLAS3",
+          "tier": 6,
+          "nameKey": "Outwit",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_HERASYNDULLAS301",
+          "tier": 6,
+          "nameKey": "Play to Strengths",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_HERASYNDULLAS302",
+          "tier": 6,
+          "nameKey": "Backup Plan",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "ORIEQnIoRpitOlQmh9Df9g",
+          "level": 1,
+          "tier": 3,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.756,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.998,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "p3ZYX4PISYCdQuv6GR6fpQ",
+          "level": 1,
+          "tier": 2,
+          "slot": 2,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 0.929,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "CIqKPZ_-RD6PaAFR5wsewA",
+          "level": 1,
+          "tier": 1,
+          "slot": 3,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1.25
+          },
+          "secondaryStat": []
+        },
+        {
+          "id": "psfTJZCxTFmyc9O_bpje-Q",
+          "level": 15,
+          "tier": 1,
+          "slot": 4,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 7,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.39,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 2,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.461,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "AHxZb5ACSFKmAND6S8eYKg",
+          "level": 1,
+          "tier": 4,
+          "slot": 5,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.322,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 526,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "ccTuETuMTcmVEqpPNu-tNQ",
+          "level": 15,
+          "tier": 1,
+          "slot": 6,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.538,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 28,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.659,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 10521,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "tF9Q1HOfR1SKywmCvx8DPw",
+      "defId": "BASTILASHANDARK",
+      "nameKey": "Bastila Shan (Fallen)",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "X4bP-L4dSxip4JCVjXvFag",
+      "defId": "JEDISTARFIGHTERCONSULAR",
+      "nameKey": "Jedi Consular's Starfighter",
+      "rarity": 3,
+      "level": 73,
+      "xp": 345700,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "basicskill_JEDISTARFIGHTERCONSULAR",
+          "tier": 4,
+          "nameKey": "Republic Defender",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_JEDISTARFIGHTERCONSULAR01",
+          "tier": 4,
+          "nameKey": "Guarded Assault",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "JEDIKNIGHTCONSULAR",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_JEDISTARFIGHTERCONSULAR02",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 3069,
+          "cp": 3375.9
+        }
+      ],
+      "gp": 6470,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "N7ffm_iMTBWreUyUQhko9g",
+      "defId": "CT5555",
+      "nameKey": "CT-5555 \"Fives\"",
+      "rarity": 7,
+      "level": 70,
+      "xp": 340050,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "042",
+          "slot": 0,
+          "nameKey": "Mk 2 Nubian Design Tech"
+        },
+        {
+          "equipmentId": "048",
+          "slot": 1,
+          "nameKey": "Mk 1 Merr-Sonn Thermal Detonator"
+        },
+        {
+          "equipmentId": "071",
+          "slot": 2,
+          "nameKey": "Mk 1 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "063",
+          "slot": 3,
+          "nameKey": "Mk 5 TaggeCo Holo Lens"
+        },
+        {
+          "equipmentId": "108",
+          "slot": 4,
+          "nameKey": "Mk 3 Carbanti Sensor Array"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_CT5555",
+          "tier": 3,
+          "nameKey": "Dual DC-17 Blasters",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CT555501",
+          "tier": 4,
+          "nameKey": "Cover Fire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_CT5555",
+          "tier": 4,
+          "nameKey": "Veteran Clone Trooper",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_CT555501",
+          "tier": 4,
+          "nameKey": "Domino Squad",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_CT555502",
+          "tier": 4,
+          "nameKey": "Tactical Awareness",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "LdkEi0O7Tg-ElqtRscwePA",
+          "level": 15,
+          "tier": 1,
+          "slot": 1,
+          "set": 8,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 42,
+              "value": 8,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 44,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 340,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "jeJ0L33dTzCJMB4WTvnzFg",
+          "level": 1,
+          "tier": 2,
+          "slot": 2,
+          "set": 3,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 54,
+            "value": 3
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 1.992,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "uATGFl0ySDucfHycACDptg",
+          "level": 1,
+          "tier": 3,
+          "slot": 3,
+          "set": 3,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 1.25
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 255,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 5,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "V2ICxY4DT_-lJsPcPVoA4w",
+          "level": 15,
+          "tier": 1,
+          "slot": 4,
+          "set": 8,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.857,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 8,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.311,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.298,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "8p0LR9CmSh2I5asU_R3FJQ",
+          "level": 15,
+          "tier": 4,
+          "slot": 5,
+          "set": 3,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 18,
+              "value": 5.362,
+              "roll": 3
+            },
+            {
+              "unitStat": 17,
+              "value": 1.365,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 10,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 1.93,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "8YncFOgjQvGbsRxZ4n8w7w",
+          "level": 15,
+          "tier": 4,
+          "slot": 6,
+          "set": 3,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.468,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 99,
+              "roll": 3
+            },
+            {
+              "unitStat": 53,
+              "value": 3.367,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 1.928,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 10221,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "_ldFo8RhT_i5Wtu6jAHu6A",
+      "defId": "LUKESKYWALKER",
+      "nameKey": "Luke Skywalker (Farmboy)",
+      "rarity": 5,
+      "level": 53,
+      "xp": 84525,
+      "gear": 5,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_LUKESKYWALKER",
+          "tier": 3,
+          "nameKey": "Frontier Marksmanship",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 2848,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "wrNrNeCXRiav3P-7G3-VCg",
+      "defId": "VADER",
+      "nameKey": "Darth Vader",
+      "rarity": 7,
+      "level": 76,
+      "xp": 505025,
+      "gear": 9,
+      "equipped": [
+        {
+          "equipmentId": "088",
+          "slot": 2,
+          "nameKey": "Mk 7 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "071",
+          "slot": 3,
+          "nameKey": "Mk 1 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "102",
+          "slot": 4,
+          "nameKey": "Mk 3 Sienar Holo Projector"
+        },
+        {
+          "equipmentId": "074",
+          "slot": 5,
+          "nameKey": "Mk 6 BAW Armor Mod"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "specialskill_VADER02",
+          "tier": 7,
+          "nameKey": "Force Crush",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_VADER01",
+          "tier": 6,
+          "nameKey": "Culling Blade",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "basicskill_VADER",
+          "tier": 6,
+          "nameKey": "Terrifying Swing",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_VADER",
+          "tier": 5,
+          "nameKey": "Inspiring Through Fear",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_VADER03",
+          "tier": 7,
+          "nameKey": "Merciless Massacre",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_VADER01",
+          "tier": 6,
+          "nameKey": "No Escape",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "3aJKSrYqTquTgC6Zl0KK0w",
+          "level": 12,
+          "tier": 4,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 2.565,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 1.796,
+              "roll": 1
+            },
+            {
+              "unitStat": 1,
+              "value": 231,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 14,
+              "roll": 3
+            }
+          ]
+        },
+        {
+          "id": "KNOmpfgvTNmUiigXQno2xg",
+          "level": 15,
+          "tier": 1,
+          "slot": 4,
+          "set": 4,
+          "pips": 3,
+          "primaryStat": {
+            "unitStat": 16,
+            "value": 26.25
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 53,
+              "value": 1.369,
+              "roll": 1
+            },
+            {
+              "unitStat": 28,
+              "value": 283,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 2,
+              "roll": 1
+            },
+            {
+              "unitStat": 48,
+              "value": 0.193,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "vy2_ryZFQnaCmlHLqsKQ_g",
+          "level": 1,
+          "tier": 5,
+          "slot": 5,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 499,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.921,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.915,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.5,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 12486,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "nerlliuJS-G_omZ_X14BhA",
+      "defId": "OLDBENKENOBI",
+      "nameKey": "Obi-Wan Kenobi (Old Ben)",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "WlekoqcGQ6-Gn1b8gBuh-w",
+      "defId": "COUNTDOOKU",
+      "nameKey": "Count Dooku",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "cidjTEvlRnKRvSygk3MOQw",
+      "defId": "MISSIONVAO",
+      "nameKey": "Mission Vao",
+      "rarity": 4,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1014,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "hxHWTVLaRPaxY2y6vykCqw",
+      "defId": "ARC170CLONESERGEANT",
+      "nameKey": "Clone Sergeant's ARC-170",
+      "rarity": 3,
+      "level": 67,
+      "xp": 193600,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [
+        {
+          "id": "basicskill_ARC170CLONESERGEANT",
+          "tier": 3,
+          "nameKey": "Wing Cannons",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ARC170CLONESERGEANT02",
+          "tier": 3,
+          "nameKey": "Overcharge",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "CLONESERGEANTPHASEI",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_ARC170CLONESERGEANT01",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 2809,
+          "cp": 3089.9
+        }
+      ],
+      "gp": 5627,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "0SfZ4Ad2Q023il8qXwytAg",
+      "defId": "RESISTANCEPILOT",
+      "nameKey": "Resistance Pilot",
+      "rarity": 2,
+      "level": 44,
+      "xp": 31225,
+      "gear": 3,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 949,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "hGZN6OCwQAy076en2cbT4g",
+      "defId": "KUIIL",
+      "nameKey": "Kuiil",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "66lJz8pISO6Zx1Nw6ZRAJA",
+      "defId": "JOLEEBINDO",
+      "nameKey": "Jolee Bindo",
+      "rarity": 5,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 1521,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "0W7H1GboQgi7U3QAqIJtfA",
+      "defId": "JEDIKNIGHTGUARDIAN",
+      "nameKey": "Jedi Knight Guardian",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "cqX7t9GMQ8qq1IUAWPZbfw",
+      "defId": "YOUNGLANDO",
+      "nameKey": "Young Lando Calrissian",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "qEmtgPkwQ4it6vYxIiHz4g",
+      "defId": "FIRSTORDERTIEPILOT",
+      "nameKey": "First Order TIE Pilot",
+      "rarity": 1,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 301,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "N-TfXV4mR5SpS7nKMAQjrg",
+      "defId": "CLONESERGEANTPHASEI",
+      "nameKey": "Clone Sergeant - Phase I",
+      "rarity": 4,
+      "level": 50,
+      "xp": 63540,
+      "gear": 5,
+      "equipped": [
+        {
+          "equipmentId": "089",
+          "slot": 0,
+          "nameKey": "Mk 7 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "057",
+          "slot": 1,
+          "nameKey": "Mk 1 Athakam Medpac"
+        },
+        {
+          "equipmentId": "077",
+          "slot": 2,
+          "nameKey": "Mk 4 Nubian Design Tech"
+        },
+        {
+          "equipmentId": "071",
+          "slot": 4,
+          "nameKey": "Mk 1 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "024",
+          "slot": 5,
+          "nameKey": "Mk 2 Merr-Sonn Shield Generator"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_CLONESERGEANTPHASEI",
+          "tier": 3,
+          "nameKey": "Z-6 Rotary Blaster",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CLONESERGEANTPHASEI01",
+          "tier": 3,
+          "nameKey": "Suppressive Fire",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_CLONESERGEANTPHASEI01",
+          "tier": 3,
+          "nameKey": "Concentrated Fire",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 2809,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "L_yXaTmgRSOgUL-QymTdXw",
+      "defId": "CADBANE",
+      "nameKey": "Cad Bane",
+      "rarity": 7,
+      "level": 75,
+      "xp": 473025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "093",
+          "slot": 0,
+          "nameKey": "Mk 4 Chiewab Hypo Syringe"
+        },
+        {
+          "equipmentId": "091",
+          "slot": 1,
+          "nameKey": "Mk 4 SoroSuub Keypad"
+        },
+        {
+          "equipmentId": "100",
+          "slot": 2,
+          "nameKey": "Mk 6 Nubian Security Scanner"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_CADBANE",
+          "tier": 7,
+          "nameKey": "Gun Slinger",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_CADBANE01",
+          "tier": 7,
+          "nameKey": "Stun Glove",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_CADBANE",
+          "tier": 7,
+          "nameKey": "At Your Service",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_CADBANE01",
+          "tier": 6,
+          "nameKey": "For The Right Price",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "contractskill_CADBANE01",
+          "tier": 2,
+          "nameKey": "Cad Bane's Payout",
+          "isZeta": false,
+          "tiers": 3
+        }
+      ],
+      "mods": [
+        {
+          "id": "TxIFZ5SoTNSMTdFHLf9lZg",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 55,
+              "value": 1.191,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 1147,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 2.521,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.22,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "DBPX6nfETXqvzo-0bGFG4Q",
+          "level": 15,
+          "tier": 4,
+          "slot": 3,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 2231,
+              "roll": 4
+            },
+            {
+              "unitStat": 1,
+              "value": 330,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 5,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 30,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "9OZ-PxqLTs-29M56oknQRQ",
+          "level": 15,
+          "tier": 4,
+          "slot": 5,
+          "set": 1,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            },
+            {
+              "unitStat": 18,
+              "value": 3.677,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.44,
+              "roll": 2
+            },
+            {
+              "unitStat": 49,
+              "value": 1.081,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "W9OMvWNlTQ2S5dGfS3fJyg",
+          "level": 15,
+          "tier": 1,
+          "slot": 6,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 17,
+            "value": 24
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 56,
+              "value": 1.49,
+              "roll": 1
+            },
+            {
+              "unitStat": 41,
+              "value": 31,
+              "roll": 1
+            },
+            {
+              "unitStat": 55,
+              "value": 0.986,
+              "roll": 1
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 11851,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "q_Bn2X-4TQmZ8iUB_V53FA",
+      "defId": "CAPITALJEDICRUISER",
+      "nameKey": "Endurance",
+      "rarity": 3,
+      "level": 50,
+      "xp": 81600,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 2,
+      "skills": [],
+      "mods": [],
+      "crew": [
+        {
+          "unitId": "MACEWINDU",
+          "slot": 0,
+          "skillReferenceList": [
+            {
+              "skillId": "specialskill_CAPITALJEDICRUISER03",
+              "requiredTier": 1,
+              "requiredRarity": 8,
+              "requiredRelicTier": 1
+            }
+          ],
+          "skilllessCrewAbilityId": "",
+          "gp": 3876,
+          "cp": 4263.6
+        }
+      ],
+      "gp": 6724,
+      "primaryUnitStat": null,
+      "relic": null
+    },
+    {
+      "id": "6ztqMOjBQJaqMVAW-N_KTw",
+      "defId": "TIEFIGHTERPILOT",
+      "nameKey": "TIE Fighter Pilot",
+      "rarity": 7,
+      "level": 62,
+      "xp": 184035,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "092",
+          "slot": 1,
+          "nameKey": "Mk 4 Arakyd Droid Caller"
+        },
+        {
+          "equipmentId": "110",
+          "slot": 3,
+          "nameKey": "Mk 8 Fabritech Data Pad"
+        },
+        {
+          "equipmentId": "109",
+          "slot": 4,
+          "nameKey": "Mk 8 TaggeCo Holo Lens"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_TIEFIGHTERPILOT",
+          "tier": 3,
+          "nameKey": "Targeting Computer",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_TIEFIGHTERPILOT01",
+          "tier": 3,
+          "nameKey": "TIE Strike",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "uniqueskill_TIEFIGHTERPILOT01",
+          "tier": 3,
+          "nameKey": "Evasive Maneuvers",
+          "isZeta": false,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "2Efz9FuuSvehfjxcofn2Hw",
+          "level": 1,
+          "tier": 2,
+          "slot": 1,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 0.63
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "DmPTMegLQKuF7LsnLtJN6Q",
+          "level": 1,
+          "tier": 3,
+          "slot": 2,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 5,
+            "value": 4
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 1,
+              "value": 229,
+              "roll": 1
+            },
+            {
+              "unitStat": 56,
+              "value": 2.04,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "A0SlLAACTZqiOMlNUn8Zvg",
+          "level": 15,
+          "tier": 5,
+          "slot": 3,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 11.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 7,
+              "roll": 2
+            },
+            {
+              "unitStat": 55,
+              "value": 1.495,
+              "roll": 2
+            },
+            {
+              "unitStat": 48,
+              "value": 0.584,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 3.446,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "IwheGkrDScenrix7v7Cpbg",
+          "level": 15,
+          "tier": 5,
+          "slot": 4,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 53,
+            "value": 12
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 12,
+              "roll": 3
+            },
+            {
+              "unitStat": 48,
+              "value": 0.896,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 2.804,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 827,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "MGf1gH9aT9OoPKul1glPPQ",
+          "level": 1,
+          "tier": 1,
+          "slot": 6,
+          "set": 4,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 55,
+            "value": 0.63
+          },
+          "secondaryStat": []
+        }
+      ],
+      "crew": [],
+      "gp": 8196,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "Ablr1zowSJO38o_rrGBcZQ",
+      "defId": "ADMIRALACKBAR",
+      "nameKey": "Admiral Ackbar",
+      "rarity": 4,
+      "level": 60,
+      "xp": 155040,
+      "gear": 6,
+      "equipped": [
+        {
+          "equipmentId": "073",
+          "slot": 0,
+          "nameKey": "MK 7 BlasTech Weapon Mod"
+        },
+        {
+          "equipmentId": "083",
+          "slot": 1,
+          "nameKey": "Mk 2 Carbanti Sensor Array"
+        },
+        {
+          "equipmentId": "040",
+          "slot": 3,
+          "nameKey": "Mk 4 Loronar Power Cell"
+        },
+        {
+          "equipmentId": "092",
+          "slot": 4,
+          "nameKey": "Mk 4 Arakyd Droid Caller"
+        },
+        {
+          "equipmentId": "090",
+          "slot": 5,
+          "nameKey": "Mk 5 Nubian Design Tech"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_ADMIRALACKBAR",
+          "tier": 3,
+          "nameKey": "Quick Shot",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ADMIRALACKBAR01",
+          "tier": 3,
+          "nameKey": "It's a Trap!",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_ADMIRALACKBAR02",
+          "tier": 3,
+          "nameKey": "Tactical Genius",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_ADMIRALACKBAR",
+          "tier": 3,
+          "nameKey": "Rebel Coordination",
+          "isZeta": false,
+          "tiers": 7
+        }
+      ],
+      "mods": [],
+      "crew": [],
+      "gp": 3621,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "IdPZfvPAS82bx2iGOOGkcQ",
+      "defId": "FIRSTORDERTROOPER",
+      "nameKey": "First Order Stormtrooper",
+      "rarity": 2,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 451,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "Wbvlv78TR3KFymaR7mobgA",
+      "defId": "GREEDO",
+      "nameKey": "Greedo",
+      "rarity": 7,
+      "level": 80,
+      "xp": 653025,
+      "gear": 8,
+      "equipped": [
+        {
+          "equipmentId": "101",
+          "slot": 0,
+          "nameKey": "Mk 5 SoroSuub Keypad"
+        },
+        {
+          "equipmentId": "113",
+          "slot": 2,
+          "nameKey": "Mk 6 Chiewab Hypo Syringe"
+        },
+        {
+          "equipmentId": "112",
+          "slot": 3,
+          "nameKey": "Mk 3 Czerka Stun Cuffs"
+        },
+        {
+          "equipmentId": "118",
+          "slot": 5,
+          "nameKey": "Mk 5 CEC Fusion Furnace"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_GREEDO",
+          "tier": 7,
+          "nameKey": "Who Shot First?",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GREEDO01",
+          "tier": 7,
+          "nameKey": "Explosive Sabotage",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_GREEDO",
+          "tier": 7,
+          "nameKey": "Ambuscade",
+          "isZeta": false,
+          "tiers": 7
+        },
+        {
+          "id": "uniqueskill_GREEDO01",
+          "tier": 8,
+          "nameKey": "If at First You Don't Succeed",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GREEDO02",
+          "tier": 7,
+          "nameKey": "Threaten",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "contractskill_GREEDO01",
+          "tier": 3,
+          "nameKey": "Greedo's Payout",
+          "isZeta": false,
+          "tiers": 3
+        }
+      ],
+      "mods": [
+        {
+          "id": "_0KsVuRiScCEdH1FRYd5Hw",
+          "level": 15,
+          "tier": 4,
+          "slot": 1,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 5,
+              "value": 9,
+              "roll": 2
+            },
+            {
+              "unitStat": 42,
+              "value": 8,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 2.035,
+              "roll": 2
+            },
+            {
+              "unitStat": 41,
+              "value": 66,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "YE5MdJ7KQCmUfon6uabGlw",
+          "level": 15,
+          "tier": 5,
+          "slot": 2,
+          "set": 6,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 48,
+            "value": 5.88
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 28,
+              "value": 907,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 7.06,
+              "roll": 4
+            },
+            {
+              "unitStat": 5,
+              "value": 3,
+              "roll": 1
+            },
+            {
+              "unitStat": 53,
+              "value": 1.88,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "_f3PruMoThW7NfekQnNQAQ",
+          "level": 15,
+          "tier": 3,
+          "slot": 3,
+          "set": 5,
+          "pips": 3,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 7.75
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 41,
+              "value": 51,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 6,
+              "roll": 2
+            },
+            {
+              "unitStat": 56,
+              "value": 0.877,
+              "roll": 1
+            },
+            {
+              "unitStat": 18,
+              "value": 1.063,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "qh6JGQA3R3SFqAf6AQczpg",
+          "level": 15,
+          "tier": 4,
+          "slot": 4,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 17,
+              "value": 2.543,
+              "roll": 2
+            },
+            {
+              "unitStat": 28,
+              "value": 1227,
+              "roll": 3
+            },
+            {
+              "unitStat": 41,
+              "value": 18,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.213,
+              "roll": 1
+            }
+          ]
+        },
+        {
+          "id": "ZorArTrfRPCpMq-bs5D6CA",
+          "level": 15,
+          "tier": 4,
+          "slot": 5,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 16
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.609,
+              "roll": 2
+            },
+            {
+              "unitStat": 5,
+              "value": 4,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 15,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 2.806,
+              "roll": 2
+            }
+          ]
+        },
+        {
+          "id": "UtK03pPmQjWdPi8-sBOEdg",
+          "level": 15,
+          "tier": 3,
+          "slot": 6,
+          "set": 6,
+          "pips": 4,
+          "primaryStat": {
+            "unitStat": 49,
+            "value": 8
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.745,
+              "roll": 2
+            },
+            {
+              "unitStat": 53,
+              "value": 1.293,
+              "roll": 1
+            },
+            {
+              "unitStat": 42,
+              "value": 14,
+              "roll": 2
+            },
+            {
+              "unitStat": 17,
+              "value": 1.972,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 13888,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "R8DiqZZCSJaMCgyElG9oHg",
+      "defId": "GRANDMASTERYODA",
+      "nameKey": "Grand Master Yoda",
+      "rarity": 5,
+      "level": 74,
+      "xp": 443040,
+      "gear": 7,
+      "equipped": [
+        {
+          "equipmentId": "068",
+          "slot": 0,
+          "nameKey": "Mk 3 Chiewab Hypo Syringe"
+        },
+        {
+          "equipmentId": "069",
+          "slot": 1,
+          "nameKey": "Mk 2 Chedak Comlink"
+        },
+        {
+          "equipmentId": "091",
+          "slot": 2,
+          "nameKey": "Mk 4 SoroSuub Keypad"
+        },
+        {
+          "equipmentId": "098",
+          "slot": 3,
+          "nameKey": "Mk 7 Neuro-Saav Electrobinoculars"
+        }
+      ],
+      "combatType": 1,
+      "skills": [
+        {
+          "id": "basicskill_GRANDMASTERYODA",
+          "tier": 3,
+          "nameKey": "Ataru",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDMASTERYODA01",
+          "tier": 5,
+          "nameKey": "Masterstroke",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDMASTERYODA02",
+          "tier": 7,
+          "nameKey": "Unstoppable Force",
+          "isZeta": false,
+          "tiers": 8
+        },
+        {
+          "id": "leaderskill_GRANDMASTERYODA",
+          "tier": 4,
+          "nameKey": "Grand Master's Guidance",
+          "isZeta": true,
+          "tiers": 8
+        },
+        {
+          "id": "specialskill_GRANDMASTERYODA03",
+          "tier": 7,
+          "nameKey": "Battle Meditation",
+          "isZeta": true,
+          "tiers": 8
+        }
+      ],
+      "mods": [
+        {
+          "id": "yJ0ZgZnQShWDEj5x91_tyw",
+          "level": 1,
+          "tier": 4,
+          "slot": 5,
+          "set": 5,
+          "pips": 5,
+          "primaryStat": {
+            "unitStat": 56,
+            "value": 2.5
+          },
+          "secondaryStat": [
+            {
+              "unitStat": 48,
+              "value": 0.37,
+              "roll": 1
+            },
+            {
+              "unitStat": 17,
+              "value": 1.991,
+              "roll": 1
+            },
+            {
+              "unitStat": 49,
+              "value": 1.564,
+              "roll": 1
+            }
+          ]
+        }
+      ],
+      "crew": [],
+      "gp": 6538,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "3imhZv2YRSyMLCcNP-lZMA",
+      "defId": "IG11",
+      "nameKey": "IG-11",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
+      "id": "priwXhxqSVy47Tvp4xVf6w",
+      "defId": "STORMTROOPER",
+      "nameKey": "Stormtrooper",
+      "rarity": 3,
+      "level": 1,
+      "xp": 0,
+      "gear": 1,
+      "equipped": [],
+      "combatType": 1,
+      "skills": [],
+      "mods": [],
+      "crew": [],
+      "gp": 676,
+      "primaryUnitStat": null,
+      "relic": {
+        "currentTier": 1
+      }
+    }
+  ],
+  "arena": {
+    "char": {
+      "rank": 950,
+      "squad": [
+        {
+          "id": "aryxD7-vTd6r42YDaKanMA",
+          "defId": "CC2224",
+          "squadUnitType": 2
+        },
+        {
+          "id": "T208dWV1QG6F8QVBrXdvAg",
+          "defId": "CT7567",
+          "squadUnitType": 1
+        },
+        {
+          "id": "YKITpMBKRPCBoAll1OMrcg",
+          "defId": "CT210408",
+          "squadUnitType": 1
+        },
+        {
+          "id": "N7ffm_iMTBWreUyUQhko9g",
+          "defId": "CT5555",
+          "squadUnitType": 1
+        },
+        {
+          "id": "UbqxnKLdRSufLY5DEIYwSA",
+          "defId": "ARCTROOPER501ST",
+          "squadUnitType": 1
+        }
+      ]
+    },
+    "ship": {
+      "rank": 217,
+      "squad": [
+        {
+          "id": "6rMGV29SRA6pfHrr2w-uRg",
+          "defId": "CAPITALMONCALAMARICRUISER",
+          "squadUnitType": 3
+        },
+        {
+          "id": "xknWys4pSZml9tDivJHj2Q",
+          "defId": "GEONOSIANSTARFIGHTER2",
+          "squadUnitType": 1
+        },
+        {
+          "id": "8q1_RGxxTQ6jlqacOHS22Q",
+          "defId": "GEONOSIANSTARFIGHTER3",
+          "squadUnitType": 1
+        },
+        {
+          "id": "T_ycTDGNTdmvo_s12t3b4Q",
+          "defId": "GEONOSIANSTARFIGHTER1",
+          "squadUnitType": 1
+        },
+        {
+          "id": "4lq3NH42QY6_nOWycznjhA",
+          "defId": "TIEFIGHTERIMPERIAL",
+          "squadUnitType": 5
+        },
+        {
+          "id": "4V5C9ulIQ-uRPSH3Eoallg",
+          "defId": "JEDISTARFIGHTERAHSOKATANO",
+          "squadUnitType": 5
+        }
+      ]
+    }
+  },
+  "lastActivity": 1609613197000,
+  "poUTCOffsetMinutes": -180,
+  "portraits": {
+    "selected": "PLAYERPORTRAIT_MANDO",
+    "unlocked": [
+      "PLAYERPORTRAIT_SCOUTTROOPER",
+      "PLAYERPORTRAIT_KRENNIC",
+      "PLAYERPORTRAIT_GENERAL",
+      "PLAYERPORTRAIT_VISAS",
+      "PLAYERPORTRAIT_STORMTROOPER",
+      "PLAYERPORTRAIT_BASTILASHAN_DARK",
+      "PLAYERPORTRAIT_MANDO",
+      "PLAYERPORTRAIT_L337",
+      "PLAYERPORTRAIT_FIRSTORDER_TIE",
+      "PLAYERPORTRAIT_XWING",
+      "PLAYERPORTRAIT_YOUNGLANDO",
+      "PLAYERPORTRAIT_CANTINAKEEPER",
+      "PLAYERPORTRAIT_RANGETROOPER",
+      "PLAYERPORTRAIT_KELDOR",
+      "PLAYERPORTRAIT_PROTOCOLDROID",
+      "PLAYERPORTRAIT_JEDICONSULAR",
+      "PLAYERPORTRAIT_ROYALGUARD"
+    ]
+  },
+  "grandArena": [],
+  "grandArenaLifeTime": 0,
+  "updated": 1609618788942
+}
