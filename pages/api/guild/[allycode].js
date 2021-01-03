@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         file = await fs.promises.open(filename)
         data = await fs.promises.readFile(file)
         data = JSON.parse(data)
-        console.log(data)
+        // console.log(data)
         file.close()
 
         let guildID = data.guildRefId
@@ -56,7 +56,24 @@ export default async function handler(req, res) {
         let cachedGuildMembers = await Promise.all(cachedGuildAllycodes.map(async allycode => {
             return JSON.parse(await fs.promises.readFile(path.join(process.cwd(),`data/player/${allycode}.json`)))
         }))
-        let fetchUncachedGuildMembers = Array.isArray(uncachedGuildAllycodes) && uncachedGuildAllycodes.length ? await swapi.fetchPlayer({allycodes: uncachedGuildAllycodes, language: 'eng_us'}) : {error: null, warning: null, result: []}
+        let payload = {
+            allycodes: uncachedGuildAllycodes,
+            language: 'eng_us',
+            project: {
+                allyCode: 1,
+                name: 1,
+                guildRefId: 1,
+                roster: {
+                    defId: 1,
+                    nameKey: 1,
+                    rarity: 1,
+                    level: 1,
+                    gear: 1,
+                    gp: 1
+                }
+            }
+        }
+        let fetchUncachedGuildMembers = Array.isArray(uncachedGuildAllycodes) && uncachedGuildAllycodes.length ? await swapi.fetchPlayer(payload) : {error: null, warning: null, result: []}
         if (fetchUncachedGuildMembers.error) {
             throw fetchUncachedGuildMembers.error
         }

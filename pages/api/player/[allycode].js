@@ -25,7 +25,24 @@ export default async function handler(req, res) {
     } catch (err) {
         if (err.errno === -2 || err.errno === 1) { //no such file or directory, or data is out of date
             //get data and write to file
-            fetchPlayer = await swapi.fetchPlayer({ allycodes: allycode, language: 'eng_us'})
+            let payload = {
+                allycodes: allycode,
+                language: 'eng_us',
+                project: {
+                    allyCode: 1,
+                    name: 1,
+                    guildRefId: 1,
+                    roster: {
+                        defId: 1,
+                        nameKey: 1,
+                        rarity: 1,
+                        level: 1,
+                        gear: 1,
+                        gp: 1
+                    }
+                }
+            }
+            fetchPlayer = await swapi.fetchPlayer(payload)
             if (fetchPlayer.error === null) {
                 data = JSON.stringify(fetchPlayer.result[0], null, 2)
                 await fs.promises.writeFile(filename, data)
