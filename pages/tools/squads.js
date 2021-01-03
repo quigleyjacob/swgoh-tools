@@ -34,8 +34,9 @@ export default function Squads({ categoryList, charactersList }) {
     }
 
     const handleGuildFilterChange = (e, data) => {
-        let allycode = data.name
+        let allycode = Number(data.name)
         if (guildFilter.includes(allycode)) {
+            // console.log("removing guild member")
             setGuildFilter([...guildFilter].filter(item => item !== allycode))
         } else {
             setGuildFilter([...guildFilter, allycode])
@@ -93,9 +94,9 @@ export default function Squads({ categoryList, charactersList }) {
                             />
                         </div>
                         {guildData.roster.map(member => (
-                            <div align='left'>
+                            <div key={String(member.allyCode)} align='left'>
                             <Checkbox
-                            name={member.allyCode}
+                            name={String(member.allyCode)}
                             onChange={handleGuildFilterChange}
                             checked={guildFilter.includes(member.allyCode)}
                             label={member.name}/>
@@ -106,7 +107,7 @@ export default function Squads({ categoryList, charactersList }) {
                         <h1>Faction List</h1>
                         {categoryList
                         .map(item => (
-                           <div align='left'>
+                           <div key={item.id} align='left'>
                                <Checkbox 
                                 name={item.id}
                                 onChange={handleFactionFilterChange}
@@ -123,12 +124,12 @@ export default function Squads({ categoryList, charactersList }) {
                 {guildData.roster
                 .filter(member => guildFilter.includes(member.allyCode))
                 .map(member => (
-                    <div align='left'>
+                    <div key={member.allyCode} align='left'>
                         <strong>{member.name}- </strong> 
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId))
                         .map(character => (
-                            <span>{character.nameKey} </span>
+                            <span key={character.defId}>{character.nameKey} </span>
                         ))
                         }
                     </div>
