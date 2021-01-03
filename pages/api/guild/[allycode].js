@@ -39,8 +39,9 @@ export default async function handler(req, res) {
             fetchPlayer = await swapi.fetchGuild({allycodes: allycode, language: 'eng_us'})
             if (fetchPlayer.error === null) {
                 let guildID = fetchPlayer.result[0].id
-                data = JSON.stringify(fetchPlayer.result[0], null, 2)
-                await fs.promises.writeFile(path.join(process.cwd(),`data/guild/${guildID}.json`), data)
+                data = fetchPlayer.result[0]
+                let stringifiedData = JSON.stringify(fetchPlayer.result[0], null, 2)
+                await fs.promises.writeFile(path.join(process.cwd(),`data/guild/${guildID}.json`), stringifiedData)
             }
         } else {
             res.status(404).json({message: '404 was thrown'})
@@ -50,6 +51,7 @@ export default async function handler(req, res) {
         //TODO, update guild members if data is too old
         let guildAllycodes = data.roster.map(player => player.allyCode)
         let cachedAllycodes = (await fs.promises.readdir(path.join(process.cwd(),'data/player'))).map(file => Number(file.replace(/\.json/, '')))
+
         let cachedGuildAllycodes = guildAllycodes.filter(allycode => cachedAllycodes.includes(allycode))
         let uncachedGuildAllycodes = guildAllycodes.filter(allycode => !cachedAllycodes.includes(allycode))
 
@@ -69,7 +71,13 @@ export default async function handler(req, res) {
                     rarity: 1,
                     level: 1,
                     gear: 1,
-                    gp: 1
+                    gp: 1,
+                    skills: {
+                        isZeta: 1
+                    },
+                    relic: {
+                        currentTier: 1
+                    }
                 }
             }
         }

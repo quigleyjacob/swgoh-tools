@@ -9,7 +9,11 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
-      "gp": 1014
+      "skills": [],
+      "gp": 1014,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GREEFKARGA",
@@ -17,7 +21,11 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
-      "gp": 1014
+      "skills": [],
+      "gp": 1014,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ZEBS3",
@@ -25,7 +33,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13107
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13107,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "BARRISSOFFEE",
@@ -33,7 +58,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DARTHREVAN",
@@ -41,7 +70,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 27000
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 27000,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "R2D2_LEGENDARY",
@@ -49,7 +101,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 21004
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 21004,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "B1BATTLEDROIDV2",
@@ -57,7 +129,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 20784
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20784,
+      "relic": {
+        "currentTier": 7
+      }
     },
     {
       "defId": "CT210408",
@@ -65,7 +154,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21060
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21060,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "UWINGSCARIF",
@@ -73,6 +179,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 38443
     },
     {
@@ -81,7 +204,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 17184
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 17184,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "MILLENNIUMFALCON",
@@ -89,6 +229,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 69229
     },
     {
@@ -97,7 +254,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21952
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21952,
+      "relic": {
+        "currentTier": 9
+      }
     },
     {
       "defId": "ENFYSNEST",
@@ -105,7 +282,24 @@
       "rarity": 6,
       "level": 85,
       "gear": 7,
-      "gp": 10209
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 10209,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "L3_37",
@@ -113,7 +307,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13861
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13861,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DROIDEKA",
@@ -121,7 +332,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 20410
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20410,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "BIGGSDARKLIGHTER",
@@ -129,7 +357,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 14511
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 14511,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CC2224",
@@ -137,7 +379,11 @@
       "rarity": 5,
       "level": 1,
       "gear": 1,
-      "gp": 1521
+      "skills": [],
+      "gp": 1521,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "C3POLEGENDARY",
@@ -145,7 +391,33 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 21301
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21301,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "EWOKSCOUT",
@@ -153,7 +425,11 @@
       "rarity": 7,
       "level": 30,
       "gear": 2,
-      "gp": 4887
+      "skills": [],
+      "gp": 4887,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDIKNIGHTREVAN",
@@ -161,7 +437,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 27355
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 27355,
+      "relic": {
+        "currentTier": 9
+      }
     },
     {
       "defId": "PADMEAMIDALA",
@@ -169,7 +468,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 24133
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 24133,
+      "relic": {
+        "currentTier": 8
+      }
     },
     {
       "defId": "SITHINFILTRATOR",
@@ -177,6 +496,7 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 5989
     },
     {
@@ -185,7 +505,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13009
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 13009,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CT7567",
@@ -193,7 +530,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21982
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21982,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "SITHTROOPER",
@@ -201,7 +558,11 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
-      "gp": 1014
+      "skills": [],
+      "gp": 1014,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "MOFFGIDEONS1",
@@ -209,7 +570,11 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
-      "gp": 676
+      "skills": [],
+      "gp": 676,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "IG86SENTINELDROID",
@@ -217,7 +582,11 @@
       "rarity": 7,
       "level": 33,
       "gear": 2,
-      "gp": 4909
+      "skills": [],
+      "gp": 4909,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "C3POCHEWBACCA",
@@ -225,7 +594,11 @@
       "rarity": 4,
       "level": 50,
       "gear": 4,
-      "gp": 3181
+      "skills": [],
+      "gp": 3181,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CAPITALMONCALAMARICRUISER",
@@ -233,6 +606,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 41227
     },
     {
@@ -241,7 +631,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 17010
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 17010,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "KYLOREN",
@@ -249,7 +656,11 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
-      "gp": 1014
+      "skills": [],
+      "gp": 1014,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DENGAR",
@@ -257,7 +668,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 14415
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 14415,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ARC170REX",
@@ -265,6 +699,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 56769
     },
     {
@@ -273,6 +721,7 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 745
     },
     {
@@ -281,7 +730,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 18003
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 18003,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "TIESILENCER",
@@ -289,6 +755,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 46428
     },
     {
@@ -297,6 +777,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 7309
     },
     {
@@ -305,7 +799,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "XWINGRED3",
@@ -313,6 +811,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 39572
     },
     {
@@ -321,6 +833,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 31878
     },
     {
@@ -329,7 +858,11 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
-      "gp": 4656
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ROYALGUARD",
@@ -337,7 +870,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 6,
-      "gp": 11383
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 11383,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "BASTILASHAN",
@@ -345,7 +892,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 20541
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 20541,
+      "relic": {
+        "currentTier": 7
+      }
     },
     {
       "defId": "GEONOSIANSPY",
@@ -353,7 +923,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 16654
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 16654,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDISTARFIGHTERAHSOKATANO",
@@ -361,6 +948,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 54904
     },
     {
@@ -369,7 +970,21 @@
       "rarity": 4,
       "level": 85,
       "gear": 3,
-      "gp": 4960
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 4960,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "XWINGRESISTANCE",
@@ -377,6 +992,7 @@
       "rarity": 1,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 975
     },
     {
@@ -385,7 +1001,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 20145
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 20145,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "QIRA",
@@ -393,7 +1029,11 @@
       "rarity": 5,
       "level": 1,
       "gear": 1,
-      "gp": 1521
+      "skills": [],
+      "gp": 1521,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GRIEVOUS",
@@ -401,7 +1041,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 22162
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 22162,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "TALIA",
@@ -409,7 +1069,24 @@
       "rarity": 5,
       "level": 50,
       "gear": 4,
-      "gp": 4266
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 4266,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JUHANI",
@@ -417,7 +1094,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 14455
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14455,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CAPITALNEGOTIATOR",
@@ -425,6 +1119,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 55290
     },
     {
@@ -433,7 +1144,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13062
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 13062,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "NIGHTSISTERZOMBIE",
@@ -441,7 +1169,21 @@
       "rarity": 7,
       "level": 50,
       "gear": 3,
-      "gp": 6282
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 6282,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GRANDADMIRALTHRAWN",
@@ -449,7 +1191,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 16474
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 16474,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDISTARFIGHTERANAKIN",
@@ -457,6 +1219,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 55410
     },
     {
@@ -465,7 +1241,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
-      "gp": 11247
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 11247,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "IMPERIALPROBEDROID",
@@ -473,7 +1263,11 @@
       "rarity": 4,
       "level": 50,
       "gear": 1,
-      "gp": 2806
+      "skills": [],
+      "gp": 2806,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDIKNIGHTCONSULAR",
@@ -481,7 +1275,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 12012
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 12012,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "SABINEWRENS3",
@@ -489,7 +1297,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 12678
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 12678,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "AHSOKATANO",
@@ -497,7 +1322,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21153
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21153,
+      "relic": {
+        "currentTier": 8
+      }
     },
     {
       "defId": "TIEFIGHTERIMPERIAL",
@@ -505,6 +1347,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 36211
     },
     {
@@ -513,7 +1369,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 14253
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14253,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "STORMTROOPERHAN",
@@ -521,7 +1394,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13087
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 13087,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "EWOKELDER",
@@ -529,7 +1419,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 16705
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 16705,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "HERASYNDULLAS3",
@@ -537,7 +1441,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13417
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13417,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "BASTILASHANDARK",
@@ -545,7 +1466,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 22677
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 22677,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "BOSSK",
@@ -553,7 +1497,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 22467
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 22467,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "CHIEFCHIRPA",
@@ -561,7 +1528,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 16960
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 16960,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CT5555",
@@ -569,7 +1553,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 24133
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 24133,
+      "relic": {
+        "currentTier": 8
+      }
     },
     {
       "defId": "LUKESKYWALKER",
@@ -577,7 +1581,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 12724
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 12724,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "VADER",
@@ -585,7 +1606,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 19383
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 19383,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "COUNTDOOKU",
@@ -593,7 +1637,11 @@
       "rarity": 7,
       "level": 85,
       "gear": 3,
-      "gp": 7816
+      "skills": [],
+      "gp": 7816,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "MISSIONVAO",
@@ -601,7 +1649,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 19615
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 19615,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ARC170CLONESERGEANT",
@@ -609,6 +1674,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 40276
     },
     {
@@ -617,6 +1696,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 57860
     },
     {
@@ -625,7 +1718,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 23019
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 23019,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ANAKINKNIGHT",
@@ -633,7 +1749,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21378
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 21378,
+      "relic": {
+        "currentTier": 9
+      }
     },
     {
       "defId": "JOLEEBINDO",
@@ -641,7 +1774,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 22162
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 22162,
+      "relic": {
+        "currentTier": 8
+      }
     },
     {
       "defId": "MAUL",
@@ -649,7 +1802,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ADMIRALPIETT",
@@ -657,7 +1814,11 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
-      "gp": 676
+      "skills": [],
+      "gp": 676,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "IG2000",
@@ -665,6 +1826,7 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 5989
     },
     {
@@ -673,6 +1835,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 43955
     },
     {
@@ -681,7 +1857,11 @@
       "rarity": 5,
       "level": 1,
       "gear": 1,
-      "gp": 1521
+      "skills": [],
+      "gp": 1521,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "FIRSTORDERTIEPILOT",
@@ -689,7 +1869,11 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
-      "gp": 451
+      "skills": [],
+      "gp": 451,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DARTHSION",
@@ -697,7 +1881,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 14637
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14637,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CLONESERGEANTPHASEI",
@@ -705,7 +1909,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 14824
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 14824,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CAPITALJEDICRUISER",
@@ -713,6 +1931,7 @@
       "rarity": 6,
       "level": 23,
       "gear": 1,
+      "skills": [],
       "gp": 5452
     },
     {
@@ -721,6 +1940,23 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 42577
     },
     {
@@ -729,7 +1965,11 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
-      "gp": 451
+      "skills": [],
+      "gp": 451,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ADMIRALACKBAR",
@@ -737,7 +1977,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 15702
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 15702,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "PHANTOM2",
@@ -745,6 +2002,26 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 46618
     },
     {
@@ -753,7 +2030,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 4,
-      "gp": 9103
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 9103,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "STORMTROOPER",
@@ -761,7 +2055,11 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
-      "gp": 4656
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JANGOFETT",
@@ -769,7 +2067,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 20319
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 20319,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CHEWBACCALEGENDARY",
@@ -777,7 +2098,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 24088
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 24088,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "CHOPPERS3",
@@ -785,7 +2126,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 13923
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13923,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "HOTHREBELSCOUT",
@@ -793,7 +2151,21 @@
       "rarity": 7,
       "level": 80,
       "gear": 7,
-      "gp": 10066
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 10066,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GHOST",
@@ -801,6 +2173,26 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 42643
     },
     {
@@ -809,7 +2201,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 18543
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 18543,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "NUTEGUNRAY",
@@ -817,7 +2232,11 @@
       "rarity": 7,
       "level": 53,
       "gear": 3,
-      "gp": 5301
+      "skills": [],
+      "gp": 5301,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "WATTAMBOR",
@@ -825,7 +2244,24 @@
       "rarity": 5,
       "level": 85,
       "gear": 9,
-      "gp": 11515
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 11515,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "SLAVE1",
@@ -833,6 +2269,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 49031
     },
     {
@@ -841,6 +2291,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 50534
     },
     {
@@ -849,7 +2313,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CARTHONASI",
@@ -857,7 +2325,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 18997
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 18997,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ARCTROOPER501ST",
@@ -865,7 +2350,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 20323
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20323,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "DEATHTROOPER",
@@ -873,7 +2372,11 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
-      "gp": 451
+      "skills": [],
+      "gp": 451,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "WICKET",
@@ -881,7 +2384,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 14391
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14391,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GEONOSIANSTARFIGHTER2",
@@ -889,6 +2409,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 44815
     },
     {
@@ -897,6 +2431,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 45582
     },
     {
@@ -905,6 +2453,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 44781
     },
     {
@@ -913,7 +2475,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "PAO",
@@ -921,7 +2487,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 12867
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 12867,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DATHCHA",
@@ -929,7 +2512,11 @@
       "rarity": 5,
       "level": 1,
       "gear": 1,
-      "gp": 1521
+      "skills": [],
+      "gp": 1521,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "MILLENNIUMFALCONPRISTINE",
@@ -937,6 +2524,7 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 14392
     },
     {
@@ -945,7 +2533,11 @@
       "rarity": 6,
       "level": 1,
       "gear": 1,
-      "gp": 2661
+      "skills": [],
+      "gp": 2661,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JYNERSO",
@@ -953,7 +2545,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
-      "gp": 13099
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 13099,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "TEEBO",
@@ -961,7 +2573,11 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
-      "gp": 4656
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "BLADEOFDORIN",
@@ -969,6 +2585,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 45946
     },
     {
@@ -977,7 +2607,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 14283
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14283,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "EMPERORPALPATINE",
@@ -985,7 +2635,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 19360
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 19360,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "MONMOTHMA",
@@ -993,7 +2663,27 @@
       "rarity": 5,
       "level": 85,
       "gear": 8,
-      "gp": 10459
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 10459,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "PLOKOON",
@@ -1001,7 +2691,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 17172
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 17172,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "DAKA",
@@ -1009,7 +2716,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 4,
-      "gp": 10210
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 10210,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GRANDMOFFTARKIN",
@@ -1017,7 +2741,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
-      "gp": 12756
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 12756,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "LOGRAY",
@@ -1025,7 +2769,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 14605
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 14605,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GEONOSIANSOLDIER",
@@ -1033,7 +2794,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 16669
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 16669,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "SNOWTROOPER",
@@ -1041,7 +2816,11 @@
       "rarity": 7,
       "level": 50,
       "gear": 4,
-      "gp": 7107
+      "skills": [],
+      "gp": 7107,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "PRINCESSLEIA",
@@ -1049,7 +2828,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
-      "gp": 10545
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 10545,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "VULTUREDROID",
@@ -1057,6 +2853,17 @@
       "rarity": 3,
       "level": 38,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 594
     },
     {
@@ -1065,7 +2872,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 23968
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 23968,
+      "relic": {
+        "currentTier": 7
+      }
     },
     {
       "defId": "HK47",
@@ -1073,7 +2900,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 24708
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 24708,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "TUSKENRAIDER",
@@ -1081,7 +2931,11 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
-      "gp": 676
+      "skills": [],
+      "gp": 676,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CASSIANANDOR",
@@ -1089,7 +2943,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
-      "gp": 13345
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13345,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "EZRABRIDGERS3",
@@ -1097,7 +2968,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 16452
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 16452,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "HYENABOMBER",
@@ -1105,6 +2993,7 @@
       "rarity": 5,
       "level": 1,
       "gear": 1,
+      "skills": [],
       "gp": 1
     },
     {
@@ -1113,7 +3002,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 20079
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20079,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "ZAALBAR",
@@ -1121,7 +3030,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 17838
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 17838,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CLONEWARSCHEWBACCA",
@@ -1129,7 +3055,11 @@
       "rarity": 6,
       "level": 45,
       "gear": 3,
-      "gp": 3298
+      "skills": [],
+      "gp": 3298,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDISTARFIGHTERCONSULAR",
@@ -1137,6 +3067,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 33715
     },
     {
@@ -1145,7 +3089,11 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
-      "gp": 4656
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "COMMANDERLUKESKYWALKER",
@@ -1153,7 +3101,30 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 27069
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 27069,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "B2SUPERBATTLEDROID",
@@ -1161,7 +3132,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 20829
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20829,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "UWINGROGUEONE",
@@ -1169,6 +3157,26 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 42457
     },
     {
@@ -1177,6 +3185,20 @@
       "rarity": 4,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 5223
     },
     {
@@ -1185,7 +3207,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 14004
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 14004,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "KYLORENUNMASKED",
@@ -1193,7 +3235,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
-      "gp": 17386
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 17386,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "RESISTANCEPILOT",
@@ -1201,7 +3263,11 @@
       "rarity": 2,
       "level": 30,
       "gear": 2,
-      "gp": 649
+      "skills": [],
+      "gp": 649,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "JEDIKNIGHTGUARDIAN",
@@ -1209,7 +3275,11 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
-      "gp": 4656
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "YOUNGLANDO",
@@ -1217,7 +3287,11 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
-      "gp": 676
+      "skills": [],
+      "gp": 676,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "HANSOLO",
@@ -1225,7 +3299,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21198
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 21198,
+      "relic": {
+        "currentTier": 8
+      }
     },
     {
       "defId": "CANDEROUSORDO",
@@ -1233,7 +3324,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
-      "gp": 17187
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 17187,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "CADBANE",
@@ -1241,7 +3349,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 16459
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 16459,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "UGNAUGHT",
@@ -1249,7 +3377,11 @@
       "rarity": 2,
       "level": 36,
       "gear": 5,
-      "gp": 1447
+      "skills": [],
+      "gp": 1447,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "FOSITHTROOPER",
@@ -1257,7 +3389,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
-      "gp": 15357
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 15357,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "TIEFIGHTERPILOT",
@@ -1265,7 +3414,21 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
-      "gp": 13071
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 13071,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "GRANDMASTERYODA",
@@ -1273,7 +3436,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 21952
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 21952,
+      "relic": {
+        "currentTier": 9
+      }
     },
     {
       "defId": "UMBARANSTARFIGHTER",
@@ -1281,6 +3464,20 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
       "gp": 61609
     },
     {
@@ -1289,7 +3486,27 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
-      "gp": 24088
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 24088,
+      "relic": {
+        "currentTier": 6
+      }
     },
     {
       "defId": "BISTAN",
@@ -1297,7 +3514,24 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
-      "gp": 12252
+      "skills": [
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        },
+        {
+          "isZeta": false
+        }
+      ],
+      "gp": 12252,
+      "relic": {
+        "currentTier": 1
+      }
     },
     {
       "defId": "IG11",
@@ -1305,7 +3539,11 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
-      "gp": 1014
+      "skills": [],
+      "gp": 1014,
+      "relic": {
+        "currentTier": 1
+      }
     }
   ]
 }

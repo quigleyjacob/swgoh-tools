@@ -38,7 +38,13 @@ export default async function handler(req, res) {
                         rarity: 1,
                         level: 1,
                         gear: 1,
-                        gp: 1
+                        gp: 1,
+                        skills: {
+                            isZeta: 1
+                        },
+                        relic: {
+                            currentTier: 1
+                        }
                     }
                 }
             }

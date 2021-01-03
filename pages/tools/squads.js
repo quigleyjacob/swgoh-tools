@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
-import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow } from 'semantic-ui-react'
+import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup } from 'semantic-ui-react'
 import { getCategoryList, getCharactersList } from '../../lib/squads'
+import CharCard from '../../components/card'
 
 export default function Squads({ categoryList, charactersList }) {
     const [allycode, setAllycode] = React.useState(0)
@@ -121,19 +122,25 @@ export default function Squads({ categoryList, charactersList }) {
                 </GridRow>
             </GridColumn>
             <GridColumn>
+                <Grid divided='vertically' padded>
                 {guildData.roster
                 .filter(member => guildFilter.includes(member.allyCode))
                 .map(member => (
-                    <div key={member.allyCode} align='left'>
-                        <strong>{member.name}- </strong> 
+                    <GridRow key={member.allyCode} align='left'>
+                        <div><strong>{member.name}</strong></div> 
+                        <CardGroup itemsPerRow={4}>
+
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId))
                         .map(character => (
-                            <span key={character.defId}>{character.nameKey} </span>
+                            <CharCard character={character} charactersList={charactersList}/>
                         ))
                         }
-                    </div>
+                        </CardGroup>
+                    </GridRow>
+                    
                 ))}
+                </Grid>
             </GridColumn>
         </Grid>
         </Segment>
