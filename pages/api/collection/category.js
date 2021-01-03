@@ -1,8 +1,9 @@
 import { swapi } from '../../../lib/swgoh'
 import fs from 'fs'
+import path from 'path'
 
 export default async function handler(req, res) {
-    let filename = './data/game/categoryList.json'
+    let filename = path.join(process.cwd(),'data/game/categoryList.json')
     let categoryList, data
     try {
         categoryList = await fs.promises.readFile(filename)
