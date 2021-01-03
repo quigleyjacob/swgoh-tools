@@ -1,12 +1,13 @@
 import { swapi } from '../../../lib/swgoh'
 import fs from 'fs'
+import path from 'path'
 
 export default async function handler(req, res) {
     const {
       query: { allycode },
     } = req
 
-    let filename = `./data/player/${allycode}.json`
+    let filename = path.join(process.cwd(), `data/player/${allycode}.json`)
     let file, data, fetchPlayer
     let now = Date.now()
 
