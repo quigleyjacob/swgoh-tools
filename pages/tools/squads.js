@@ -15,7 +15,6 @@ export default function Squads({ categoryList, charactersList }) {
         e.preventDefault()
         let response = await fetch(`/api/guild/${allycode}`)
         let data = await response.json()
-        console.log(data)
         setGuildFilter(data.roster.map(member => member.allyCode))
         setGuildData(data)
     }
@@ -31,10 +30,7 @@ export default function Squads({ categoryList, charactersList }) {
             setFactionFilter([...factionFilter].filter(item => item !== factionTag))
         } else {
             setFactionFilter([...factionFilter, factionTag])
-        }
-        // console.log(factionFilter)
-        // console.log([...factionFilter, factionTag].filter(item => item !== factionTag))
-        
+        }        
     }
 
     const handleGuildFilterChange = (e, data) => {
@@ -47,9 +43,7 @@ export default function Squads({ categoryList, charactersList }) {
     }
 
     const handleToggleAllGuildChange = (e) => {
-        console.log(toggleAllGuild)
         setToggleAllGuild(!toggleAllGuild)
-        console.log(toggleAllGuild)
         
     }
 
@@ -62,7 +56,6 @@ export default function Squads({ categoryList, charactersList }) {
     }, [toggleAllGuild])
 
     useEffect(() => {
-        console.log(factionFilter)
         if(factionFilter.length <= 0) {
             setShownCharacters([])
         } else {
@@ -71,10 +64,6 @@ export default function Squads({ categoryList, charactersList }) {
             .map(characters => characters.baseId))
         }
     }, [factionFilter])
-
-    useEffect(() => {
-        console.log(shownCharacters)
-    }, [shownCharacters])
 
     return (
         <div>
@@ -116,9 +105,6 @@ export default function Squads({ categoryList, charactersList }) {
                     <GridColumn>
                         <h1>Faction List</h1>
                         {categoryList
-                        // .sort((a,b) => {
-                        //     return a.descKey.toUpperCase() < b.descKey.toUpperCase() ? -1 : 1
-                        // })
                         .map(item => (
                            <div align='left'>
                                <Checkbox 
@@ -139,27 +125,14 @@ export default function Squads({ categoryList, charactersList }) {
                 .map(member => (
                     <div align='left'>
                         <strong>{member.name}- </strong> 
-                        {console.log(shownCharacters)}
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId))
                         .map(character => (
                             <span>{character.nameKey} </span>
                         ))
                         }
-                        {/* .filter(character => shownCharacters.includes(character.defId))
-                        .map(character => (
-                            <span>{character.name} </span>
-                        ))} */}
                     </div>
                 ))}
-
-                {/* {charactersList
-                .filter(character => factionFilter.every(tag => character.categoryIdList.includes(tag)))
-                .map(character => (
-                    <div>
-                        {character.nameKey}
-                    </div>
-                ))} */}
             </GridColumn>
         </Grid>
         </Segment>
