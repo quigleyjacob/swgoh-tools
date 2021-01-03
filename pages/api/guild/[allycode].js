@@ -1,5 +1,6 @@
 import { swapi } from '../../../lib/swgoh'
 import fs from 'fs'
+import path from 'path'
 
 export default async function handler(req, res) {
     const {
@@ -12,17 +13,18 @@ export default async function handler(req, res) {
     //if it exists and is recent enough, read that data
     //if anything fails, just pull data from API
 
-    let filename = `./data/player/${allycode}.json`
+    let filename = path.join(process.cwd(),`data/player/${allycode}.json`)
     let file, data, fetchPlayer
     let now = Date.now()
     try {
         file = await fs.promises.open(filename)
         data = await fs.promises.readFile(file)
         data = JSON.parse(data)
+        console.log(data)
         file.close()
 
         let guildID = data.guildRefId
-        let guildFileName = `./data/guild/${guildID}.json`
+        let guildFileName = path.join(process.cwd(),`data/guild/${guildID}.json`)
         file = await fs.promises.open(guildFileName)
         data = await fs.promises.readFile(file)
         data = JSON.parse(data)
@@ -38,7 +40,7 @@ export default async function handler(req, res) {
             if (fetchPlayer.error === null) {
                 let guildID = fetchPlayer.result[0].id
                 data = JSON.stringify(fetchPlayer.result[0], null, 2)
-                await fs.promises.writeFile(`./data/guild/${guildID}.json`, data)
+                await fs.promises.writeFile(path.join(process.cwd(),`data/guild/${guildID}.json`), data)
             }
         } else {
             res.status(404).json({message: '404 was thrown'})
@@ -47,12 +49,12 @@ export default async function handler(req, res) {
     } finally {
         //TODO, update guild members if data is too old
         let guildAllycodes = data.roster.map(player => player.allyCode)
-        let cachedAllycodes = (await fs.promises.readdir('./data/player')).map(file => Number(file.replace(/\.json/, '')))
+        let cachedAllycodes = (await fs.promises.readdir(path.join(process.cwd(),'data/player'))).map(file => Number(file.replace(/\.json/, '')))
         let cachedGuildAllycodes = guildAllycodes.filter(allycode => cachedAllycodes.includes(allycode))
         let uncachedGuildAllycodes = guildAllycodes.filter(allycode => !cachedAllycodes.includes(allycode))
 
         let cachedGuildMembers = await Promise.all(cachedGuildAllycodes.map(async allycode => {
-            return JSON.parse(await fs.promises.readFile(`./data/player/${allycode}.json`))
+            return JSON.parse(await fs.promises.readFile(path.join(process.cwd(),`data/player/${allycode}.json`)))
         }))
         let fetchUncachedGuildMembers = Array.isArray(uncachedGuildAllycodes) && uncachedGuildAllycodes.length ? await swapi.fetchPlayer({allycodes: uncachedGuildAllycodes, language: 'eng_us'}) : {error: null, warning: null, result: []}
         if (fetchUncachedGuildMembers.error) {
@@ -62,7 +64,7 @@ export default async function handler(req, res) {
 
         let promisesArray = uncachedGuildMembers.map(async member => {
             let allycode = member.allyCode
-            return await fs.promises.writeFile(`./data/player/${allycode}.json`, JSON.stringify(member, null, 2))
+            return await fs.promises.writeFile(path.join(process.cwd(),`data/player/${allycode}.json`), JSON.stringify(member, null, 2))
         })
         await Promise.all(promisesArray)
         data.roster = [...uncachedGuildMembers, ...cachedGuildMembers]
