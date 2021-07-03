@@ -1,12 +1,14 @@
 import { useEffect } from 'react'
-import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup } from 'semantic-ui-react'
-import { getCategoryList, getCharactersList } from '../../lib/squads'
-import CharCard from '../../components/card'
+import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup , Message, Container, Item} from 'semantic-ui-react'
+import { getCategoryList, getCharactersList, getShipsList } from '../../lib/squads'
+import { CharCard , ShipCard } from '../../components/card'
+import Filters from '../../components/filters'
 
-export default function Squads({ categoryList, charactersList }) {
+export default function Squads({ categoryList, charactersList, shipsList }) {
     const [allycode, setAllycode] = React.useState(0)
     const [guildData, setGuildData] = React.useState({roster: []})
     const [factionFilter, setFactionFilter] = React.useState([])
+    const [unitsFilter, setUnitsFilter] = React.useState([])
     const [guildFilter, setGuildFilter] = React.useState([])
     const [toggleAllGuild, setToggleAllGuild] = React.useState(true)
     const [shownCharacters, setShownCharacters] = React.useState([])
@@ -34,6 +36,15 @@ export default function Squads({ categoryList, charactersList }) {
         }        
     }
 
+    const handleUnitsFilterChange = (e, data) => {
+        let unit = data.name
+        if(unitsFilter.includes(unit)) {
+            setUnitsFilter([...unitsFilter].filter(item => item !== unit))
+        } else {
+            setUnitsFilter([...unitsFilter, unit])
+        }
+    }
+
     const handleGuildFilterChange = (e, data) => {
         let allycode = Number(data.name)
         if (guildFilter.includes(allycode)) {
@@ -59,13 +70,24 @@ export default function Squads({ categoryList, charactersList }) {
 
     useEffect(() => {
         if(factionFilter.length <= 0) {
-            setShownCharacters([])
+            setShownCharacters([
+                ...charactersList
+                    .filter(character => unitsFilter.includes(character.baseId))
+                    .map(characters => characters.baseId)
+                    ,
+                ...shipsList
+                    .filter(ship => unitsFilter.includes(ship.baseId))
+                    .map(ships => ships.baseId)
+            ]
+
+                )
         } else {
-        setShownCharacters(charactersList
-            .filter(character => factionFilter.every(tag => character.categoryIdList.includes(tag)))
-            .map(characters => characters.baseId))
+            setShownCharacters(charactersList
+                .filter(character => factionFilter.every(tag => character.categoryIdList.includes(tag)))
+                .filter(character => unitsFilter.includes(character.baseId))
+                .map(characters => characters.baseId))
         }
-    }, [factionFilter])
+    }, [factionFilter, unitsFilter])
 
     return (
         <div>
@@ -105,42 +127,59 @@ export default function Squads({ categoryList, charactersList }) {
                         ))}
                     </GridColumn>
                     <GridColumn>
-                        <h1>Faction List</h1>
-                        {categoryList
-                        .map(item => (
-                           <div key={item.id} align='left'>
-                               <Checkbox 
-                                name={item.id}
-                                onChange={handleFactionFilterChange}
-                                checked={factionFilter.includes(item.id)}
-                                label={item.descKey}
-                                />
-                           </div> 
-                        ))}
+                        <Filters
+                            categoryList={categoryList}
+                            handleFactionFilterChange={handleFactionFilterChange}
+                            factionFilter={factionFilter}
+                            unitsFilter={unitsFilter}
+                            handleUnitsFilterChange={handleUnitsFilterChange}
+                            charactersList={charactersList}
+                            shipsList={shipsList}
+
+                        />
                     </GridColumn>
                     </Grid>
                 </GridRow>
             </GridColumn>
             <GridColumn>
-                <Grid divided='vertically' padded>
+                <Item.Group>
                 {guildData.roster
                 .filter(member => guildFilter.includes(member.allyCode))
                 .map(member => (
-                    <GridRow key={member.allyCode} align='left'>
-                        <div><strong>{member.name}</strong></div> 
-                        <CardGroup itemsPerRow={4}>
+                    <Item>
+                    <Container fluid align='left'>
+                    <div>
+                    <Message
+                    attached
+                    header={member.name}
+                    />
+                    <CardGroup itemsPerRow={6}>
 
                         {member.roster
-                        .filter(character => shownCharacters.includes(character.defId))
+                        .filter(character => shownCharacters.includes(character.defId) && character.combatType === 1)
                         .map(character => (
-                            <CharCard character={character} charactersList={charactersList}/>
+                            <CharCard 
+                            character={character} 
+                            charactersList={charactersList}
+                            />
+                        ))
+                        }
+                        {member.roster
+                        .filter(character => shownCharacters.includes(character.defId) && character.combatType === 2)
+                        .map(character => (
+                            <ShipCard 
+                            ship={character} 
+                            shipsList={shipsList}
+                            />
+
                         ))
                         }
                         </CardGroup>
-                    </GridRow>
-                    
+                    </div>
+                    </Container>
+                    </Item>
                 ))}
-                </Grid>
+                </Item.Group>
             </GridColumn>
         </Grid>
         </Segment>
@@ -159,10 +198,15 @@ export async function getStaticProps() {
         .sort((a,b) => {
         return a.nameKey.toUpperCase() < b.nameKey.toUpperCase() ? -1 : 1
     })
+    let shipsList = (await getShipsList())
+        .sort((a,b) => {
+        return a.nameKey.toUpperCase() < b.nameKey.toUpperCase() ? -1 : 1
+    })
     return {
         props: {
             categoryList,
-            charactersList
+            charactersList,
+            shipsList
         }
     }
 }

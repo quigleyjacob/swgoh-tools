@@ -1,5 +1,39 @@
 [
   {
+    "nameKey": "Emperor's Shuttle",
+    "combatType": "SHIP",
+    "baseId": "EMPERORSSHUTTLE",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "affiliation_empire",
+      "profession_sith",
+      "selftag_emperorsshuttle",
+      "any_obtainable",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_emperorsshuttle",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_emperorsshuttle01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_emperorsshuttle01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Qui-Gon Jinn",
     "combatType": "CHARACTER",
     "baseId": "QUIGONJINN",
@@ -168,6 +202,46 @@
     ]
   },
   {
+    "nameKey": "Negotiator",
+    "combatType": "SHIP",
+    "baseId": "CAPITALNEGOTIATOR",
+    "categoryIdList": [
+      "alignment_light",
+      "role_capital",
+      "affiliation_republic",
+      "profession_jedi",
+      "selftag_capitalnegotiator",
+      "any_obtainable",
+      "shipclass_capitalship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALNEGOTIATOR",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALNEGOTIATOR01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALNEGOTIATOR02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALNEGOTIATOR03",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Ewok Elder",
     "combatType": "CHARACTER",
     "baseId": "EWOKELDER",
@@ -246,6 +320,40 @@
     ]
   },
   {
+    "nameKey": "Sun Fac's Geonosian Starfighter",
+    "combatType": "SHIP",
+    "baseId": "GEONOSIANSTARFIGHTER1",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_tank",
+      "territory_ship_platoon",
+      "selftag_geonosianstarfighter1",
+      "affiliation_separatist",
+      "species_geonosian",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_GEONOSIANSTARFIGHTER1",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_GEONOSIANSTARFIGHTER101",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_GEONOSIANSTARFIGHTER101",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "ARC Trooper",
     "combatType": "CHARACTER",
     "baseId": "ARCTROOPER501ST",
@@ -261,7 +369,8 @@
       "selftag_arctrooper501st",
       "territory_geonosis_republic",
       "affiliation_order66",
-      "SOE_summoner"
+      "SOE_summoner",
+      "gac_experience"
     ],
     "skillReferenceList": [
       {
@@ -278,6 +387,40 @@
       },
       {
         "skillId": "uniqueskill_ARCTROOPER501ST01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Geonosian Soldier's Starfighter",
+    "combatType": "SHIP",
+    "baseId": "GEONOSIANSTARFIGHTER2",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_separatist",
+      "species_geonosian",
+      "selftag_geonosianstarfighter2",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_GEONOSIANSTARFIGHTER2",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_GEONOSIANSTARFIGHTER201",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_GEONOSIANSTARFIGHTER201",
         "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
@@ -320,6 +463,40 @@
       {
         "skillId": "uniqueskill_GEONOSIANSPY01",
         "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Geonosian Spy's Starfighter",
+    "combatType": "SHIP",
+    "baseId": "GEONOSIANSTARFIGHTER3",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "selftag_geonosianstarfighter3",
+      "affiliation_separatist",
+      "species_geonosian",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_GEONOSIANSTARFIGHTER3",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_GEONOSIANSTARFIGHTER301",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_GEONOSIANSTARFIGHTER301",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -533,6 +710,41 @@
     ]
   },
   {
+    "nameKey": "Resistance X-wing",
+    "combatType": "SHIP",
+    "baseId": "XWINGRESISTANCE",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "territory_ship_platoon",
+      "affiliation_resistance",
+      "unit_xwing",
+      "selftag_xwingresistance",
+      "any_obtainable",
+      "affiliation_resistancexwings"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_XWINGRESISTANCE",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_XWINGRESISTANCE02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_XWINGRESISTANCE01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Luminara Unduli",
     "combatType": "CHARACTER",
     "baseId": "LUMINARAUNDULI",
@@ -578,6 +790,76 @@
     ]
   },
   {
+    "nameKey": "Hound's Tooth",
+    "combatType": "SHIP",
+    "baseId": "HOUNDSTOOTH",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_tank",
+      "profession_bountyhunter",
+      "profession_scoundrel",
+      "selftag_houndstooth",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "shipclass_cargoship",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_HOUNDSTOOTH",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_HOUNDSTOOTH01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_HOUNDSTOOTH01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Clone Sergeant's ARC-170",
+    "combatType": "SHIP",
+    "baseId": "ARC170CLONESERGEANT",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "territory_ship_platoon",
+      "affiliation_republic",
+      "profession_clonetrooper",
+      "selftag_arc170clonesergeant",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_ARC170CLONESERGEANT",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_ARC170CLONESERGEANT02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_ARC170CLONESERGEANT01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Sith Eternal Emperor",
     "combatType": "CHARACTER",
     "baseId": "SITHPALPATINE",
@@ -589,6 +871,8 @@
       "percent_health_resistant",
       "reduced_massive_damage",
       "profession_sith",
+      "affiliation_sithlord",
+      "affiliation_palp",
       "selftag_sithpalpatine",
       "any_obtainable"
     ],
@@ -671,6 +955,76 @@
     ]
   },
   {
+    "nameKey": "First Order TIE Fighter",
+    "combatType": "SHIP",
+    "baseId": "TIEFIGHTERFIRSTORDER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "selftag_tiefighterfirstorder",
+      "affiliation_firstorder",
+      "any_obtainable",
+      "affiliation_foties",
+      "gac_tie",
+      "gac_tiefighter"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEFIGHTERFIRSTORDER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_TIEFIGHTERFIRSTORDER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEFIGHTERFIRSTORDER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Jedi Consular's Starfighter",
+    "combatType": "SHIP",
+    "baseId": "JEDISTARFIGHTERCONSULAR",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "territory_ship_platoon",
+      "selftag_jedistarfighterconsular",
+      "affiliation_republic",
+      "any_obtainable",
+      "profession_jedi"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_JEDISTARFIGHTERCONSULAR",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_JEDISTARFIGHTERCONSULAR01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_JEDISTARFIGHTERCONSULAR01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Chewbacca",
     "combatType": "CHARACTER",
     "baseId": "CHEWBACCALEGENDARY",
@@ -741,7 +1095,10 @@
       "affiliation_galactic_republic_jedi",
       "territory_geonosis_republic",
       "non_viable_leader",
-      "gac_succession"
+      "gac_succession",
+      "gac_experience",
+      "gac_ahsokasjourney",
+      "gac_desperateescape"
     ],
     "skillReferenceList": [
       {
@@ -781,7 +1138,8 @@
       "affiliation_separatist",
       "selftag_wattambor",
       "category_pacifist",
-      "territory_geonosis_separatist"
+      "territory_geonosis_separatist",
+      "gac_algorithm"
     ],
     "skillReferenceList": [
       {
@@ -860,6 +1218,47 @@
     ]
   },
   {
+    "nameKey": "Malevolence",
+    "combatType": "SHIP",
+    "baseId": "CAPITALMALEVOLENCE",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_capital",
+      "species_droid",
+      "affiliation_separatist",
+      "selftag_capitalmalevolence",
+      "any_obtainable",
+      "shipclass_capitalship",
+      "exclude_from_tb_mission"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALMALEVOLENCE",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMALEVOLENCE01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMALEVOLENCE02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMALEVOLENCE03",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "General Hux",
     "combatType": "CHARACTER",
     "baseId": "GENERALHUX",
@@ -900,6 +1299,114 @@
       {
         "skillId": "uniqueskill_GENERALHUX01",
         "requiredTier": 6,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Sith Fighter",
+    "combatType": "SHIP",
+    "baseId": "SITHFIGHTER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "selftag_sithfighter",
+      "any_obtainable",
+      "profession_sith",
+      "territory_ship_platoon",
+      "affiliation_sithempire"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_SITHFIGHTER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_SITHFIGHTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_SITHFIGHTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Xanadu Blood",
+    "combatType": "SHIP",
+    "baseId": "XANADUBLOOD",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "profession_bountyhunter",
+      "profession_scoundrel",
+      "selftag_xanadublood",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_XANADUBLOOD",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_XANADUBLOOD01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_XANADUBLOOD01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Chimaera",
+    "combatType": "SHIP",
+    "baseId": "CAPITALCHIMAERA",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_capital",
+      "affiliation_empire",
+      "selftag_capitalchimaera",
+      "any_obtainable",
+      "shipclass_capitalship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALCHIMAERA",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALCHIMAERA01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALCHIMAERA02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_CAPITALCHIMAERA01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -1231,6 +1738,40 @@
     ]
   },
   {
+    "nameKey": "B-28 Extinction-class Bomber",
+    "combatType": "SHIP",
+    "baseId": "SITHBOMBER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_tank",
+      "selftag_sithbomber",
+      "any_obtainable",
+      "profession_sith",
+      "territory_ship_platoon",
+      "affiliation_sithempire"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_sithbomber",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_sithbomber01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_sithbomber01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Jawa Scavenger",
     "combatType": "CHARACTER",
     "baseId": "JAWASCAVENGER",
@@ -1320,6 +1861,41 @@
       {
         "skillId": "contractskill_AURRA_SING01",
         "requiredTier": 8,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "TIE Silencer",
+    "combatType": "SHIP",
+    "baseId": "TIESILENCER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "affiliation_firstorder",
+      "selftag_tiesilencer",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon",
+      "gac_tie"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIESILENCER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_TIESILENCER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIESILENCER01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -1552,6 +2128,42 @@
     ]
   },
   {
+    "nameKey": "TIE Reaper",
+    "combatType": "SHIP",
+    "baseId": "TIEREAPER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "selftag_tiereaper",
+      "affiliation_empire",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon",
+      "gac_tie",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEREAPER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_TIEREAPER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEREAPER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Hoth Rebel Scout",
     "combatType": "CHARACTER",
     "baseId": "HOTHREBELSCOUT",
@@ -1621,6 +2233,40 @@
       {
         "skillId": "uniqueskill_FIRSTORDERTROOPER01",
         "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Bistan's U-wing",
+    "combatType": "SHIP",
+    "baseId": "UWINGSCARIF",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "selftag_uwingscarif",
+      "affiliation_rebels",
+      "affiliation_rogue_one",
+      "any_obtainable",
+      "territory_ship_platoon"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_UWINGSCARIF",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_UWINGSCARIF02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_UWINGSCARIF01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -1748,6 +2394,40 @@
     ]
   },
   {
+    "nameKey": "Gauntlet Starfighter",
+    "combatType": "SHIP",
+    "baseId": "GAUNTLETSTARFIGHTER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "territory_ship_platoon",
+      "affiliation_empire",
+      "selftag_gauntletstarfighter",
+      "any_obtainable",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_GAUNTLETSTARFIGHTER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_GAUNTLETSTARFIGHTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_GAUNTLETSTARFIGHTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Admiral Piett",
     "combatType": "CHARACTER",
     "baseId": "ADMIRALPIETT",
@@ -1826,6 +2506,92 @@
       {
         "skillId": "uniqueskill_KUIIL01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "The Armorer",
+    "combatType": "CHARACTER",
+    "baseId": "ARMORER",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "role_leader",
+      "affiliation_mandalorian",
+      "any_obtainable",
+      "selftag_armorer"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_ARMORER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_ARMORER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_ARMORER02",
+        "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "leaderskill_ARMORER",
+        "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_ARMORER01",
+        "requiredTier": 6,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Vulture Droid",
+    "combatType": "SHIP",
+    "baseId": "VULTUREDROID",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "affiliation_separatist",
+      "affiliation_separatist_droid",
+      "species_droid",
+      "selftag_vulturedroid",
+      "any_obtainable",
+      "exclude_from_tb_mission"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_VULTUREDROID",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_VULTUREDROID01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_VULTUREDROID01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_VULTUREDROID01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -2335,6 +3101,87 @@
     ]
   },
   {
+    "nameKey": "Endurance",
+    "combatType": "SHIP",
+    "baseId": "CAPITALJEDICRUISER",
+    "categoryIdList": [
+      "alignment_light",
+      "role_capital",
+      "affiliation_republic",
+      "selftag_capitaljedicruiser",
+      "any_obtainable",
+      "profession_jedi",
+      "shipclass_capitalship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALJEDICRUISER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALJEDICRUISER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALJEDICRUISER02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_CAPITALJEDICRUISER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Dark Trooper",
+    "combatType": "CHARACTER",
+    "baseId": "DARKTROOPER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "any_obtainable",
+      "selftag_darktrooper",
+      "species_droid",
+      "affiliation_empire",
+      "affiliation_imperialremnant",
+      "affiliation_imperialtrooper"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_DARKTROOPER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_DARKTROOPER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_DARKTROOPER02",
+        "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_DARKTROOPER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "General Kenobi",
     "combatType": "CHARACTER",
     "baseId": "GENERALKENOBI",
@@ -2357,7 +3204,8 @@
       "gac_succession",
       "gac_jedigenerals",
       "gac_jedicouncil",
-      "gac_thecovenssecrets"
+      "gac_thecovenssecrets",
+      "gac_riskymission"
     ],
     "skillReferenceList": [
       {
@@ -2403,6 +3251,7 @@
       "any_obtainable",
       "selftag_moffgideons1",
       "affiliation_empire",
+      "affiliation_imperialremnant",
       "affiliation_imperialtrooper"
     ],
     "skillReferenceList": [
@@ -2573,6 +3422,121 @@
     ]
   },
   {
+    "nameKey": "Raddus",
+    "combatType": "SHIP",
+    "baseId": "CAPITALRADDUS",
+    "categoryIdList": [
+      "alignment_light",
+      "role_capital",
+      "affiliation_resistance",
+      "selftag_capitalraddus",
+      "any_obtainable",
+      "shipclass_capitalship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALRADDUS",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALRADDUS01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALRADDUS02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALRADDUS03",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Hunter",
+    "combatType": "CHARACTER",
+    "baseId": "BADBATCHHUNTER",
+    "categoryIdList": [
+      "selftag_badbatchhunter",
+      "alignment_light",
+      "role_attacker",
+      "role_leader",
+      "affiliation_badbatch",
+      "profession_clonetrooper",
+      "affiliation_republic",
+      "species_human",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_BADBATCHHUNTER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BADBATCHHUNTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BADBATCHHUNTER02",
+        "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "leaderskill_BADBATCHHUNTER",
+        "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Rex's ARC-170",
+    "combatType": "SHIP",
+    "baseId": "ARC170REX",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "affiliation_republic",
+      "territory_ship_platoon",
+      "any_obtainable",
+      "selftag_arc170rex",
+      "profession_clonetrooper"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_arc170rex",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_arc170rex",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_arc170rex",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "C-3PO",
     "combatType": "CHARACTER",
     "baseId": "C3POLEGENDARY",
@@ -2587,6 +3551,7 @@
       "platoon_legendary_restricted",
       "selftag_c3polegendary",
       "category_pacifist",
+      "profession_translator",
       "gac_hothvet",
       "gc_light_droid",
       "gac_rebuilt",
@@ -2722,6 +3687,42 @@
       {
         "skillId": "uniqueskill_BODHIROOK01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "IG-2000",
+    "combatType": "SHIP",
+    "baseId": "IG2000",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "profession_bountyhunter",
+      "profession_scoundrel",
+      "selftag_ig2000",
+      "species_droid",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_IG2000",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_IG20001",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_IG20001",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -2929,6 +3930,7 @@
       "alignment_dark",
       "role_attacker",
       "affiliation_empire",
+      "affiliation_mandalorian",
       "selftag_imperialsupercommando",
       "any_obtainable",
       "territory_dark_platoon",
@@ -3058,6 +4060,44 @@
       {
         "skillId": "uniqueskill_IMPERIALPROBEDROID01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "BTL-B Y-wing Starfighter",
+    "combatType": "SHIP",
+    "baseId": "YWINGCLONEWARS",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "any_obtainable",
+      "selftag_ywingclonewars",
+      "affiliation_republic"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_YWINGCLONEWARS",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_YWINGCLONEWARS01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_YWINGCLONEWARS",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_YWINGCLONEWARS01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -3431,6 +4471,81 @@
     ]
   },
   {
+    "nameKey": "Home One",
+    "combatType": "SHIP",
+    "baseId": "CAPITALMONCALAMARICRUISER",
+    "categoryIdList": [
+      "alignment_light",
+      "role_capital",
+      "affiliation_rebels",
+      "selftag_capitalmoncalamaricruiser",
+      "any_obtainable",
+      "shipclass_capitalship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALMONCALAMARICRUISER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMONCALAMARICRUISER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMONCALAMARICRUISER02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALMONCALAMARICRUISER03",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "First Order SF TIE Fighter",
+    "combatType": "SHIP",
+    "baseId": "TIEFIGHTERFOSF",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "affiliation_firstorder",
+      "selftag_tiefighterfosf",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon",
+      "affiliation_foties",
+      "gac_tie"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEFIGHTERFOSF",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_TIEFIGHTERFOSF01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEFIGHTERFOSF01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "IG-100 MagnaGuard",
     "combatType": "CHARACTER",
     "baseId": "MAGNAGUARD",
@@ -3531,6 +4646,7 @@
       "alignment_dark",
       "role_attacker",
       "affiliation_empire",
+      "affiliation_imperialremnant",
       "affiliation_imperialtrooper",
       "selftag_deathtrooper",
       "any_obtainable",
@@ -3562,6 +4678,77 @@
       {
         "skillId": "uniqueskill_DEATHTROOPER01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Lando's Millennium Falcon",
+    "combatType": "SHIP",
+    "baseId": "MILLENNIUMFALCONPRISTINE",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "profession_scoundrel",
+      "selftag_millenniumfalconpristine",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon",
+      "shipclass_cargoship",
+      "affiliation_millennium"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_MILLENNIUMFALCONPRISTINE",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_MILLENNIUMFALCONPRISTINE01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_MILLENNIUMFALCONPRISTINE01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Poe Dameron's X-wing",
+    "combatType": "SHIP",
+    "baseId": "XWINGBLACKONE",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_resistance",
+      "species_human",
+      "selftag_xwingblackone",
+      "any_obtainable",
+      "affiliation_resistancexwings"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_XWINGBLACKONE",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_XWINGBLACKONE02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_XWINGBLACKONE01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -3726,7 +4913,8 @@
       "affiliation_galactic_republic_jedi",
       "territory_geonosis_republic",
       "gac_jedigenerals",
-      "gac_jedicouncil"
+      "gac_jedicouncil",
+      "gac_riskymission"
     ],
     "skillReferenceList": [
       {
@@ -3946,7 +5134,9 @@
       "affiliation_501st_clone",
       "selftag_ct210408",
       "any_obtainable",
-      "territory_geonosis_republic"
+      "territory_geonosis_republic",
+      "gac_algorithm",
+      "gac_experience"
     ],
     "skillReferenceList": [
       {
@@ -4195,7 +5385,8 @@
       "gac_vaderluke",
       "gac_hadnochoice",
       "gac_hothvet",
-      "gac_hothempvet"
+      "gac_hothempvet",
+      "gac_foretold"
     ],
     "skillReferenceList": [
       {
@@ -4280,6 +5471,42 @@
     ]
   },
   {
+    "nameKey": "TIE Advanced x1",
+    "combatType": "SHIP",
+    "baseId": "TIEADVANCED",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "selftag_tieadvanced",
+      "affiliation_empire",
+      "profession_sith",
+      "any_obtainable",
+      "gac_tie",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEADVANCED",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_TIEADVANCED01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEADVANCED01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Baze Malbus",
     "combatType": "CHARACTER",
     "baseId": "BAZEMALBUS",
@@ -4325,6 +5552,41 @@
       {
         "skillId": "uniqueskill_BAZEMALBUS02",
         "requiredTier": 6,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Phantom II",
+    "combatType": "SHIP",
+    "baseId": "PHANTOM2",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_rebels",
+      "affiliation_phoenix",
+      "selftag_phantom2",
+      "any_obtainable",
+      "shipclass_cargoship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_PHANTOM2",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_PHANTOM202",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_PHANTOM201",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -4475,6 +5737,81 @@
     ]
   },
   {
+    "nameKey": "Imperial TIE Bomber",
+    "combatType": "SHIP",
+    "baseId": "TIEBOMBERIMPERIAL",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_tank",
+      "affiliation_empire",
+      "selftag_tiebomberimperial",
+      "any_obtainable",
+      "territory_dark_platoon",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEBOMBERIMPERIAL",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_TIEBOMBERIMPERIAL01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_TIEBOMBERIMPERIAL01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEBOMBERIMPERIAL",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Anakin's Eta-2 Starfighter",
+    "combatType": "SHIP",
+    "baseId": "JEDISTARFIGHTERANAKIN",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_republic",
+      "profession_jedi",
+      "any_obtainable",
+      "selftag_jedistarfighteranakin",
+      "gac_funbegins"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_JEDISTARFIGHTERANAKIN",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_JEDISTARFIGHTERANAKIN01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_JEDISTARFIGHTERANAKIN01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Darth Sidious",
     "combatType": "CHARACTER",
     "baseId": "DARTHSIDIOUS",
@@ -4601,6 +5938,41 @@
     ]
   },
   {
+    "nameKey": "Ghost",
+    "combatType": "SHIP",
+    "baseId": "GHOST",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_rebels",
+      "affiliation_phoenix",
+      "selftag_ghost",
+      "any_obtainable",
+      "shipclass_cargoship"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_GHOST",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_GHOST01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_GHOST01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Nightsister Initiate",
     "combatType": "CHARACTER",
     "baseId": "NIGHTSISTERINITIATE",
@@ -4635,6 +6007,82 @@
       {
         "skillId": "uniqueskill_NIGHTSISTERINITIATE01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Han's Millennium Falcon",
+    "combatType": "SHIP",
+    "baseId": "MILLENNIUMFALCON",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "affiliation_rebels",
+      "profession_scoundrel",
+      "selftag_millenniumfalcon",
+      "shipclass_cargoship",
+      "any_obtainable",
+      "affiliation_millennium",
+      "gac_floataway"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_MILLENNIUMFALCON",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_MILLENNIUMFALCON01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_MILLENNIUMFALCON01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Executrix",
+    "combatType": "SHIP",
+    "baseId": "CAPITALSTARDESTROYER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_capital",
+      "affiliation_empire",
+      "selftag_capitalstardestroyer",
+      "any_obtainable",
+      "shipclass_capitalship",
+      "exclude_from_tb_mission"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALSTARDESTROYER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALSTARDESTROYER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALSTARDESTROYER02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALSTARDESTROYER03",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -4781,7 +6229,9 @@
       "gac_thecovenssecrets",
       "gac_dathomirnative",
       "gac_sidmaul",
-      "gac_revenge"
+      "gac_revenge",
+      "gac_deatchwatch",
+      "gac_desperateescape"
     ],
     "skillReferenceList": [
       {
@@ -5071,6 +6521,112 @@
     ]
   },
   {
+    "nameKey": "Wedge Antilles's X-wing",
+    "combatType": "SHIP",
+    "baseId": "XWINGRED2",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "selftag_xwingred2",
+      "affiliation_rebels",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_XWINGRED2",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_XWINGRED201",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_XWINGRED201",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Hyena Bomber",
+    "combatType": "SHIP",
+    "baseId": "HYENABOMBER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_tank",
+      "affiliation_separatist",
+      "affiliation_separatist_droid",
+      "species_droid",
+      "selftag_hyenabomber",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_HYENABOMBER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_HYENABOMBER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_HYENABOMBER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_HYENABOMBER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Biggs Darklighter's X-wing",
+    "combatType": "SHIP",
+    "baseId": "XWINGRED3",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "territory_ship_platoon",
+      "selftag_xwingred3",
+      "affiliation_rebels",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_XWINGRED3",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_XWINGRED301",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_XWINGRED301",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Darth Revan",
     "combatType": "CHARACTER",
     "baseId": "DARTHREVAN",
@@ -5164,6 +6720,46 @@
     ]
   },
   {
+    "nameKey": "Razor Crest",
+    "combatType": "SHIP",
+    "baseId": "RAZORCREST",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "any_obtainable",
+      "selftag_razorcrest",
+      "profession_bountyhunter",
+      "shipclass_cargoship",
+      "profession_scoundrel"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_RAZORCREST",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_RAZORCREST01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_RAZORCREST02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_RAZORCREST",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Jedi Knight Anakin",
     "combatType": "CHARACTER",
     "baseId": "ANAKINKNIGHT",
@@ -5183,7 +6779,8 @@
       "gac_succession",
       "gac_jedigenerals",
       "gac_jedicouncil",
-      "gac_thecovenssecrets"
+      "gac_thecovenssecrets",
+      "gac_riskymission"
     ],
     "skillReferenceList": [
       {
@@ -5558,6 +7155,40 @@
     ]
   },
   {
+    "nameKey": "Ebon Hawk",
+    "combatType": "SHIP",
+    "baseId": "EBONHAWK",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "affiliation_oldrepublic",
+      "selftag_ebonhawk",
+      "shipclass_cargoship",
+      "any_obtainable",
+      "territory_ship_platoon"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_EBONHAWK",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_EBONHAWK01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_EBONHAWK01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Nightsister Zombie",
     "combatType": "CHARACTER",
     "baseId": "NIGHTSISTERZOMBIE",
@@ -5648,6 +7279,7 @@
       "alignment_light",
       "role_attacker",
       "role_leader",
+      "affiliation_mandalorian",
       "profession_scoundrel",
       "any_obtainable",
       "selftag_themandalorianbeskararmor"
@@ -5680,6 +7312,42 @@
       {
         "skillId": "leaderskill_THEMANDALORIANBESKARARMOR",
         "requiredTier": 6,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Rey's Millennium Falcon",
+    "combatType": "SHIP",
+    "baseId": "MILLENNIUMFALCONEP7",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "selftag_millenniumfalconep7",
+      "affiliation_resistance",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon",
+      "shipclass_cargoship",
+      "affiliation_millennium"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_MILLENNIUMFALCONEP7",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_MILLENNIUMFALCONEP701",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_MILLENNIUMFALCONEP701",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -5781,6 +7449,7 @@
       "alignment_dark",
       "role_tank",
       "affiliation_empire",
+      "affiliation_imperialremnant",
       "affiliation_imperialtrooper",
       "selftag_stormtrooper",
       "any_obtainable",
@@ -5965,7 +7634,10 @@
       "affiliation_501st_clone",
       "any_obtainable",
       "territory_geonosis_republic",
-      "gac_jangoclone"
+      "gac_jangoclone",
+      "gac_experience",
+      "gac_ahsokasjourney",
+      "gac_desperateescape"
     ],
     "skillReferenceList": [
       {
@@ -6094,6 +7766,46 @@
       {
         "skillId": "uniqueskill_PAPLOO01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Finalizer",
+    "combatType": "SHIP",
+    "baseId": "CAPITALFINALIZER",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_capital",
+      "any_obtainable",
+      "shipclass_capitalship",
+      "selftag_capitalfinalizer",
+      "affiliation_firstorder",
+      "exclude_from_tb_mission"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_CAPITALFINALIZER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALFINALIZER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALFINALIZER02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_CAPITALFINALIZER03",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -6243,6 +7955,7 @@
       "alignment_light",
       "role_attacker",
       "territory_light_platoon",
+      "affiliation_mandalorian",
       "affiliation_rebels",
       "affiliation_phoenix",
       "specialmission_corerebels",
@@ -6408,12 +8121,89 @@
     ]
   },
   {
+    "nameKey": "Bo-Katan Kryze",
+    "combatType": "CHARACTER",
+    "baseId": "BOKATAN",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "role_leader",
+      "any_obtainable",
+      "selftag_bokatan",
+      "affiliation_mandalorian",
+      "profession_scoundrel",
+      "gac_deatchwatch",
+      "gac_ahsokasjourney"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_BOKATAN",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BOKATAN01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_BOKATAN01",
+        "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "leaderskill_BOKATAN",
+        "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Plo Koon's Jedi Starfighter",
+    "combatType": "SHIP",
+    "baseId": "BLADEOFDORIN",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "territory_ship_platoon",
+      "affiliation_republic",
+      "profession_jedi",
+      "selftag_bladeofdorin",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_BLADEOFDORIN",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BLADEOFDORIN02",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_BLADEOFDORIN01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Canderous Ordo",
     "combatType": "CHARACTER",
     "baseId": "CANDEROUSORDO",
     "categoryIdList": [
       "alignment_dark",
       "role_attacker",
+      "affiliation_mandalorian",
       "profession_scoundrel",
       "any_obtainable",
       "affiliation_oldrepublic",
@@ -6592,6 +8382,42 @@
     ]
   },
   {
+    "nameKey": "Imperial TIE Fighter",
+    "combatType": "SHIP",
+    "baseId": "TIEFIGHTERIMPERIAL",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_empire",
+      "selftag_tiefighterimperial",
+      "any_obtainable",
+      "gac_tie",
+      "gac_tiefighter",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_TIEFIGHTERIMPERIAL",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_TIEFIGHTERIMPERIAL01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_TIEFIGHTERIMPERIAL01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Sith Marauder",
     "combatType": "CHARACTER",
     "baseId": "SITHMARAUDER",
@@ -6718,6 +8544,40 @@
     ]
   },
   {
+    "nameKey": "Cassian's U-wing",
+    "combatType": "SHIP",
+    "baseId": "UWINGROGUEONE",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "affiliation_rebels",
+      "affiliation_rogue_one",
+      "selftag_uwingrogueone",
+      "any_obtainable",
+      "territory_ship_platoon"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_uwingrogueone",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_uwingrogueone01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_uwingrogueone01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Young Lando Calrissian",
     "combatType": "CHARACTER",
     "baseId": "YOUNGLANDO",
@@ -6829,11 +8689,13 @@
       "role_tank",
       "role_leader",
       "affiliation_empire",
+      "affiliation_mandalorian",
       "selftag_garsaxon",
       "any_obtainable",
       "territory_dark_platoon",
       "non_viable_leader",
-      "gac_identity"
+      "gac_identity",
+      "gac_deatchwatch"
     ],
     "skillReferenceList": [
       {
@@ -6995,6 +8857,44 @@
       {
         "skillId": "uniqueskill_FOSITHTROOPER01",
         "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Rebel Y-wing",
+    "combatType": "SHIP",
+    "baseId": "YWINGREBEL",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "any_obtainable",
+      "selftag_ywingrebel",
+      "affiliation_rebels"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_YWINGREBEL",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_YWINGREBEL01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_YWINGREBEL",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_YWINGREBEL01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -7380,6 +9280,43 @@
     ]
   },
   {
+    "nameKey": "Slave I",
+    "combatType": "SHIP",
+    "baseId": "SLAVE1",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_attacker",
+      "territory_ship_platoon",
+      "selftag_slave1",
+      "profession_bountyhunter",
+      "profession_scoundrel",
+      "any_obtainable",
+      "shipclass_cargoship",
+      "gac_floataway",
+      "gac_wantthemalive"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_slave1",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_slave102",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_slave101",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Ezra Bridger",
     "combatType": "CHARACTER",
     "baseId": "EZRABRIDGERS3",
@@ -7550,6 +9487,47 @@
     ]
   },
   {
+    "nameKey": "Tech",
+    "combatType": "CHARACTER",
+    "baseId": "BADBATCHTECH",
+    "categoryIdList": [
+      "alignment_light",
+      "role_support",
+      "any_obtainable",
+      "affiliation_badbatch",
+      "profession_clonetrooper",
+      "affiliation_republic",
+      "profession_translator",
+      "selftag_badbatchtech"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_BADBATCHTECH",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BADBATCHTECH01",
+        "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_BADBATCHTECH02",
+        "requiredTier": 4,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_BADBATCHTECH01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Bistan",
     "combatType": "CHARACTER",
     "baseId": "BISTAN",
@@ -7603,6 +9581,7 @@
       "selftag_ig11",
       "species_droid",
       "profession_scoundrel",
+      "gc_light_droid",
       "gac_rebuilt",
       "gac_loyaldroid"
     ],
@@ -7678,6 +9657,7 @@
       "role_attacker",
       "role_leader",
       "profession_bountyhunter",
+      "affiliation_mandalorian",
       "profession_scoundrel",
       "any_obtainable",
       "selftag_themandalorian",
@@ -7712,6 +9692,40 @@
       {
         "skillId": "contractskill_THEMANDALORIAN",
         "requiredTier": 8,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Kylo Ren's Command Shuttle",
+    "combatType": "SHIP",
+    "baseId": "COMMANDSHUTTLE",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "affiliation_firstorder",
+      "selftag_commandshuttle",
+      "any_obtainable",
+      "territory_ship_platoon",
+      "territory_rare_ship_platoon"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_commandshuttle",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_commandshuttle03",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_commandshuttle",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -7773,6 +9787,7 @@
       "role_attacker",
       "role_leader",
       "profession_bountyhunter",
+      "affiliation_mandalorian",
       "profession_scoundrel",
       "any_obtainable",
       "specialmission_bountyhunter",
@@ -7949,6 +9964,40 @@
     ]
   },
   {
+    "nameKey": "Ahsoka Tano's Jedi Starfighter",
+    "combatType": "SHIP",
+    "baseId": "JEDISTARFIGHTERAHSOKATANO",
+    "categoryIdList": [
+      "alignment_light",
+      "role_attacker",
+      "territory_ship_platoon",
+      "affiliation_republic",
+      "profession_jedi",
+      "selftag_jedistarfighterahsokatano",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_JEDISTARFIGHTERAHSOKATANO",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "specialskill_JEDISTARFIGHTERAHSOKATANO01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_JEDISTARFIGHTERAHSOKATANO01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
     "nameKey": "Sith Empire Trooper",
     "combatType": "CHARACTER",
     "baseId": "SITHTROOPER",
@@ -7992,7 +10041,8 @@
       "territory_light_platoon",
       "affiliation_rebels",
       "selftag_fulcrumahsoka",
-      "any_obtainable"
+      "any_obtainable",
+      "gac_foretold"
     ],
     "skillReferenceList": [
       {
@@ -8646,7 +10696,8 @@
       "selftag_ct5555",
       "affiliation_501st_clone",
       "any_obtainable",
-      "territory_geonosis_republic"
+      "territory_geonosis_republic",
+      "gac_experience"
     ],
     "skillReferenceList": [
       {
@@ -8676,6 +10727,39 @@
       {
         "skillId": "leaderskill_CT5555",
         "requiredTier": 2,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Scimitar",
+    "combatType": "SHIP",
+    "baseId": "SITHINFILTRATOR",
+    "categoryIdList": [
+      "alignment_dark",
+      "role_support",
+      "territory_ship_platoon",
+      "selftag_sithinfiltrator",
+      "any_obtainable",
+      "profession_sith"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_SITHINFILTRATOR",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_SITHINFILTRATOR01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_SITHINFILTRATOR01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }
@@ -8821,6 +10905,40 @@
       {
         "skillId": "uniqueskill_BASTILASHAN02",
         "requiredTier": 8,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      }
+    ]
+  },
+  {
+    "nameKey": "Umbaran Starfighter",
+    "combatType": "SHIP",
+    "baseId": "UMBARANSTARFIGHTER",
+    "categoryIdList": [
+      "alignment_light",
+      "role_tank",
+      "territory_ship_platoon",
+      "affiliation_republic",
+      "profession_clonetrooper",
+      "selftag_umbaranstarfighter",
+      "any_obtainable"
+    ],
+    "skillReferenceList": [
+      {
+        "skillId": "basicskill_UMBARANSTARFIGHTER",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "uniqueskill_UMBARANSTARFIGHTER01",
+        "requiredTier": 1,
+        "requiredRarity": 8,
+        "requiredRelicTier": 1
+      },
+      {
+        "skillId": "hardwareskill_UMBARANSTARFIGHTER01",
+        "requiredTier": 1,
         "requiredRarity": 8,
         "requiredRelicTier": 1
       }

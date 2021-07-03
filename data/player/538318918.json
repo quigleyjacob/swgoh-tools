@@ -9,6 +9,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -21,6 +22,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -46,9 +48,10 @@
     {
       "defId": "GREEFKARGA",
       "nameKey": "Greef Karga",
-      "rarity": 4,
+      "rarity": 5,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -69,7 +72,7 @@
           "isZeta": false
         }
       ],
-      "gp": 13827,
+      "gp": 14334,
       "relic": {
         "currentTier": 1
       }
@@ -80,6 +83,7 @@
       "rarity": 7,
       "level": 80,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -105,6 +109,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -130,6 +135,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -155,6 +161,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -169,7 +176,7 @@
           "isZeta": false
         }
       ],
-      "gp": 21058,
+      "gp": 20787,
       "relic": {
         "currentTier": 8
       }
@@ -180,6 +187,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -204,7 +212,8 @@
       "nameKey": "Colonel Starck",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -219,9 +228,9 @@
           "isZeta": true
         }
       ],
-      "gp": 15393,
+      "gp": 16443,
       "relic": {
-        "currentTier": 1
+        "currentTier": 5
       }
     },
     {
@@ -230,6 +239,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -249,6 +259,7 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 4656,
       "relic": {
@@ -261,6 +272,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -286,6 +298,7 @@
       "rarity": 7,
       "level": 50,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -308,6 +321,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -336,6 +350,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -361,6 +376,7 @@
       "rarity": 3,
       "level": 50,
       "gear": 4,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -386,6 +402,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -411,6 +428,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -433,6 +451,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -458,6 +477,7 @@
       "rarity": 6,
       "level": 75,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -477,6 +497,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -488,7 +509,7 @@
           "isZeta": false
         }
       ],
-      "gp": 12936,
+      "gp": 13327,
       "relic": {
         "currentTier": 1
       }
@@ -499,6 +520,7 @@
       "rarity": 2,
       "level": 41,
       "gear": 3,
+      "combatType": 1,
       "skills": [],
       "gp": 912,
       "relic": {
@@ -511,6 +533,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -522,9 +545,9 @@
           "isZeta": false
         }
       ],
-      "gp": 16498,
+      "gp": 18148,
       "relic": {
-        "currentTier": 4
+        "currentTier": 9
       }
     },
     {
@@ -533,6 +556,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -558,6 +582,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -589,6 +614,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -611,6 +637,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -630,6 +657,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -644,7 +672,7 @@
           "isZeta": true
         }
       ],
-      "gp": 17892,
+      "gp": 17575,
       "relic": {
         "currentTier": 1
       }
@@ -655,6 +683,7 @@
       "rarity": 7,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 4656,
       "relic": {
@@ -666,7 +695,8 @@
       "nameKey": "Royal Guard",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -678,9 +708,9 @@
           "isZeta": false
         }
       ],
-      "gp": 15448,
+      "gp": 15868,
       "relic": {
-        "currentTier": 1
+        "currentTier": 5
       }
     },
     {
@@ -689,6 +719,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -720,6 +751,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -745,6 +777,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -757,6 +790,7 @@
       "rarity": 3,
       "level": 62,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -773,6 +807,7 @@
       "rarity": 2,
       "level": 23,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 514,
       "relic": {
@@ -785,6 +820,7 @@
       "rarity": 3,
       "level": 60,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -799,7 +835,7 @@
           "isZeta": false
         }
       ],
-      "gp": 3441,
+      "gp": 3450,
       "relic": {
         "currentTier": 1
       }
@@ -810,6 +846,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -835,6 +872,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -857,6 +895,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -874,9 +913,9 @@
           "isZeta": true
         }
       ],
-      "gp": 21382,
+      "gp": 21429,
       "relic": {
-        "currentTier": 6
+        "currentTier": 8
       }
     },
     {
@@ -885,6 +924,7 @@
       "rarity": 2,
       "level": 50,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -904,6 +944,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -926,6 +967,7 @@
       "rarity": 5,
       "level": 66,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -951,6 +993,7 @@
       "rarity": 4,
       "level": 47,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -976,6 +1019,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1001,6 +1045,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1018,11 +1063,25 @@
       }
     },
     {
+      "defId": "EPIXPOE",
+      "nameKey": "Resistance Hero Poe",
+      "rarity": 7,
+      "level": 1,
+      "gear": 1,
+      "combatType": 1,
+      "skills": [],
+      "gp": 4656,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
       "defId": "CHIEFCHIRPA",
       "nameKey": "Chief Chirpa",
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -1048,6 +1107,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1076,6 +1136,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -1104,6 +1165,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1129,6 +1191,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1151,6 +1214,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1167,7 +1231,7 @@
       ],
       "gp": 21243,
       "relic": {
-        "currentTier": 6
+        "currentTier": 9
       }
     },
     {
@@ -1175,7 +1239,8 @@
       "nameKey": "Admiral Piett",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1193,9 +1258,9 @@
           "isZeta": true
         }
       ],
-      "gp": 22977,
+      "gp": 23817,
       "relic": {
-        "currentTier": 1
+        "currentTier": 7
       }
     },
     {
@@ -1204,6 +1269,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1223,6 +1289,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -1243,7 +1310,7 @@
           "isZeta": true
         }
       ],
-      "gp": 29749,
+      "gp": 29964,
       "relic": {
         "currentTier": 9
       }
@@ -1251,9 +1318,10 @@
     {
       "defId": "NIGHTSISTERSPIRIT",
       "nameKey": "Nightsister Spirit",
-      "rarity": 5,
+      "rarity": 7,
       "level": 50,
       "gear": 4,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1265,7 +1333,7 @@
           "isZeta": false
         }
       ],
-      "gp": 2997,
+      "gp": 6132,
       "relic": {
         "currentTier": 1
       }
@@ -1276,6 +1344,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1295,6 +1364,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1317,6 +1387,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1342,6 +1413,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1367,6 +1439,7 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 1014,
       "relic": {
@@ -1379,6 +1452,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1410,6 +1484,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1432,6 +1507,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1452,7 +1528,7 @@
           "isZeta": false
         }
       ],
-      "gp": 39324
+      "gp": 39141
     },
     {
       "defId": "TIEBOMBERIMPERIAL",
@@ -1460,6 +1536,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1482,6 +1559,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1505,8 +1583,9 @@
       "defId": "SLAVE1",
       "nameKey": "Slave I",
       "rarity": 7,
-      "level": 64,
+      "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1518,14 +1597,15 @@
           "isZeta": false
         }
       ],
-      "gp": 35867
+      "gp": 37324
     },
     {
       "defId": "VEERS",
       "nameKey": "General Veers",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1540,9 +1620,9 @@
           "isZeta": true
         }
       ],
-      "gp": 16896,
+      "gp": 17526,
       "relic": {
-        "currentTier": 1
+        "currentTier": 5
       }
     },
     {
@@ -1551,6 +1631,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1565,7 +1646,7 @@
           "isZeta": false
         }
       ],
-      "gp": 68932
+      "gp": 68822
     },
     {
       "defId": "PAO",
@@ -1573,6 +1654,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1598,6 +1680,7 @@
       "rarity": 5,
       "level": 70,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1614,6 +1697,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1642,6 +1726,7 @@
       "rarity": 4,
       "level": 70,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1656,7 +1741,7 @@
           "isZeta": false
         }
       ],
-      "gp": 32311
+      "gp": 32029
     },
     {
       "defId": "BLADEOFDORIN",
@@ -1664,6 +1749,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1683,9 +1769,10 @@
     {
       "defId": "DARTHNIHILUS",
       "nameKey": "Darth Nihilus",
-      "rarity": 5,
-      "level": 59,
-      "gear": 7,
+      "rarity": 7,
+      "level": 85,
+      "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1703,7 +1790,7 @@
           "isZeta": true
         }
       ],
-      "gp": 6501,
+      "gp": 17715,
       "relic": {
         "currentTier": 1
       }
@@ -1714,6 +1801,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1731,9 +1819,9 @@
           "isZeta": true
         }
       ],
-      "gp": 23923,
+      "gp": 24391,
       "relic": {
-        "currentTier": 6
+        "currentTier": 9
       }
     },
     {
@@ -1742,6 +1830,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1767,6 +1856,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1791,7 +1881,8 @@
       "nameKey": "Grand Moff Tarkin",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1809,9 +1900,9 @@
           "isZeta": true
         }
       ],
-      "gp": 17190,
+      "gp": 17986,
       "relic": {
-        "currentTier": 1
+        "currentTier": 5
       }
     },
     {
@@ -1820,6 +1911,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1834,7 +1926,7 @@
           "isZeta": true
         }
       ],
-      "gp": 14556,
+      "gp": 14284,
       "relic": {
         "currentTier": 1
       }
@@ -1844,7 +1936,8 @@
       "nameKey": "Geonosian Soldier",
       "rarity": 7,
       "level": 85,
-      "gear": 11,
+      "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1856,7 +1949,7 @@
           "isZeta": false
         }
       ],
-      "gp": 16669,
+      "gp": 16641,
       "relic": {
         "currentTier": 1
       }
@@ -1867,6 +1960,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -1879,6 +1973,7 @@
       "rarity": 3,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -1901,6 +1996,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1927,11 +2023,25 @@
       }
     },
     {
+      "defId": "TUSKENRAIDER",
+      "nameKey": "Tusken Raider",
+      "rarity": 3,
+      "level": 1,
+      "gear": 1,
+      "combatType": 1,
+      "skills": [],
+      "gp": 676,
+      "relic": {
+        "currentTier": 1
+      }
+    },
+    {
       "defId": "CASSIANANDOR",
       "nameKey": "Cassian Andor",
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -1946,7 +2056,7 @@
           "isZeta": true
         }
       ],
-      "gp": 12475,
+      "gp": 12204,
       "relic": {
         "currentTier": 1
       }
@@ -1956,7 +2066,8 @@
       "nameKey": "Darth Traya",
       "rarity": 7,
       "level": 85,
-      "gear": 8,
+      "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -1974,7 +2085,7 @@
           "isZeta": false
         }
       ],
-      "gp": 13413,
+      "gp": 16687,
       "relic": {
         "currentTier": 1
       }
@@ -1985,6 +2096,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2010,6 +2122,7 @@
       "rarity": 3,
       "level": 50,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2035,6 +2148,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2066,6 +2180,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2091,6 +2206,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2102,7 +2218,7 @@
           "isZeta": false
         }
       ],
-      "gp": 27292
+      "gp": 27048
     },
     {
       "defId": "DARTHSIDIOUS",
@@ -2110,6 +2226,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2124,9 +2241,9 @@
           "isZeta": true
         }
       ],
-      "gp": 19479,
+      "gp": 20128,
       "relic": {
-        "currentTier": 5
+        "currentTier": 9
       }
     },
     {
@@ -2135,6 +2252,7 @@
       "rarity": 7,
       "level": 80,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2163,6 +2281,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2191,6 +2310,7 @@
       "rarity": 4,
       "level": 50,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2216,6 +2336,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2238,11 +2359,12 @@
     {
       "defId": "SMUGGLERHAN",
       "nameKey": "Veteran Smuggler Han Solo",
-      "rarity": 6,
+      "rarity": 7,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
-      "gp": 2661,
+      "gp": 4656,
       "relic": {
         "currentTier": 1
       }
@@ -2250,9 +2372,10 @@
     {
       "defId": "THEMANDALORIAN",
       "nameKey": "The Mandalorian",
-      "rarity": 3,
+      "rarity": 5,
       "level": 85,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2261,7 +2384,7 @@
           "isZeta": false
         }
       ],
-      "gp": 4480,
+      "gp": 5325,
       "relic": {
         "currentTier": 1
       }
@@ -2272,6 +2395,7 @@
       "rarity": 2,
       "level": 40,
       "gear": 5,
+      "combatType": 1,
       "skills": [],
       "gp": 1486,
       "relic": {
@@ -2284,6 +2408,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2298,7 +2423,7 @@
           "isZeta": true
         }
       ],
-      "gp": 11457,
+      "gp": 11185,
       "relic": {
         "currentTier": 1
       }
@@ -2309,6 +2434,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2328,11 +2454,12 @@
     {
       "defId": "WAMPA",
       "nameKey": "Wampa",
-      "rarity": 6,
+      "rarity": 7,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
-      "gp": 2661,
+      "gp": 4656,
       "relic": {
         "currentTier": 1
       }
@@ -2343,6 +2470,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -2354,7 +2482,8 @@
       "nameKey": "Darth Revan",
       "rarity": 7,
       "level": 85,
-      "gear": 10,
+      "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2375,7 +2504,7 @@
           "isZeta": true
         }
       ],
-      "gp": 20991,
+      "gp": 22053,
       "relic": {
         "currentTier": 1
       }
@@ -2386,6 +2515,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2403,7 +2533,7 @@
           "isZeta": true
         }
       ],
-      "gp": 18849,
+      "gp": 18895,
       "relic": {
         "currentTier": 1
       }
@@ -2414,6 +2544,7 @@
       "rarity": 5,
       "level": 81,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2439,6 +2570,7 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 676,
       "relic": {
@@ -2451,6 +2583,7 @@
       "rarity": 1,
       "level": 40,
       "gear": 2,
+      "combatType": 1,
       "skills": [],
       "gp": 685,
       "relic": {
@@ -2463,6 +2596,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2488,6 +2622,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2516,6 +2651,7 @@
       "rarity": 7,
       "level": 73,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2538,6 +2674,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2563,6 +2700,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2586,7 +2724,7 @@
           "isZeta": false
         }
       ],
-      "gp": 21534,
+      "gp": 21744,
       "relic": {
         "currentTier": 1
       }
@@ -2597,6 +2735,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2617,7 +2756,7 @@
           "isZeta": true
         }
       ],
-      "gp": 27270,
+      "gp": 27339,
       "relic": {
         "currentTier": 9
       }
@@ -2628,6 +2767,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2645,7 +2785,7 @@
           "isZeta": true
         }
       ],
-      "gp": 23062,
+      "gp": 22884,
       "relic": {
         "currentTier": 1
       }
@@ -2656,6 +2796,7 @@
       "rarity": 1,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 301,
       "relic": {
@@ -2668,6 +2809,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2685,7 +2827,7 @@
           "isZeta": false
         }
       ],
-      "gp": 46756
+      "gp": 47675
     },
     {
       "defId": "CT7567",
@@ -2693,6 +2835,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2721,6 +2864,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2746,6 +2890,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2771,6 +2916,7 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 676,
       "relic": {
@@ -2783,6 +2929,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -2795,6 +2942,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2817,6 +2965,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2839,6 +2988,7 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 1014,
       "relic": {
@@ -2851,6 +3001,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2873,6 +3024,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2890,7 +3042,7 @@
           "isZeta": false
         }
       ],
-      "gp": 44188
+      "gp": 45979
     },
     {
       "defId": "T3_M4",
@@ -2898,6 +3050,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2926,6 +3079,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2948,6 +3102,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -2970,6 +3125,7 @@
       "rarity": 3,
       "level": 85,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -2992,6 +3148,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3009,7 +3166,7 @@
           "isZeta": true
         }
       ],
-      "gp": 18282,
+      "gp": 17965,
       "relic": {
         "currentTier": 1
       }
@@ -3020,6 +3177,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3048,6 +3206,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3073,6 +3232,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3098,6 +3258,7 @@
       "rarity": 7,
       "level": 80,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3112,7 +3273,7 @@
           "isZeta": true
         }
       ],
-      "gp": 12843,
+      "gp": 12640,
       "relic": {
         "currentTier": 1
       }
@@ -3123,6 +3284,7 @@
       "rarity": 5,
       "level": 50,
       "gear": 4,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3145,6 +3307,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3169,7 +3332,8 @@
       "nameKey": "Director Krennic",
       "rarity": 7,
       "level": 85,
-      "gear": 12,
+      "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3187,9 +3351,9 @@
           "isZeta": false
         }
       ],
-      "gp": 15967,
+      "gp": 17017,
       "relic": {
-        "currentTier": 1
+        "currentTier": 6
       }
     },
     {
@@ -3198,6 +3362,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3212,11 +3377,44 @@
       "gp": 17453
     },
     {
+      "defId": "SITHPALPATINE",
+      "nameKey": "Sith Eternal Emperor",
+      "rarity": 7,
+      "level": 85,
+      "gear": 13,
+      "combatType": 1,
+      "skills": [
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        },
+        {
+          "isZeta": true
+        }
+      ],
+      "gp": 20899,
+      "relic": {
+        "currentTier": 9
+      }
+    },
+    {
       "defId": "STORMTROOPERHAN",
       "nameKey": "Stormtrooper Han",
       "rarity": 7,
       "level": 82,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3242,6 +3440,7 @@
       "rarity": 7,
       "level": 80,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3267,6 +3466,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3298,6 +3498,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3329,6 +3530,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3351,6 +3553,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3371,7 +3574,7 @@
           "isZeta": true
         }
       ],
-      "gp": 27388,
+      "gp": 27339,
       "relic": {
         "currentTier": 9
       }
@@ -3382,6 +3585,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3399,9 +3603,9 @@
           "isZeta": true
         }
       ],
-      "gp": 22072,
+      "gp": 22027,
       "relic": {
-        "currentTier": 4
+        "currentTier": 8
       }
     },
     {
@@ -3410,6 +3614,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3435,6 +3640,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3457,6 +3663,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3488,6 +3695,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3513,6 +3721,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3541,6 +3750,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -3553,6 +3763,7 @@
       "rarity": 7,
       "level": 50,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3572,9 +3783,10 @@
     {
       "defId": "DARTHSION",
       "nameKey": "Darth Sion",
-      "rarity": 5,
-      "level": 62,
-      "gear": 8,
+      "rarity": 7,
+      "level": 85,
+      "gear": 12,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3592,7 +3804,7 @@
           "isZeta": true
         }
       ],
-      "gp": 6669,
+      "gp": 18268,
       "relic": {
         "currentTier": 1
       }
@@ -3603,6 +3815,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3628,6 +3841,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3645,7 +3859,7 @@
           "isZeta": false
         }
       ],
-      "gp": 47438
+      "gp": 47533
     },
     {
       "defId": "COMMANDSHUTTLE",
@@ -3653,6 +3867,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3681,6 +3896,7 @@
       "rarity": 3,
       "level": 85,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": true
@@ -3703,6 +3919,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -3728,9 +3945,10 @@
     {
       "defId": "HOTHLEIA",
       "nameKey": "Rebel Officer Leia Organa",
-      "rarity": 6,
+      "rarity": 7,
       "level": 85,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3745,7 +3963,7 @@
           "isZeta": true
         }
       ],
-      "gp": 10224,
+      "gp": 12219,
       "relic": {
         "currentTier": 1
       }
@@ -3756,6 +3974,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 3,
+      "combatType": 1,
       "skills": [],
       "gp": 6891,
       "relic": {
@@ -3768,6 +3987,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3782,7 +4002,7 @@
           "isZeta": true
         }
       ],
-      "gp": 12297,
+      "gp": 12343,
       "relic": {
         "currentTier": 1
       }
@@ -3793,6 +4013,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3821,6 +4042,7 @@
       "rarity": 7,
       "level": 84,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3846,6 +4068,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3866,7 +4089,7 @@
           "isZeta": false
         }
       ],
-      "gp": 15427,
+      "gp": 15156,
       "relic": {
         "currentTier": 1
       }
@@ -3874,9 +4097,10 @@
     {
       "defId": "WATTAMBOR",
       "nameKey": "Wat Tambor",
-      "rarity": 6,
+      "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3891,7 +4115,7 @@
           "isZeta": true
         }
       ],
-      "gp": 15346,
+      "gp": 17388,
       "relic": {
         "currentTier": 1
       }
@@ -3902,6 +4126,7 @@
       "rarity": 4,
       "level": 75,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3927,6 +4152,7 @@
       "rarity": 3,
       "level": 47,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3949,6 +4175,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 10,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3963,7 +4190,7 @@
           "isZeta": false
         }
       ],
-      "gp": 17388,
+      "gp": 17116,
       "relic": {
         "currentTier": 1
       }
@@ -3974,6 +4201,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -3996,6 +4224,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4021,6 +4250,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4035,7 +4265,7 @@
           "isZeta": false
         }
       ],
-      "gp": 42518
+      "gp": 42455
     },
     {
       "defId": "GEONOSIANSTARFIGHTER1",
@@ -4043,6 +4273,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4065,6 +4296,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4087,6 +4319,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 11,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4112,6 +4345,7 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 1014,
       "relic": {
@@ -4124,6 +4358,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -4136,6 +4371,7 @@
       "rarity": 3,
       "level": 53,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4147,7 +4383,7 @@
           "isZeta": false
         }
       ],
-      "gp": 27854
+      "gp": 30577
     },
     {
       "defId": "URORRURRR",
@@ -4155,6 +4391,7 @@
       "rarity": 4,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 1014,
       "relic": {
@@ -4167,6 +4404,7 @@
       "rarity": 5,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4186,6 +4424,7 @@
       "rarity": 3,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 676,
       "relic": {
@@ -4198,6 +4437,7 @@
       "rarity": 7,
       "level": 40,
       "gear": 3,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4220,6 +4460,7 @@
       "rarity": 3,
       "level": 85,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4242,6 +4483,7 @@
       "rarity": 7,
       "level": 84,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4267,6 +4509,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4292,6 +4535,7 @@
       "rarity": 7,
       "level": 80,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4315,8 +4559,9 @@
       "defId": "TIEREAPER",
       "nameKey": "TIE Reaper",
       "rarity": 3,
-      "level": 67,
+      "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4325,7 +4570,7 @@
           "isZeta": false
         }
       ],
-      "gp": 9253
+      "gp": 11208
     },
     {
       "defId": "HYENABOMBER",
@@ -4333,6 +4578,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4355,6 +4601,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4374,6 +4621,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 8,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4396,6 +4644,7 @@
       "rarity": 4,
       "level": 60,
       "gear": 6,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4421,6 +4670,7 @@
       "rarity": 4,
       "level": 85,
       "gear": 1,
+      "combatType": 2,
       "skills": [
         {
           "isZeta": false
@@ -4440,6 +4690,7 @@
       "rarity": 2,
       "level": 40,
       "gear": 3,
+      "combatType": 1,
       "skills": [],
       "gp": 1069,
       "relic": {
@@ -4452,6 +4703,7 @@
       "rarity": 2,
       "level": 1,
       "gear": 1,
+      "combatType": 1,
       "skills": [],
       "gp": 451,
       "relic": {
@@ -4464,6 +4716,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4489,6 +4742,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 9,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4517,6 +4771,7 @@
       "rarity": 6,
       "level": 85,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4539,6 +4794,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4567,6 +4823,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 13,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4595,6 +4852,7 @@
       "rarity": 7,
       "level": 85,
       "gear": 7,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false
@@ -4620,6 +4878,7 @@
       "rarity": 3,
       "level": 85,
       "gear": 5,
+      "combatType": 1,
       "skills": [
         {
           "isZeta": false

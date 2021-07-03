@@ -20,7 +20,6 @@ export default async function handler(req, res) {
         file = await fs.promises.open(filename)
         data = await fs.promises.readFile(file)
         data = JSON.parse(data)
-        // console.log(data)
         file.close()
 
         let guildID = data.guildRefId
@@ -68,6 +67,7 @@ export default async function handler(req, res) {
                 roster: {
                     defId: 1,
                     nameKey: 1,
+                    combatType: 1,
                     rarity: 1,
                     level: 1,
                     gear: 1,
