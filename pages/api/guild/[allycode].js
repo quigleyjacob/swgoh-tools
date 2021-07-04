@@ -45,6 +45,6 @@ export default async function handler(req, res) {
 
     guild.roster = guildMemberRosters
 
-    res.status(200).json(guild)
+    res.status(200).text(guild)
 
   }
