@@ -37,14 +37,43 @@ export default async function handler(req, res) {
     console.log(allyCodes)
 
     let guildMemberRostersCursor = await db.collection("player")
-      .find({allyCode: {$in: allyCodes}})
+    .aggregate([
+      {
+        $match: {
+          allyCode: {$in: allyCodes}
+        }
+      },
+      {
+        $project: {
+            allyCode: 1,
+            name: 1,
+            guildRefId: 1,
+            roster: {
+                defId: 1,
+                nameKey: 1,
+                combatType: 1,
+                rarity: 1,
+                level: 1,
+                gear: 1,
+                gp: 1,
+                skills: {
+                    isZeta: 1
+                },
+                relic: {
+                    currentTier: 1
+                }
+            }
+        }
+      }
+    ])
+      // .find({allyCode: {$in: allyCodes}})
     //
     let guildMemberRosters = await guildMemberRostersCursor.toArray()
     //
     console.log(guildMemberRosters.length)
     //
-    // guild.roster = guildMemberRosters
+    guild.roster = guildMemberRosters
 
-    res.status(200).send(guildMembersRosters)
+    res.status(200).send(guild)
 
   }
