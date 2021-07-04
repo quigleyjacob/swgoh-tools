@@ -1,7 +1,7 @@
 import { swapi } from '../../../lib/swgoh'
 import { connectToDatabase } from "../../../util/mongodb";
-import fs from 'fs'
-import path from 'path'
+// import fs from 'fs'
+// import path from 'path'
 
 export default async function handler(req, res) {
     const {
@@ -20,7 +20,6 @@ export default async function handler(req, res) {
         {
           $project: {
             guildRefId: 1
-            // allyCode: 1
           }
         }
       ])
