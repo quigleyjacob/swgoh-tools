@@ -18,7 +18,7 @@ export default async (req, res) => {
           "defId": unit.baseId,
           "rarity": {$gte: unit.rarity},
           "gear": {$gte: unit.gear},
-          "relic.currentTier": {$gte: unit.relicTier+1}
+          "relic.currentTier": {$gte: unit.relicTier+2}
         }
       }}
     })

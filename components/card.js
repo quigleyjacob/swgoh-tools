@@ -2,7 +2,7 @@ import { Card, Image, CardContent } from 'semantic-ui-react'
 import { pathToFileURL } from 'url'
 import path from 'path'
 
-export function ShipCard({ship, shipsList}) {
+export function ShipCard({ship, shipsList, image}) {
 
     return (
         <Card>
@@ -20,7 +20,7 @@ export function ShipCard({ship, shipsList}) {
         <div class="ship-portrait-full-frame">
         <div class="ship-portrait-full-frame-overlay"></div>
         <div class="ship-portrait-full-frame-image">
-        <img class="ship-portrait-full-frame-img" src={`/images/${ship.defId}.png`} alt={`${ship.nameKey}`}/>
+        <img class="ship-portrait-full-frame-img" src={`data:image/png;base64,${image}`} alt={`${ship.nameKey}`}/>
         </div>
         <div class="ship-portrait-full-frame-level">{`${ship.level}`}</div>
         </div>
@@ -30,7 +30,7 @@ export function ShipCard({ship, shipsList}) {
     )
 }
 
-export function CharCard({character, charactersList}) {
+export function CharCard({character, charactersList, image}) {
     let char = charactersList.filter(obj => obj.baseId === character.defId)[0]
     let alignment = char.categoryIdList.includes("alignment_light") ? "light" : "dark"
     let zetas = character.skills.filter(obj => obj.isZeta && obj.tier == obj.tiers).length
@@ -50,7 +50,7 @@ export function CharCard({character, charactersList}) {
         <Card>
         <div className={`collection-char collection-char-${alignment}-side`}>
             <div className={`player-char-portrait char-portrait-full char-portrait-full-gear-t${character.gear} char-portrait-full-alignment-${alignment}-side`}>
-                <Image className="char-portrait-full-img loading" src={`/images/${character.defId}.png`} alt={character.nameKey} height="80" width="80" data-was-processed="true" />
+                <Image className="char-portrait-full-img loading" src={`data:image/png;base64,${image}`} alt={character.nameKey} height="80" width="80" data-was-processed="true" />
                 <div className="char-portrait-full-gear"></div>
                 <div className={`star star1 ${character.rarity < 1 ? "star-inactive": ""}`}></div>
                 <div className={`star star2 ${character.rarity < 2 ? "star-inactive": ""}`}></div>

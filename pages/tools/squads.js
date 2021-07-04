@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
 import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup , Message, Container, Item} from 'semantic-ui-react'
-import { getCategoryList, getCharactersList, getShipsList } from '../../lib/db'
+import { getCategoryList, getCharactersList, getShipsList, getImages } from '../../lib/db'
 import { CharCard , ShipCard } from '../../components/card'
 import Filters from '../../components/filters'
 
-export default function Squads({ categoryList, charactersList, shipsList }) {
+export default function Squads({ categoryList, charactersList, shipsList, serializedImagesMap}) {
     const [allycode, setAllycode] = React.useState(0)
     const [guildData, setGuildData] = React.useState({roster: []})
     const [factionFilter, setFactionFilter] = React.useState([])
@@ -12,6 +12,8 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
     const [guildFilter, setGuildFilter] = React.useState([])
     const [toggleAllGuild, setToggleAllGuild] = React.useState(true)
     const [shownCharacters, setShownCharacters] = React.useState([])
+
+    const imagesMap = new Map(JSON.parse(serializedImagesMap))
 
 
     const handleSubmit = async (e) => {
@@ -161,6 +163,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
                             <CharCard
                             character={character}
                             charactersList={charactersList}
+                            image={imagesMap.get(character.defId)}
                             />
                         ))
                         }
@@ -170,6 +173,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
                             <ShipCard
                             ship={character}
                             shipsList={shipsList}
+                            image={imagesMap.get(character.defId)}
                             />
 
                         ))
@@ -202,11 +206,23 @@ export async function getStaticProps() {
         .sort((a,b) => {
         return a.nameKey.toUpperCase() < b.nameKey.toUpperCase() ? -1 : 1
     })
+
+    let imagesList = await getImages()
+
+    let imagesMap = new Map()
+
+    imagesList.forEach(image => {
+      imagesMap.set(image.baseId, image.image)
+    })
+
+    let serializedImagesMap = JSON.stringify(Array.from(imagesMap.entries()))
+
     return {
         props: {
             categoryList,
             charactersList,
-            shipsList
+            shipsList,
+            serializedImagesMap
         }
     }
 }

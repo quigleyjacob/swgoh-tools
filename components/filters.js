@@ -12,13 +12,14 @@ export default function Filters({categoryList, handleFactionFilterChange, factio
             categoryList
                 .map(item => (
                    <div key={item.id} align='left'>
-                       <Checkbox 
+                       <Checkbox
+                        key={item.baseId}
                         name={item.id}
                         onChange={handleFactionFilterChange}
                         checked={factionFilter.includes(item.id)}
                         label={item.descKey}
                         />
-                   </div> 
+                   </div>
                 ))
         )
     }
@@ -30,13 +31,14 @@ export default function Filters({categoryList, handleFactionFilterChange, factio
             .map(item => (
                 <div key={item.baseId} align='left'>
                     <Checkbox
+                        key={item.baseId}
                         name={item.baseId}
                         label={item.nameKey}
                         onChange={handleUnitsFilterChange}
                         checked={unitsFilter.includes(item.baseId)}
                     />
                 </div>
-            ))    
+            ))
         )
     }
 
@@ -47,26 +49,26 @@ export default function Filters({categoryList, handleFactionFilterChange, factio
             .map(item => (
                 <div key={item.baseId} align='left'>
                     <Checkbox
+                        key={item.baseId}
                         name={item.baseId}
                         label={item.nameKey}
                         onChange={handleUnitsFilterChange}
                         checked={unitsFilter.includes(item.baseId)}
                     />
                 </div>
-            ))    
+            ))
         )
     }
-    
-    
+
     const panes = [
-        { menuItem: 'Factions', pane: getFactions() },
-        { menuItem: 'Characters', pane: getCharacters() },
-        { menuItem: 'Ships', pane: getShips() },
-      ]
+  { menuItem: 'Factions', render: () => <Tab.Pane>{getFactions()}</Tab.Pane> },
+  { menuItem: 'Characters', render: () => <Tab.Pane>{getCharacters()}</Tab.Pane> },
+  { menuItem: 'Ships', render: () => <Tab.Pane>{getShips()}</Tab.Pane> },
+]
 
 
     return (
-        <Tab panes={panes} renderActiveOnly={false} />
+        <Tab panes={panes} />
     )
 
 }
