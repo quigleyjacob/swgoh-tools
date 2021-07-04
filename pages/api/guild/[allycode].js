@@ -36,14 +36,14 @@ export default async function handler(req, res) {
 
     console.log(allyCodes)
 
-    let guildMemberRostersCursor = await db.collection("player")
-      .find({allyCode: {$in: allyCodes}})
-
-    let guildMemberRosters = await guildMemberRostersCursor.toArray()
-
-    console.log(guildMemberRosters.length)
-
-    guild.roster = guildMemberRosters
+    // let guildMemberRostersCursor = await db.collection("player")
+    //   .find({allyCode: {$in: allyCodes}})
+    //
+    // let guildMemberRosters = await guildMemberRostersCursor.toArray()
+    //
+    // console.log(guildMemberRosters.length)
+    //
+    // guild.roster = guildMemberRosters
 
     res.status(200).send(guild)
 
