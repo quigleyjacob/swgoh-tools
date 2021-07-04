@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup , Message, Container, Item} from 'semantic-ui-react'
+import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, Message, Container, Item, Card} from 'semantic-ui-react'
 import { getCategoryList, getCharactersList, getShipsList, getImages } from '../../lib/db'
 import { CharCard , ShipCard } from '../../components/card'
 import Filters from '../../components/filters'
@@ -155,7 +155,7 @@ export default function Squads({ categoryList, charactersList, shipsList, serial
                     attached
                     header={member.name}
                     />
-                    <CardGroup itemsPerRow={6}>
+                    <Card.Group stackable>
 
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId) && character.combatType === 1)
@@ -178,7 +178,7 @@ export default function Squads({ categoryList, charactersList, shipsList, serial
 
                         ))
                         }
-                        </CardGroup>
+                        </Card.Group>
                     </div>
                     </Container>
                     </Item>

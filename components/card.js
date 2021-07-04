@@ -5,9 +5,9 @@ import path from 'path'
 export function ShipCard({ship, shipsList, image}) {
 
     return (
-        <Card>
-        <div class="collection-ship-primary">
-        <div class="player-ship-portrait ship-portrait-full">
+        <Card style = {{width: "200px", height: "110px"}}>
+        <div>
+        <div style = {{padding: "0 30px"}}>
         <div class="ship-portrait-full-stars">
         <div class={`ship-portrait-full-star ${ship.rarity < 1 ? "ship-portrait-full-star-inactive" : ""}`}></div>
         <div class={`ship-portrait-full-star ${ship.rarity < 2 ? "ship-portrait-full-star-inactive" : ""}`}></div>
@@ -47,7 +47,7 @@ export function CharCard({character, charactersList, image}) {
     }
 
     return (
-        <Card>
+      <Card style = {{width: "110px", height: "110px"}}>
         <div className={`collection-char collection-char-${alignment}-side`}>
             <div className={`player-char-portrait char-portrait-full char-portrait-full-gear-t${character.gear} char-portrait-full-alignment-${alignment}-side`}>
                 <Image className="char-portrait-full-img loading" src={`data:image/png;base64,${image}`} alt={character.nameKey} height="80" width="80" data-was-processed="true" />
@@ -63,10 +63,6 @@ export function CharCard({character, charactersList, image}) {
                 {relicDisplay}
                 <div className="char-portrait-full-level">{character.level}</div>
             </div>
-
-            {/* <div className="collection-char-name">
-                {character.nameKey}
-            </div> */}
         </div>
         </Card>
     )
