@@ -24,19 +24,27 @@ export default async function handler(req, res) {
 
     let data = await player.toArray()
     let guildRefId = data[0].guildRefId
+    console.log(data)
+    console.log(guildRefId)
 
     let guild = await db.collection("guild")
       .findOne({id: guildRefId})
 
+    console.log(guild)
+
     let allyCodes = guild.roster.map(member => member.allyCode)
+
+    console.log(allyCodes)
 
     let guildMemberRostersCursor = await db.collection("player")
       .find({allyCode: {$in: allyCodes}})
 
     let guildMemberRosters = await guildMemberRostersCursor.toArray()
 
+    console.log(guildMemberRosters.length)
+
     guild.roster = guildMemberRosters
 
-    res.send(guild)
+    res.status(200).json(guild)
 
   }
