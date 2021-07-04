@@ -1,4 +1,4 @@
-import { connectToDatabase } from "../../../util/mongodb";
+import { connectToDatabase } from "../../../util/mongodb"
 import { swapi } from '../../../util/swgoh'
 
 

@@ -1,25 +1,38 @@
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from "../../../util/mongodb"
 
 export default async function handler(req, res) {
 
-    let unitsDataFile = path.join(process.cwd(), 'data/game/unitsList.json')
-    let read = await fs.promises.readFile(unitsDataFile)
-    let unitsData = JSON.parse(read)
-    // console.log(unitsData)
-    let unitsId = unitsData.map(unit => unit.baseId)
-    console.log(unitsId)
+    const { db } = await connectToDatabase();
 
-    let images = unitsId.map(async id => {
-        let url = `https://swgoh.gg/game-asset/u/${id}`
-        let destination = path.join(process.cwd(),`public/images/${id}.png`)
-        let response = await fetch(url)
-        let data = await response.buffer()
-        return await fs.promises.writeFile(destination, data)
+    let unitIdsCursor = await db.collection('units')
+      .aggregate([
+        {
+          $project: {
+            baseId: 1
+          }
+        }
+      ])
+
+    let unitsIds = (await unitIdsCursor.toArray()).map(unit => unit.baseId)
+
+    // let testId = unitsIds[45]
+
+    let unitPromises = unitsIds.map(async (unitId) => {
+      let url = `https://swgoh.gg/game-asset/u/${unitId}.png`
+      let response = await fetch(url)
+      let data = await response.buffer()
+      return {baseId: unitId, image: data.toString('base64')}
     })
 
-    await Promise.all(images)
+    let units = await Promise.all(unitPromises)
 
-    res.status(200).json({message: "done"})
+
+    await Promise.all(units.map(async (unit) => {
+      db.collection("images")
+        .updateOne({baseId: unit.baseId}, {$set: unit}, {upsert: true})
+    }))
+
+    res.status(200).json("done")
+
 
 }
