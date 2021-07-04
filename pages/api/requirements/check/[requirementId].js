@@ -1,13 +1,11 @@
-import { connectToDatabase } from "../../util/mongodb"
+import { connectToDatabase } from "../../../../util/mongodb"
 import {ObjectId} from 'mongodb'
 
 export default async (req, res) => {
   const reqId = req.query.requirementId
   const { db } = await connectToDatabase()
-  console.log(reqId)
   if (reqId == null) {
     res.end("Must pass in requirement as a param")
-    return
   } else {
     let requirements = await db
       .collection("requirements")
@@ -28,8 +26,14 @@ export default async (req, res) => {
       .collection("player")
       .find({$and: criteria})
     let doc = await filter.toArray()
-    let players = doc.map(player => player.name)
-    console.log(players.length)
+    let players = doc.map(
+      (player) => {
+        return {
+          name: player.name,
+          allyCode: player.allyCode
+        }
+      }
+    )
     res.send(players)
     return
   }

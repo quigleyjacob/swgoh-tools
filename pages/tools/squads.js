@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { Checkbox, Form, Segment, Button, Grid, Header, Input, GridColumn, GridRow, CardGroup , Message, Container, Item} from 'semantic-ui-react'
-import { getCategoryList, getCharactersList, getShipsList } from '../../lib/squads'
+import { getCategoryList, getCharactersList, getShipsList } from '../../lib/db'
 import { CharCard , ShipCard } from '../../components/card'
 import Filters from '../../components/filters'
 
@@ -12,7 +12,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
     const [guildFilter, setGuildFilter] = React.useState([])
     const [toggleAllGuild, setToggleAllGuild] = React.useState(true)
     const [shownCharacters, setShownCharacters] = React.useState([])
-    
+
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -33,7 +33,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
             setFactionFilter([...factionFilter].filter(item => item !== factionTag))
         } else {
             setFactionFilter([...factionFilter, factionTag])
-        }        
+        }
     }
 
     const handleUnitsFilterChange = (e, data) => {
@@ -57,7 +57,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
 
     const handleToggleAllGuildChange = (e) => {
         setToggleAllGuild(!toggleAllGuild)
-        
+
     }
 
     useEffect(() => {
@@ -109,7 +109,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
                     <GridColumn>
                         <h1>{guildData.name}</h1>
                         <div align='left'>
-                            <Checkbox 
+                            <Checkbox
                             checked={toggleAllGuild}
                             label={`${toggleAllGuild ? "Unc" : "C"}heck all`}
                             onChange={handleToggleAllGuildChange}
@@ -158,8 +158,8 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId) && character.combatType === 1)
                         .map(character => (
-                            <CharCard 
-                            character={character} 
+                            <CharCard
+                            character={character}
                             charactersList={charactersList}
                             />
                         ))
@@ -167,8 +167,8 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
                         {member.roster
                         .filter(character => shownCharacters.includes(character.defId) && character.combatType === 2)
                         .map(character => (
-                            <ShipCard 
-                            ship={character} 
+                            <ShipCard
+                            ship={character}
                             shipsList={shipsList}
                             />
 
@@ -183,7 +183,7 @@ export default function Squads({ categoryList, charactersList, shipsList }) {
             </GridColumn>
         </Grid>
         </Segment>
-        
+
         </div>
 
     )

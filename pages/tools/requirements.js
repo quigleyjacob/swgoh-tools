@@ -1,6 +1,7 @@
-import { getCharactersList , getRequirementsList } from '../../lib/requirements'
+import { getCharactersList , getRequirementsList } from '../../lib/db'
 import { useEffect } from 'react'
 import { Checkbox } from 'semantic-ui-react'
+import useSWR from 'swr'
 
 export default function Requirements({charactersList, requirementsList}) {
   const [requirementFilter, setRequirementFilter] = React.useState([])
@@ -19,7 +20,7 @@ export default function Requirements({charactersList, requirementsList}) {
   useEffect(() => {
     if (requirementFilter.length > 0) {
       let getReqs = async () => {
-          let response = await fetch(`/api/checkRequirement?requirementId=${requirementFilter.join(',')}`)
+          let response = await fetch(`/api/requirements/check/${requirementFilter.join(',')}`)
           let data = await response.json()
           setFilteredPlayers(data)
       }
@@ -54,7 +55,7 @@ export default function Requirements({charactersList, requirementsList}) {
       <ul>
       {
         filteredPlayers.map(player => (
-          <li>{player}</li>
+          <li key={player.allyCode}>{player.name}</li>
         ))
       }
       </ul>
