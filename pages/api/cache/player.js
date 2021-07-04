@@ -1,5 +1,5 @@
-import { connectToDatabase } from "../../util/mongodb";
-import { swapi } from '../../lib/swgoh'
+import { connectToDatabase } from "../../../util/mongodb";
+import { swapi } from '../../../lib/swgoh'
 
 
 export default async (req, res) => {
