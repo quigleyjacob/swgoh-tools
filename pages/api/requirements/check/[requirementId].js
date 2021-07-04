@@ -6,6 +6,7 @@ export default async (req, res) => {
   const { db } = await connectToDatabase()
   if (reqId == null) {
     res.end("Must pass in requirement as a param")
+    return
   } else {
     let requirements = await db
       .collection("requirements")

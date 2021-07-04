@@ -6,6 +6,7 @@ export default async (req, res) => {
   const allycode = req.query.allycode
 if (allycode == null) {
   res.end("Must pass in allycode as a param")
+  return
 } else {
   let payload = {
       allycodes: allycode,
@@ -33,6 +34,7 @@ if (allycode == null) {
 
   } else {
     res.end("Could not get player matching that allycode")
+    return
   }
 }
 
