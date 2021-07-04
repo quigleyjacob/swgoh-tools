@@ -1,5 +1,5 @@
 import { connectToDatabase } from "../../../util/mongodb";
-import { swapi } from '../../../lib/swgoh'
+import { swapi } from '../../../util/swgoh'
 
 
 export default async (req, res) => {
@@ -37,14 +37,4 @@ if (allycode == null) {
     return
   }
 }
-
-
-  // const { db } = await connectToDatabase();
-  // const movies = await db
-  //   .collection("player")
-  //   .find({})
-  //   .sort({ metacritic: -1 })
-  //   .limit(20)
-  //   .toArray();
-  // res.json(movies);
 };
