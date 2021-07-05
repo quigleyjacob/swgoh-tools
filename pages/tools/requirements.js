@@ -1,7 +1,7 @@
 import { getCharactersList } from '../../lib/db'
 import { useEffect } from 'react'
 import { Checkbox, Grid, Container, Header, Button, Modal, Image, Input, Form } from 'semantic-ui-react'
-import { CharacterSubForm } from '../../components/CharacterSubForm'
+import { CharacterSubForm } from '../../components/characterSubForm'
 
 export default function Requirements({charactersList}) {
   const [requirementFilter, setRequirementFilter] = React.useState([])
