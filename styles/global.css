@@ -322,7 +322,7 @@
 .char-portrait-full-micro .char-portrait-full-level {
 	font-size: 8px;
 	padding: 0 3px;
-	border-radius: 100%/130% 130% 9px 9px;
+	/* border-radius: 100%/130% 130% 9px 9px; */
 	border-width: 1px;
 	width: auto
 }
@@ -568,6 +568,15 @@
 	width: 50px;
 	height: 50px;
 	line-height: 50px
+}
+
+.char-portrait-full-micro .char-portrait-full-relic {
+	top: 15px;
+	right: -11px;
+	width: 25px;
+	height: 25px;
+	line-height: 26px;
+	font-size: 7px
 }
 
 .char-portrait-full-gear-t1 .char-portrait-full-gear-level {

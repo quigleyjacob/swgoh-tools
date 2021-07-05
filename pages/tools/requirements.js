@@ -1,9 +1,10 @@
-import { getCharactersList } from '../../lib/db'
+import { getCharactersList, getImages } from '../../lib/db'
 import { useEffect } from 'react'
-import { Checkbox, Grid, Container, Header, Button, Modal, Image, Input, Form } from 'semantic-ui-react'
+import { Checkbox, Grid, Container, Header, Button, Modal, Image, Input, Form, Segment, Reveal, List } from 'semantic-ui-react'
 import { CharacterSubForm } from '../../components/characterSubForm'
+import { MiniCharCard} from '../../components/minicard'
 
-export default function Requirements({charactersList}) {
+export default function Requirements({charactersList, characterWithIdArray, serializedImagesMap}) {
   const [requirementFilter, setRequirementFilter] = React.useState([])
   const [filteredPlayers, setFilteredPlayers] = React.useState([])
   const [open, setOpen] = React.useState(false)
@@ -18,9 +19,20 @@ export default function Requirements({charactersList}) {
   )
   const [newTeamName, setNewTeamName] = React.useState("")
   const [requirementsList, setRequirementsList] = React.useState([])
+  const [activeTeamDetails, setActiveTeamDetails] = React.useState(-1)
+  const [disableCheckbox, setDisableCheckbox] = React.useState(false)
+
+  const characterWithId = new Map(characterWithIdArray)
+  const imagesMap = new Map(JSON.parse(serializedImagesMap))
+  const alignmentMap = new Map(charactersList.map(character => {
+    return [character.baseId, character.categoryIdList]
+  }))
+
 
   const handleRequirementFilterChange = (e, data) => {
     e.preventDefault()
+    console.log("disable checkbox")
+    setDisableCheckbox(true)
     if (requirementFilter.includes(data.name)) {
       setRequirementFilter([...requirementFilter].filter(item => item !== data.name))
     } else {
@@ -52,16 +64,23 @@ export default function Requirements({charactersList}) {
     setOpen(false)
   }
 
+  const handleTeamDetailsClick = (e, data) => {
+    let newActive = Number(e.target.getAttribute('index'))
+    setActiveTeamDetails(newActive === activeTeamDetails ? -1 : newActive)
+  }
+
   useEffect(() => {
     if (requirementFilter.length > 0) {
       let getReqs = async () => {
           let response = await fetch(`/api/requirements/check/${requirementFilter.join(',')}`)
           let data = await response.json()
           setFilteredPlayers(data)
+          setDisableCheckbox(false)
       }
       getReqs()
     } else {
         setFilteredPlayers([])
+        setDisableCheckbox(false)
     }
   }, [requirementFilter])
 
@@ -73,8 +92,6 @@ export default function Requirements({charactersList}) {
       setRequirementsList(data)
     }
     getRequirementsList()
-
-    // setRequirementsList(requirements)
   }, [])
 
   return (
@@ -111,58 +128,89 @@ export default function Requirements({charactersList}) {
            labelPosition='right'
            icon='checkmark'
            onClick={submitNewTeamForm}
-           positive
+           primary
          />
        </Modal.Actions>
      </Modal>
 
 
 
-     <Grid columns={2} padded divided>
-     <Grid.Row>
-     <Grid.Column width={4}>
+     <Grid columns={2} padded divided stackable>
+
+     <Grid.Column mobile={16} tablet={10} computer={4}>
      <Container>
      <Header as='h2' textAlign='center'>
        Requirements
      </Header>
-     <Button onClick={() => setOpen(true)}>Add Team</Button>
-     <ul>
+     <Segment basic textAlign='center'>
+     <Button primary onClick={() => setOpen(true)}>Add Team</Button>
+     </Segment>
+
      {
        requirementsList.map(requirement => (
-         <div key={requirement._id} align="left">
-         <Checkbox
-         name={requirement._id}
-         label={requirement.name}
-         checked={requirementFilter.includes(requirement._id)}
-         onChange={handleRequirementFilterChange}
-         />
-         </div>
+         <Segment>
+         <Grid container textAlign='center' divided='vertically'>
+           <Grid.Row verticalAlign='middle'>
+            <Grid.Column computer={3} tablet={4} mobile={4}>
+              <Checkbox
+              disabled={disableCheckbox}
+              name={requirement._id}
+              checked={requirementFilter.includes(requirement._id)}
+              onChange={handleRequirementFilterChange}
+              fitted/>
+            </Grid.Column>
+            <Grid.Column computer={13} tablet={12} mobile={12}>
+              {requirement.name}
+            </Grid.Column>
+           </Grid.Row>
+           <Grid.Row columns='equal' textAlign='center'>
+           {
+             requirement.units.map(unit => (
+               <Grid.Column>
+               <MiniCharCard
+                image={imagesMap.get(unit.baseId)}
+                rarity={unit.rarity}
+                gear={unit.gear}
+                relicTier={unit.relicTier}
+                alignment={alignmentMap.get(unit.baseId).includes('alignment_light') ? 'light' : 'dark'}
+               />
+               </Grid.Column>
+             ))
+           }
+           </Grid.Row>
+         </Grid>
+         </Segment>
        ))
      }
-     </ul>
      </Container>
      </Grid.Column>
-     <Grid.Column width={12}>
-     <div>
-     Players who Meet Criteria
-     </div>
+     <Grid.Column computer={12} tablet={6} mobile={16}>
+
+     <Grid>
 
      {
        filteredPlayers.map(requirement => (
          <div key={requirement._id}>
-         <div>{requirement.name}</div>
-         <ul>
-         {
-           requirement.qualifiedPlayers.map(player => (
-             <li key={player.allyCode}>{player.name}</li>
-           ))
-         }
-         </ul>
+         <Grid.Column mobile={16} tablet={8} computer={4}>
+         <Segment basic>
+          <Header as='h3'>{requirement.name}</Header>
+            <List>
+            {
+              requirement.qualifiedPlayers.map(player => (
+                <List.Item key={player.allyCode}>{player.name}</List.Item>
+              ))
+            }
+            </List>
+            </Segment>
+          </Grid.Column>
          </div>
        ))
      }
+
+     </Grid>
+
      </Grid.Column>
-     </Grid.Row>
+
      </Grid>
 
     </div>
@@ -170,15 +218,31 @@ export default function Requirements({charactersList}) {
 }
 
 export async function getStaticProps() {
-  let charactersList = (await getCharactersList())
+  const charactersList = (await getCharactersList())
       .sort((a,b) => {
       return a.nameKey.toUpperCase() < b.nameKey.toUpperCase() ? -1 : 1
   })
 
+  const characterWithIdArray = charactersList.map(character => {
+    return [character.baseId, character.nameKey]
+  })
+
+  let imagesList = await getImages()
+
+  let imagesMap = new Map()
+
+  imagesList.forEach(image => {
+    imagesMap.set(image.baseId, image.image)
+  })
+
+  let serializedImagesMap = JSON.stringify(Array.from(imagesMap.entries()))
+
 
   return {
     props: {
-      charactersList
+      charactersList,
+      characterWithIdArray,
+      serializedImagesMap
     }
   }
 }
