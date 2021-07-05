@@ -3,16 +3,16 @@ import { swapi } from '../../../util/swgoh'
 
 
 export default async (req, res) => {
-  const allycode = req.query.allycode
+  const allyCode = req.query.allyCode
   const { db } = await connectToDatabase();
 
-  if (allycode == null) {
-    res.end("Must pass in allycode as a param")
+  if (allyCode == null) {
+    res.end("Must pass in allyCode as a param")
     return
   }
 
   let payload = {
-      allycodes: allycode,
+      allyCodes: allyCode,
       language: 'eng_us',
   }
   let fetchGuild = await swapi.fetchGuild(payload)

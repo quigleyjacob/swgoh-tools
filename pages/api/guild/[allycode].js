@@ -30,11 +30,11 @@ export default async function handler(req, res) {
     let guild = await db.collection("guild")
       .findOne({id: guildRefId})
 
-    console.log(guild)
+
 
     let allyCodes = guild.roster.map(member => member.allyCode)
 
-    console.log(allyCodes)
+
 
     let guildMemberRostersCursor = await db.collection("player")
     .aggregate([
