@@ -146,13 +146,21 @@ export default function Requirements({charactersList}) {
      <div>
      Players who Meet Criteria
      </div>
-     <ul>
+
      {
-       filteredPlayers.map(player => (
-         <li key={player.allyCode}>{player.name}</li>
+       filteredPlayers.map(requirement => (
+         <div key={requirement._id}>
+         <div>{requirement.name}</div>
+         <ul>
+         {
+           requirement.qualifiedPlayers.map(player => (
+             <li key={player.allyCode}>{player.name}</li>
+           ))
+         }
+         </ul>
+         </div>
        ))
      }
-     </ul>
      </Grid.Column>
      </Grid.Row>
      </Grid>
