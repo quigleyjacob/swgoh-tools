@@ -1,13 +1,23 @@
-import { getCharactersList , getRequirementsList } from '../../lib/db'
+import { getCharactersList } from '../../lib/db'
 import { useEffect } from 'react'
-import { Checkbox, Grid, Container, Header, Button, Modal, Image, Input } from 'semantic-ui-react'
-import useSWR from 'swr'
+import { Checkbox, Grid, Container, Header, Button, Modal, Image, Input, Form } from 'semantic-ui-react'
+import { CharacterSubForm } from '../../components/CharacterSubForm'
 
-export default function Requirements({charactersList, requirementsList}) {
+export default function Requirements({charactersList}) {
   const [requirementFilter, setRequirementFilter] = React.useState([])
   const [filteredPlayers, setFilteredPlayers] = React.useState([])
   const [open, setOpen] = React.useState(false)
-
+  const [formElements, setFormElements] = React.useState(
+    [
+      {baseId:"",rarity:1,gear:1,relicTier:0},
+      {baseId:"",rarity:1,gear:1,relicTier:0},
+      {baseId:"",rarity:1,gear:1,relicTier:0},
+      {baseId:"",rarity:1,gear:1,relicTier:0},
+      {baseId:"",rarity:1,gear:1,relicTier:0}
+    ]
+  )
+  const [newTeamName, setNewTeamName] = React.useState("")
+  const [requirementsList, setRequirementsList] = React.useState([])
 
   const handleRequirementFilterChange = (e, data) => {
     e.preventDefault()
@@ -16,6 +26,30 @@ export default function Requirements({charactersList, requirementsList}) {
     } else {
       setRequirementFilter([...requirementFilter, data.name])
     }
+  }
+
+  const handleNewTeamName = (e, data) => {
+    e.preventDefault()
+    setNewTeamName(data.value)
+  }
+
+  const submitNewTeamForm = async (e) => {
+    e.preventDefault()
+    const requestOptions = {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({name: newTeamName, units: formElements})
+    }
+    let data = await fetch('/api/requirements/new', requestOptions)
+
+    let newRequirement = await data.json()
+
+    console.log(newRequirement)
+
+    let copy = requirementsList.slice()
+    setRequirementsList([...copy, newRequirement])
+
+    setOpen(false)
   }
 
   useEffect(() => {
@@ -31,29 +65,42 @@ export default function Requirements({charactersList, requirementsList}) {
     }
   }, [requirementFilter])
 
+  useEffect(() => {
+    let getRequirementsList = async () => {
+      let response = await fetch('/api/requirements')
+      let data = await response.json()
+      console.log(data)
+      setRequirementsList(data)
+    }
+    getRequirementsList()
+
+    // setRequirementsList(requirements)
+  }, [])
+
   return (
     <div>
     <Modal
        onClose={() => setOpen(false)}
        onOpen={() => setOpen(true)}
        open={open}
-       size='large'
+       size='small'
      >
        <Modal.Header>Add a Team</Modal.Header>
-       <Modal.Content image>
-         <Grid container columns={5}>
-        <Grid.Column width={3}>
-        <Input list='units' placeholder='Select a unit'/>
-        <Input placeholder="Stars"/>
-        <Input placeholder="Gear Level"/>
-        <Input placeholder="Relic Level"/>
-        </Grid.Column>
-
-        <Grid.Column width={3}>two</Grid.Column>
-        <Grid.Column width={3}>three</Grid.Column>
-        <Grid.Column width={3}>four</Grid.Column>
-        <Grid.Column width={3}>five</Grid.Column>
-         </Grid>
+       <Modal.Content>
+       <Form>
+       <Form.Field label='Team Name' control={Input} placeholder='Name your team' value={newTeamName} onChange={handleNewTeamName}/>
+       {
+         [0,1,2,3,4].map((element,index) => (
+           <CharacterSubForm
+            key={index}
+            index={index}
+            formElements={formElements}
+            setFormElements={setFormElements}
+            charactersList={charactersList}
+           />
+         ))
+       }
+         </Form>
        </Modal.Content>
        <Modal.Actions>
          <Button color='black' onClick={() => setOpen(false)}>
@@ -63,7 +110,7 @@ export default function Requirements({charactersList, requirementsList}) {
            content="Create Team"
            labelPosition='right'
            icon='checkmark'
-           onClick={() => setOpen(false)}
+           onClick={submitNewTeamForm}
            positive
          />
        </Modal.Actions>
@@ -109,11 +156,6 @@ export default function Requirements({charactersList, requirementsList}) {
      </Grid.Column>
      </Grid.Row>
      </Grid>
-  <datalist id='units'>
-    {charactersList.map(character => (
-      <option key={character.baseId} value={character.nameKey}/>
-    ))}
-  </datalist>
 
     </div>
   )
@@ -125,12 +167,10 @@ export async function getStaticProps() {
       return a.nameKey.toUpperCase() < b.nameKey.toUpperCase() ? -1 : 1
   })
 
-  let requirementsList = await getRequirementsList()
 
   return {
     props: {
-      charactersList,
-      requirementsList
+      charactersList
     }
   }
 }
